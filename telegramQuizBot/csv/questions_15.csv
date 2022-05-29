@@ -1,0 +1,67 @@
+n,Q,0,1,2,3,a
+1,1. Grant and revoke are ....... statements.,DDL,DCL,DML,TCL,1
+2,2. Using which language can a user request information from a database?,Relational,Structural,Compiler,Query,3
+3,3. Drop Table cannot be used to drop a table referenced by a …………… constraint,Local Key,Primary Key,Composite Key,Foreign Key,3
+4,4. _______specifies a search condition for a group or an aggregate.,GROUP BY Clause,HAVING Clause,FROM Clause,WHERE Clause,1
+5,5. Which of the following statement is true?,Unique key contrains allow NULL valuse.,Unique key contrains do not allow NULL valuse.,Primary key contrains allow NULL valuse.,A non-unique index cannot be used to enforce a primary key contraint.,0
+6,6. which is the component of E-R Model?,Entity,Attribut,Relationship,All of the above,3
+7,7. Is a preferred method for enforcing data integrity,Constraints,Stored procedure,Triggers,Cursors,0
+8,8. A ......... is used to define overall design of the database,schema,application program,DML,code,0
+9,9. SQL Server static cursors are always _________ .,Read-only,Write-only,"Read,Write",None of the mentioned,0
+10,10. …………………… is the process of organizing data into related tables.,Normalization,Generalization,Specialization,None of the above,0
+11,11. ________ are defined as the set of fields from which primary key can be selected.,Super Key,Candidate key,Composite Key,Secondary Key,1
+12,12. Second form of Normalization requires ________,that there must not be any partial dependency of any column on primary key.,that every non-prime attribute of table must be dependent on primary key.,that each column must have a unique value.,None of the above,0
+13,13. A_____ is a query that retrieves rows from more than one table or view,Start,End,Join,All of the above,2
+14,"14. SQL View is used to restrict data access. 
+",TRUE,FALSE,0,0,0
+15,"15. Create function dept count(dept_name varchar(20))
+begin
+declare d count integer;
+select count(*) into d count
+from instructor
+where instructor.dept_name= dept_name
+return d count;
+end
+Find the error in the the above statement.","Return type missing
+","Dept_name is mismatched
+","
+Reference relation is not mentioned
+","All of the mentioned
+",0
+16,"16. Which of the following is used to input the entry and give the result in a variable in a procedure
+","Put and get
+","Get and put
+","Out and In
+",In and out,3
+17,"17. Which procedure parameter enables the caller to pass in a value and get back a value?
+","IN
+","OUT
+","INOUT
+","GETINOUT
+",2
+18,"18. A stored procedure in SQL is a___________ 
+
+",Block of functions,Group of Transact-SQL statements compiled into a single execution plan,Group of distinct SQL statements,None of the mentioned,1
+19,19. ____________ cursor is sensitive to any changes to the data source.,Static Cursors,Dynamic Cursors,Keyset Driven Cursors,None of the mentioned,2
+20,"20. What is abc in the following MySQL statement?
+DECLARE abc HANDLER FOR def ghi;",action,condition value,statement,null,0
+21,21. A collection and a document in MongoDB is equivalent to which of the SQL concepts respectively?,Table and Column,Table and Row,Column and Row,Database and Table,1
+22,22. Which of the following is a NoSQL Database Type ?,SQL,Document databases,JSON,All of the mentioned,1
+23,23. Which of the following language is MongoDB written in ?,Javascript,C,C++,All of the mentioned,3
+24,24. The concatenation of the collection name and database name is called ..........,Replica,MongoDB,Namespace,Sharding,2
+25,25. Identify the invalid variable types?,INTEGER,VARCHAR1,VARCHAR2,NUMBER,1
+26,26. Which of the following PL/SQL supports datatype(s)?,Scalar datatype,Composite datatype,Both 1 and 2,None of these,2
+27,27. Which of the following is not a pl/sql unit?,Type,Table,Trigger,None of the above,1
+28,28. Which of the following specifies when the trigger will be executed?,BEFORE,AFTER,INSTEAD OF,All of the above,3
+29,29. Trigger is special type of __________ procedure.,Function,Stored,View,Table,1
+30,30. Life cycle of typical cursor involves ______ steps in SQL Server.,3,4,5,6,2
+31,31. Which of the following statement is true about implicit cursors,implicit cursors are used for SQL statements that are not named,implicit cursors are no longer a feature in SQL,Both,None of the Above,0
+32,32. Which of the following trigger types will be impacted by constraining factors brought on by mutating tables,row triggers only,statement trigger only,both statement and row triggers,neither row or statement triggers,0
+33,33. Implicit and Explicit cursor has attribute,%ISOPEN,%WASFOUND,%COLCOUNT,None of the Above,0
+34,34. The max length of varchar2 when used in table is,16K,32K,4K,Either of the above,2
+35,"35. In E-R Notation, multivalued attribute is represented by _______",Ellipse,Dotted-Ellipse,Double-Ellipse,None of the Above,2
+36,36. Which command will delete all data from a table and will not write to the rollback segment?,DROP,DELETE,CASCADE,TRUNCATE,1
+37,37. Data block is known as _____.,set of extent,set of segment,smallest block of memory,None of the Above,2
+38,38. If the table is deleted and we want the user not allowed to use rollback then which command is used to delete the table,DROP,DELETE,TRUNCATE,None of the Above,2
+39,"39. In functional dependency, If attribute B is functionally dependent on A then it is represented as__________",B->A,A->B,B<->A,A<->B,1
+40,40. Which of the following are the five built-in functions provided by SQL,"SUM, AVG, MIN, MAX, MULT","COUNT, SUM, AVG, MAX, MIN","SUM, AVG, MULT, DIV, MIN","SUM, AVG, MIN, MAX, NAME",1

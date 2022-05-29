@@ -1,0 +1,53 @@
+n,Q,0,1,2,3,a
+1,1. When would developers use microservices?,When they want to write cell phone applications that run quickly,"When they work with ephemeral nano technology 
+",When they need to create large applications that are subject to changes on a frequent basis,"When they create applications specifically for scientific test equipment 
+",2
+2,"2. Which of these descriptions best explains what an API gateway does? 
+","An API gateway uses HTTP requests to GET, PUT, POST and DELETE data.","It is used when the owner of a network-accessible service gives universal access to its consumers.
+","It sits in front of an API & acts as a single point of entry for a defined group of microservices.
+","All of the above 
+",2
+3,"3. When using API gateways, the application itself serves as an added layer of abstraction in which scenario? 
+",When microservices-based applications use API gateways,"When monolithic applications use API gateways 
+","The application itself acts as an additional abstraction layer in both uses. 
+",The application itself acts as an additional abstraction layer in neither use.,1
+4,"4. API gateway logs can play a role in monitoring and observability by spotting failure events and identifying which part of the API has experienced the problem. 
+",TRUE,FALSE,0,0,0
+5,"5. What is the programming style of the object oriented conceptual model? 
+
+",Invariant relationships,Algorithms,Classes and objects,"Goals, often expressed in a predicate calculus.",2
+6,6. Multiplicity is the same as what concept for an ERD?,Relationship,Attribute,Entity,Cardinality,3
+7,7. Multiplicity is the same as what concept for an ERD?,Class name,List of attributes,List of operations,All of the above,3
+8,8. Which of the following applies to a class rather than an object?,Query,Update,Scope,Constructor,2
+9,9. Which of the following model may require largest deployment of manpower,Incremental Model,Waterfall Model,Component Assembly Model,RAD Model,3
+10,10. Which of the following is not true about the Waterfall Model?,It is suited for small projects,It does not consider risk handling,It gives efficient staff utilization,It needs clarity of requirements at start,2
+11,11. Which model used to show data processing at different levels of abstraction from fairly abstract to fairly detailed,Semantic Data Models,Object Model,Semantic data,Data Flow Models,3
+12,12. Which of the following is not a characteristic of a good SRS document?,Unambigious,Verifiable,Redundant,Consistent,2
+13,13. What is the Scrum Master’s role during the daily stand-up?,Congratulate the team on their great work.,Stand outside the circle of developers and listen for impediments.,The Scrum Master should not attend—this meeting is for developers only.,Ask each developer what they did since the last daily standup.,1
+14,"14. The Scaled Agile Framework advocates that, if you measure only one thing, what should you measure?",quality,predictability of delivery,cost of delay,return on investment,2
+15,15. Type …….. VM is full virtualization.,1,2,3,1&2,0
+16,16. The virtual machine can be reverted to the original state through the use of ………………… .,Data virtualization,Snapshots,Restore Point,Cannot be done,1
+17,17. What Jenkins cannot do? A) Generate test reports B) Integrate with many different Version Control Systems C) Push to various artifact repositories D) Enviromental provisioning,C,A,D,B,2
+18,18. What steps are in Continuous Integration?,Compilation,Unit Tests,Code Quality Gates,All of these,3
+19,19. Identify the type of pipelines in Jenkins?,Declarative pipeline,Declarative pipeline,CI CD pipeline (Continuous Integration Continuous Delivery),All of the above,3
+20,20. Git is,Open Source Project,Distributed Version Control System,secured by SHA1,All of them,3
+21,21. Which command is useful for getting a high-level overview of the project history?,git log --oneline,git reset --hard,"git log --author=""<pattern>""",git rebase <base>,0
+22,22. What's a shortcut to staging all the changes you have?,Git commit add .,Git commit .,Git add .,Git stage -a,2
+23,23. What will the following command print to the Terminal?git remote -v,A list of remote repositories you are connected to,The current git version you're running,An inline editor for modifying remote repositories,The last 5 git versions you've installed,0
+24,24. What is the most common way to find an element on a page?,XPath,Name,ID,Class,2
+25,"25. If you wanted to access the element that has the text ""This element has an ID that changes every time the page is loaded"" in it, then which of the following is used?",//div[contains(@id_time())],"//div[contains(@id,'time_')]",//div[parameter(@id_time())],"//div[parameter(@id,’time_’)]",1
+26,"26. To check whether coding standards are followed, which type of testing will be beneficial?",Parameter Testing,Static Testing,Computation Testing,Dynamic Testing,1
+27,27. Which is not true regarding Smoke and Sanity Testing?,Sanity Testing is also called tester acceptance testing.,Smoke and sanity tests can be executed using an automation tool.,Smoke testing performed on a particular build is also known as a build verification test.,"When executing both, then first execute sanity testing tests and then smoke Testing.",3
+28,28. White Box Testing is not concern with _________.,Statement Coverage,Decision Coverage,Multiple Condition Coverage,Cause and Effect Coverage,3
+29,29. Black Box Testing is also known as ________ .,Flow Testing,Behavioral Testing,Data Testing,None of the above,1
+30,30. Which of the following is not a wait command in Selenium?,waitForActive,waitForAlert,waitForTitle,None of these,0
+31,31. What is the best call for finding multiple elements using xpath,findElementsByXpath,findSeleniumsByXpath,findDataByXpath,None of the above,0
+32,32. Command which is not a type of assertion in Selenium IDE.,Assert,Wait,WaitFor,Verify,1
+33,33. What can you deploy on Kubernetes?,Virtual machines,Containers,System processes,None,1
+34,"34. To create new deployment in Kubernetes, use command______",Kubernetes set deployment,Kubectl run,Kubernetes get deployment,None of above,1
+35,35. Which of the following is used to create Kubernetes service,Kubectl deploy,Kubectl expose,Kubectl run,None of the above,1
+36,36. Basic operational unit of Kubernetes,Task,Nodes,Pod,Container,
+37,37. Which command will map port 80 in the container to port 5001 on the Docker host?,docker run -p 5001:80,docker run -p 80:5001,docker run expose 80:5001,docker run expose 5001:80,0
+38,38. What is the atomic unit of scheduling in Docker.,the image,the pod,the job,the container,3
+39,39. What command-line switch can be used to define a custom Dockerfile file name (such as dockerfile.node) when building a custom image?,-v,-f,-t,-customfile,1
+40,40. What is the name of the configuration file that describes how to build a new Docker image with your app-code inside.,dockerfile.json,docker-file,dockerfile,config.json,2

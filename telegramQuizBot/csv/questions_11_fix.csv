@@ -1,0 +1,18 @@
+n,Q,0,1,2,3,a
+,6. A _________ defines a function without implementing it ,Interface,Delegate,All of the above,None of the above,0
+,10. We use the _______ function to write a string to the screen.,Console.Wrileln(),Console.WriteLine(),Console.PrintLine(),None of the above,1
+,"13. The ____ object contains any additional information that 
+might be associated with the event.",System.Event   ,System.EventObject,System.EventArgs,System.EventObj,2
+,19. Can a structure have a constructor with no parameter ,Yes,No,Not always,Cant say,1
+,30. Which choice is a component of .NET Framework?,common language JIT,.NET framework class library,common language runtime,All of the above,3
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,

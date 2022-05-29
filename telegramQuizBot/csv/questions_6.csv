@@ -1,0 +1,55 @@
+﻿Question,Option 0,Option 1,Option 2,Option 3,Answer,Explanation
+1. What is the correct syntax of doctype in HTML5?,</doctype html>,<doctype html>,<doctype html!>,<!doctype html>,3,
+2. Which of the following tag is used for inserting the largest heading in HTML?,head,<h1>,<h6>,heading,1,
+3. What is DOM in HTML?,Language dependent application programming,Hierarchy of objects in ASP.NET,Application programming interface,Convention for representing and interacting with objects in html documents,3,
+4. Which HTML tag is used to insert an image?,<img url=”htmllogo.jpg” />,<img alt=”htmllogo.jpg” />,<img src=”htmllogo.jpg” />,<img link=”htmllogo.jpg” />,2,
+"5. Which tag is used to create a numbered list in HTML? 
+",<ol>,<ul>,<li>,<ll>,0,
+"6. State true or false. It is faster to render HTML and CSS than to interpret and execute JavaScript. 
+",TRUE,FALSE,0,0,0,
+"7. Which of the following statements is false? 
+",async and defer attributes of script tag execute before the DOMContentLoaded event,"defer executes each script sequentially
+","async executes each script when it is ready 
+",all older browsers supports async attribute,3,
+8. Which of the following is not a type in JSON?,date,Object,Array,string,0,
+9. Is JSON Case sensitive ?,Yes,No,0,0,0,
+10. What are two main structures compose JSON?,Arrays and Objects,Keys and values,Class and Objects,None of above,1,
+"11. Which of the following CSS framework is used to create a responsive design? 
+",django,rails,larawell,bootstrap,3,
+"12. Which of the following CSS selector is used to specify a rule to bind a particular unique element?
+",tag,id,class,both class and tag,1,
+"13. What will be the output of following CSS code snippet? h1 {color: ""green"";}",nothings happen,error occurs,heading becomes dark-green,heading becomes green,0,
+15. The MIME type of JSON is -,application/json,application/x-json,application/javascript,text/json,0,
+16. Which of the following is an internet scam done by cyber-criminals where the user is convinced digitally to provide confidential information,MiTM attack,Phishing attack,Website attack,DoS attack,1,
+17. What is node.js ?,Node.js is a java based framework.,Node.js is a web server.,Node.js is a JavaScript based Framework /platform build on Google Chrome's JavaScript V8 engine.,one of the options,2,
+18. Which of the following statement is valid to use a node module http in a node based application ?,"var http = import(""http"")","var http = require (""http"");",Package http;,Import http;,1,
+20. What is the purpose of the path module?,to provide utilities to play with file and directory paths,to provide utilities to add and remove files,It is a retiring module.,to provide utilities to test files,0,
+21. What can you export with module.exports?,only objects.,only variables and arrays,"functions, objects, arrays, or anything you assign to the module",only functions,2,
+"22. Express.js, or simply Express, is a _________ web application framework for Node.js",Back-end,Database,Front-end,None of the above,0,
+23. This method of using values is called ?,filters,interpolation,inheritance,includes,1,
+"24. In order to use Mongo with Express, we need a client API for node.",TRUE,FALSE,Can be true or false,Can not say,0,
+25. What of the following is used in React.js to increase performance?,"Original DOM 
+",Virtual DOM,Both A and B.,None of the above,1,
+26. What are the two ways to handle data in React?,State & Props,Services & Components,State & Services,State & Component,0,
+29. Which of the following method is not a part of ReactDOM?,ReactDOM.destroy(),ReactDOM.hydrate(),ReactDOM.createPortal(),ReactDOM.findDOMNode(),0,
+30. Which of the following is used to pass data to a component from outside in React?,props,render with arguments,setState,PropTypes,0,
+31. Which of the following command is used to install create-react-app?,npm install -g create-react-app,npm install create-react-app,npm install -f create-react-app,install -g create-react-app,0,
+"32. A class is a type of function, but instead of using the keyword function to initiate it, which keyword do we use?",Constructor,Class,Object,DataObject,1,
+"33. What will be the output of the following JavaScript code?
+<p id=""demo""></p>
+<script>
+var js = 10;
+js *= 5;
+document.getElementById(""demo"").innerHTML = js;
+</script>",10,50,5,Error,1,
+"34. Will the following JavaScript code work? 
+var js = (function(x) {return x*x;}(10)); 
+",Exception will be thrown,Memory leak,Error,"Yes, perfectly",3,
+35. JavaScript is designed for following purpose -,to style HTML pages,to execute Queries related to databases on a server,to add interactivity to html pages,All of the above,3,
+36. Which of the following can be used to call a JavaScript Code Snippet?,Function/Method,Preprocessor,Triggering Event,RMI,0,
+"37. Which of the following explains correctly what happens when a JavaScript program is developed on a Unix Machine? 
+",will work perfectly well on a Windows Machine,"will be displayed as JavaScript text on the browser
+","will throw errors and exceptions 
+",must be restricted to a Unix Machine only,0,
+38. What does javascript use instead of == and !=?,It uses === and !== instead,It uses bitwise checking,It uses equalto(),It uses equals() and notequals() instead,0,
+39. What is/are the basic group/s of dataype/s in JavaScript?,All of the below,None of the below,Primitive,Reference types.,0,

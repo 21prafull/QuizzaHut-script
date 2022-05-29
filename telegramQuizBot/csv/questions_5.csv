@@ -1,0 +1,58 @@
+﻿Question,Option 0,Option 1,Option 2,Option 3,Answer,explain
+1. CPU scheduling is the basis of ___________,multiprogramming operating systems,larger memory sized systems,multiprocessor systems,none of the mentioned,0,
+2. Which one of the following is not true?,kernel remains in the memory during the entire computer session,kernel is made of various modules which can not be loaded in running operating system,kernel is the first part of the operating system to load into memory during booting,kernel is the program that constitutes the central core of the operating system,1,
+"3. Round robin scheduling falls under the category of ____________ 
+",Non-preemptive scheduling,Preemptive scheduling,All of the mentioned,None of the mentioned,1,
+4. Which of the following CPU scheduling algorithms will prevent starvation problem,Shortest-job-first,Priority-scheduling,Priority-scheduling with aging mechanism,None of the above,2,
+5. Mutual exclusion implies that ____________,"if a process is executing in its critical section, then no other process must be executing in their critical sections","if a process is executing in its critical section, then other processes must be executing in their critical sections","if a process is executing in its critical section, then all the resources of the system must be blocked until it finishes execution",none of the mentioned,1,
+6. It is possible to have a deadlock involving only a single process,TRUE,FALSE,0,0,1,
+"7. Which of the following statements are true? I. Shortest remaining time first scheduling may cause starvation
+II. Preemptive scheduling may cause starvation
+III. Round robin is better than FCFS in terms of response time",I only,I and III only,II and III only,"I, II and III",3,
+8. A problem encountered in multitasking when a process is perpetually denied necessary resources is called ____________,deadlock,starvation,inversion,aging,1,
+9. The number of resources requested by a process ____________,must always be less than the total number of resources available in the system,must always be equal to the total number of resources available in the system,must not exceed the total number of resources available in the system,must exceed the total number of resources available in the system,2,
+"10. The disadvantage of moving all process to one end of memory and all holes to the other direction, producing one large hole of available memory is",the cost incurred,the memory used,the CPU used,All of these,0,
+11. Virtual memory is normally implemented by ________.,demand paging,buses,virtualization,All of these,0,
+12. What is ‘Aging’?,keeping track of cache contents,keeping track of what pages are currently residing in memory,keeping track of how many times a given page is referenced,increasing the priority of jobs to ensure termination in a finite time,3,
+13. What would the following file permissions mean “rwxr-xr—“?,"Read, write and execute permission for everyone","Read, write and execute permission for the file owner, read and execute permission for the group, and only read permission for all others.",The file owner is the only one who can execute the file,"People who do not own the file and are not in its group, can only run it. System and Network Administration-I",1,
+14. A hierarchical structure consisting of directories and files,Track,cylinder,partition,filesystem,3,
+"15. By default, “ps” command will list",All processes running of a current users in all terminals,Only processes running in that terminal of the current users,All processes for all users,Processes for other users only,1,
+16. The state of file system is contained in,Boot block,A special block created by boot block,super block,None of above,2,
+"17. In the following shell script 
+echo ""Enter password"" 
+read pas 
+while [ ""$pas"" != ""secrete"" ]; do 
+echo ""Sorry, try again"" 
+read pas 
+done 
+exit 0",If the 'pas' matches with 'secrete' in /etc/passwd file then shell script exits.,The shell script gives error in while statement,"Irrespective of the users input, it always prints ""Sorry, try again""",If user enters secrete then shell script exits otherwise it will read pas once again,3,
+18. The difference between the commands ps -e and ps -a is,ps -e gives detail of every process running in memory whereas ps -a gives output for all the process that you have launched,ps -e gives details of every process running in memory whereas ps -a gives details of all user processes.,"No difference,both give same output.",None of the above.,1,
+19. variable declare in the shell script can be displayed at the $(doller) promot using the set command,TRUE,FALSE,0,0,1,
+20. Change the modification time of a file to mid night of 01/01/1996,touch 0101000096 filename,touch 01010096 filename,touch 0101001996 filename,touch 11000096 filename,0,
+21. A null variable a can be created using,a=,a=` `,"a="" """,All of the above,2,
+22. Command to convert all capital letters in file to small case letters,dd if=file1 of=file2 conv=lcase,dd if=file1 of=file2 conv=smallcase,dd if=file1 of=file2 conv=lowercase,dd if=file1 of=file2 conv=ucase,0,
+"23. Display all the lines in a file which contain the word ""Poem"" from a file english.txt. 
+
+You should be able to report all occurence like POem,PoEm,POEm etc.You are not allowed to use a command line option to ignore the case while searching.",grep [Pp][Oo][Ee][Mm] english.txt,grep [p][Oo][Ee][Mm] english.txt,grep [Pp][o][Ee][Mm] english.txt,grep [Pp][][Ee][Mm] english.txt,0,
+24. The if-then-fi instruction are loop control instruction,TRUE,FALSE,0,0,1,
+25. Which of these values can a boolean variable contains,0 & 1,True & False,Any Integer value,TRUE,1,
+26. Java is a __________ language,weakly typed,strongly typed,moderate typed,None of above,1,
+27. Which of these cannot be used for a variable name in Java,identifier,keyword,both a & b,None of above,1,
+28. Which class does all the Enums extend?,Object,Enums,Enum,EnumClass,2,
+29. Which of the below is invalid identifier with the main method?,public,static,private,final,2,
+30. Is it mandatory to mention else condition in if-else statement ? Its a boolean question.,TRUE,FALSE,0,0,1,
+31. Method overriding is combination of inheritance and polymorphism?,TRUE,FALSE,0,0,0,
+32.Which of the following is not OOPS concept in Java?,Encapsulation,Polymorphism,Inheritance,Compilation,3,
+"33.enum Season { WINTER, SPRING, SUMMER, FALL }; System.out.println(Season.WINTER.ordinal());",0,1,2,3,0,
+"34. Which of the following keywords will be used for making impossible to extend a class, override a method, or reinitialize a variable?",Abstracts,Implements,Final,Extends,2,
+35. When does the compiler supply a default constructor for a class?,If there is no no-argument constructor is present in the class,If no other constructors are provided in the class.,Both 1&2,None of the above,1,
+36. What is the argument type of program's main method,String,Array of integers,Array of characters,String Array,3,
+37. In Java objects are created by which keyword ?,New,Object,Abstract,None of the above,0,
+"38. public class Test{ 
+public static void main(String[] args){ 
+int[] a= new int[0]; 
+System.out.print(a.length); 
+} 
+}",0,"Compilation error, arrays cannot be initialized to zero size.","Compilation error, it is a length() not a.length",None of the above,0,
+39. Which of these is not a bitwise operator ?,&,&&,|,None of the above,1,
+40. Which of these have highest precedence ?,(),"""++""",*,>>,0,

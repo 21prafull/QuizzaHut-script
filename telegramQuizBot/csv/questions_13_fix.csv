@@ -1,0 +1,4 @@
+No,Question,Option 0,Option 1,Option 2,Option 3,Answer,Code
+15,15. The _______________ page replacement algorithm requires that the page with the smallest count be replaced.,Least frequently used (LFU),Most frequently used (MFU),Second chance,Lase chance,0,
+4,4. ------ scheduler selects the process that is ready to execute to CPU.,long-term schedule,short-term scheduler,medium-term scheduler,None of the above,1,
+39,39. Binary literals in Java are introduced with which version of Java?,Java 6,Java 7,Java 8,Java 9,1,

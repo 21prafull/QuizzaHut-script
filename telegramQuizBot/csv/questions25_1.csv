@@ -1,0 +1,27 @@
+no,question,option#0,option#1,option#2,option#3,correct_option_id,explaination,
+,Which one of the following is not true?,kernel remains in the memory during the entire computer session,kernel is made of various modules which can not be loaded in running operating system,kernel is the first part of the operating system to load into memory during booting,kernel is the program that constitutes the central core of the operating system,1,,COP&OS
+,How to sort an array?,Array.sort(),Arrays.sort(),Collection.sort(),System.sort(),1,Arrays class contains various methods for manipulating arrays (such as sorting and searching). Array is not a valid class.,CoreJava
+,Which operator is used to invert all the digits in a binary representation of a number?,~,>>>,<<<,^,0,"Unary not operator, ~, inverts all of the bits of its operand in binary representation.",CoreJava
+,What does LocalTime represent?,Date without time,Time without Date,Date and Time,Date and Time with timezone,1,LocalTime of joda library represents time without date.,CoreJava
+, In a dirty read problem …….,one transaction reads an uncommitted value of another transaction, one transaction reads the committed value for another transaction,one transaction reads another transaction,one transaction commits another transaction.,0,,DBMS
+, …………….. provide a way for your program to select multiple rows of data from the database and then process each row individually.,PL/SQL Cursors,PL/SQL Trigger,PL/SQL Select,PL/SQL Process,0,,DBMS
+,"In the PL/SQL, the package specification contains ………………….. declarations.",public,private,default,protected,0,,DBMS
+,The fifth Normal form is concerned with ........,Functional dependency, Multivalued dependency,Join dependency,Domain key,2,,DBMS
+, Which normal form is considered adequate for normal relational database design?,2NF,3NF,4NF,5NF,1,,DBMS
+,Which http method is idempotent?,get,post,both,none,0,,AdvJava
+,data about data is referred to as..,Directory,Data bank,Metadata,Row data,2,,DBMS
+,"Consider a linked list of n elements, what is the time taken to insert an element after an element pointed by some pointer",O(1),O(n),O(n log n),O(n2),0,,
+,A linear list in which elements are added or deleted at either end but not in the middle is called,Tree,Queue,Stack,dequeue,3,,
+,Single linked list are not suitable for,Insertion sort,Binary search,Polynomial operation,Stack implementation,1,,
+,In a typical implementation the address field of linked list,contain address of next node,contain address of next pointer,May contain NULL value,both (a) and (c),0,,
+,What is the worst case run-time complexity of binary search algorithm?,?(n2),?(nlog n),?(n3),?(n),3,,
+,Which of the following algorithm is not stable?,Bubble Sort,Quick Sort,Merge Sort,Insertion Sort,1,,
+,An algorithm is,a piece of code to be executed.,a loosely written code to make final code.,a step by step procedure to solve problem.,all of the above.,2,,
+,Single linked list are not suitable for,Insertion sort,Binary search,Polynomial operation,Stack implementation,1,,
+,Which of the following is false about a circular linked list?,Every node has a successor,Time complexity of inserting a new node at the head of the list is O(1),Time complexity for deleting the last node is O(n),None of the mentioned,1,,
+,"Assuming the size of data type int is of 4bytes, what is the size of int arr[15];?",15,19,60,11,2,,
+,The best data structure to check whether an arithmetic expression has balanced parentheses is,Queue,Stack,Tree,List,1,,
+,"Suppose a circular queue of capacity (n 01) elements is implemented with an array of n elements. Assume that the insertion and deletion operations are carried out using REAR and FRONT as array index variables, respectively. Initially, REAR = FRONT = 0. The conditions to detect queue full and queue empty are",full:(REAR+1) mod n==FRONT empty: REAR == FRONT,full: (REAR+1) mod n== FRONT empty: (FRONT+1) mod n == REAR,full: REAR ==FRONT empty: (REAR+1) mod n == FRONT,full: (FRONT+1) mod n==REAR empty: REAR == FRONT,0,,
+,Why we need to ensure the height balancing for binary search tree with n elements,To ensure the worst case search O{ n log n),To ensure the best case search with O(1),To ensure best cases search with O(n),To ensure the worst case search with O(log n),3,,
+,Breadth First search implementation of graph travels uses,Stack,Queue,Linked list,Tree,1,,
+,A list node representing an arc of a graph requires how many fields,3,4,1,2,3,,

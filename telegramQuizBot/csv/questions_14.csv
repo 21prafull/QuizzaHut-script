@@ -1,0 +1,60 @@
+n,Q,0,1,2,3,a
+,1. How can you open a link in a new tab/browser window?,"<a href=""url"" target=""new"">","<a href=""url"" target=""_blank"">","<a href=""url"" new>",None of the above,1
+,2. Which is the correct CSS syntax?,body {color: black;},body:color=black;,{body;color:black;},{body:color=black;},0
+,3. The Bootstrap grid system is based on how many columns?,6,3,9,12,3
+,4. Choose the correct HTML element to define emphasized text,<i>,<em>,<italic>,None of the Above,1
+,5. In which category does compromising confidential information fall?,Threat,Bug,Attack,Vulnerability,0
+,6. A standard navigation tab is created with:,"<ul class=""navigation-tabs"">","<ul class=""nav tabs"">","<ul class=""nav nav-navbar"">","<ul class=""nav nav-tabs"">",3
+,"7. Choose among the following techniques, which are used to hide information inside a picture.",Image Rendering,Steganography,Rootkits,Bitmapping,1
+,8. Which class provides a responsive fixed width container?,.container-fixed,.container-fluid,"
+.container-responsive",.container,3
+,9. How can you detect the client's browser name?,navigator.appName,client.navName,browser.name,All of the above,0
+,"10. What is the correct JavaScript syntax for opening a new window called ""w2"" ?","w2 = window.open(""http://www.quizzahut.com"");","w2 = window.new(""http://www.quizzahut.com"");","w2 = window.opennew(""http://www.quizzahut.com"");",None of the Above,0
+,11. Is JavaScript case-sensitive?,Yes,No,0,0,0
+,"12. How do you round the number 7.25, to the nearest integer?",Math.rnd(7.25),rnd(7.25),round(7.25),Math.round(7.25),3
+,13. Where is the correct place to insert a JavaScript?,The <body> section,Both the <head> section and the <body> section are correct,The <head> section,None of the Above,1
+,"14. How would you reference the text ‘avenue’ in the code shown?
+let roadTypes = ['street', 'road', 'avenue', 'circle'];",roadTypes.2,roadTypes[3],roadTypes.3,roadTypes[2],3
+,15. When is the <link> tag used?,"when linking style sheets, JavaScript, and icons for mobile apps","when linking style sheets, favicons, and preloading assets",when linking one webpage to another,"when linking style sheets, external URLs, and favicons",1
+,"16. What is the correct JavaScript syntax to change the content of the HTML element below?
+
+<p id=""demo"">This is a demonstration.</p>","document.getElement(""p"").innerHTML = ""Hello World!""; Your answer","#demo.innerHTML = ""Hello World!"";","document.getElementByName(""p"").innerHTML = ""Hello World!"";","document.getElementById(""demo"").innerHTML = ""Hello World!"";",3
+,17. React component names must begin with an uppercase letter,TRUE,FALSE,0,0,0
+,18. What is the children prop?,A property that lets you pass data to child components,A property that lets you set an object as a property,A property that adds child values to state,A property that lets you nest components in other components,3
+,19. Which operator can be used to conditionally render a React component?,::,||,&&,??,2
+,20. What tool does React use to compile JSX?,JSX Compiler,Babel,React Router,React DOM,1
+,21. How can you optimze performance for a function component that always renders the same way?,Wrap it in the React.memo higher-order component,Use the useReducer Hook.,Use the useMemo Hook.,Use the shouldComponentUpdate lifecycle method.,0
+,22. What props will be available to the following component? <Car {...props} />,only updated ones,all of them,Children,only static ones,1
+,"23. Find the bug in this code:
+
+function car({make, model}) {
+return <h1>{make} {model}</h1>;
+};",Add parenthesis around the return value,The first letter of the function must be capitalized,Wrap the return in a fragment,Remove the return statement,1
+,"24. If you see the following import in a file, what is being used for state management in the component?
+import React, {useState} from 'react';",React Hooks,stateful components,math,class components,0
+,25. Which of the following are the features of Ajax?,Bandwidth utilization,More interactive,Faster retrieval of data,All of these,3
+,"26. In the JSON syntax, data is separated by _____. 
+",Semicolons,Colons,Commas,Hyper,2
+,"27. Which is the correct symbol to insert a comment in JSON? 
+",//,/*…*/,<!-- … -->,"JSON doesn't support the comments 
+",3
+,28. What is the correct jQuery code to set the background color of all p elements to red?,"$(""p"").style(""background-color"",""red"");","$(""p"").layout(""background-color"",""red"");","$(""p"").manipulate(""background-color"",""red"");","$(""p"").css(""background-color"",""red"");",3
+,"29. Which is the correct statement to convert the below given array to string? 
+const arr = [""Alex"", ""Alvin"", ""Bobby"", ""Dock""]; 
+
+","const json_arr = JSON.string(arr); 
+","const json_arr = JSON.ToString(arr); 
+",const json_arr = JSON.ArrayToString(arr);,const json_arr = JSON.stringify(arr);,3
+,"30. Look at the following selector: $(""div p""). What does it select?",All p elements inside a div element,The first p element inside a div element,All div elements with a p element,All of these,0
+,31. Which jQuery method is used to switch between adding/removing one or more classes (for CSS) from selected elements?,switch(),toggleClass(),altClass(),switchClass(),1
+,"32. JSON array elements can be access by ___. 
+",Name,Key,Value,Index,3
+,33. Which of the following modules is NOT a built-in module in Node?,ftp,events,dgram,http2,0
+,34. How can you use the promise API with a callback-based function such as child_process.exec?,new Promise(child_process.exec),util.promisify(child_process.exec),util.promisify(child_process.exec()),new Promise(child_process.exec()),1
+,35. What is the purpose of the file system (fs) module?,to provide methods to work with requests and responses,to provide methods to work with files,to provide methods to work with databases,to find new file systems,1
+,36. What does REPL stand for?,"run, examine, put, loop","run, edit, print, loop","read, eval, print, loop","read, extend, print, loop",2
+,"37. Buffer class is a global class and can be accessed in application without importing buffer module. 
+",TRUE,FALSE,0,0,0
+,"38. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req",http.IncomingMessage,http.ServerRequest,http.ClientRequest,http.ServerResponse,0
+,39. Which console method can be used to print the stack trace to the point of its execution?,stack,trace,debug,print,1
+,40. Which fs module method can be used to read the content of a file without buffering it in memory?,read,createReadStream,readFile,readFileSync,1

@@ -1,0 +1,13 @@
+n,q,0,1,2,3,c,e
+1,"Identify the correct restriction on static methods.
+
+1.They must access only static data
+2. They can only call other static methods.
+3. They cannot refer to this or super.",1 and 2 ,2 and 3,3,1 and 2 and 3,3,Static methods must only access static data and can call other static methods. Moreover they cannot refer this or super.
+2,What is the implicit return type of constructor?,No return type,A class object in which it is defined,void,none,1,Implicit return type of constructor is the class object in which it is defined.
+3,the clr is physically represented by an assembly named,mscoree.dll,mscoree.dl,msoree.dll,mscor.dll,0,
+4, If we want to add graphics using asp.net which of the following web control will you use?, Link Button,AdRotator,grid view,Layout,1,
+5,Which of the following is not a Java features?,Dynamic,Architecture Neutral,Use of pointers ,Object-oriented,2,The Java language does not support pointers
+6,What is the return type of the hashCode() method in the Object class?,Object,int,long,void,1,"In Java, the return type of hashCode() method is an integer, as it returns a hash code value for the object."
+7,"In Operating Systems, which of the following is/are CPU scheduling algorithms?",Priority,Round Robin,Shortest Job First,All of the mentioned,3,
+8,Which one of the following is not true?,kernel remains in the memory during the entire computer session,kernel is made of various modules which can not be loaded in running operating system,kernel is the first part of the operating system to load into memory during booting,kernel is the program that constitutes the central core of the operating system,1," Kernel is the first program that is loaded in memory when OS is loading as well as it remains in memory till OS is running. Kernel is the core part of the OS which is responsible for managing resources, allowing multiple processes to use the resources and provide services to various processes. Kernel modules can be loaded and unloaded in run-time i.e. in running OS."

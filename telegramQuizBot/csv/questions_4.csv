@@ -1,0 +1,49 @@
+﻿Sr. No.,Question,Option 0,Option 1,Option 2,Option 3,Answer,explanation
+1,1. UPDATE OR DELETE ON SOCCER_FAN_SNACKS. Which of the following keywords may be useful in your trigger source code to distinguish what should run?,Truncating,Updating,Deleting,Both B and C,3,
+2,"2. Consider the following where clause
+
+WHERE A.no=B.no(+)
+
+The above outer join lists",All matching and non-matching rows of table B,All matching and non-matching rows of table A,All non-matching rows of table B,All non-matching rows of table A,0,
+3,3. The address of the Oracle name server is contained in,listener.ora,tnsnames.ora,init.ora,sqlnet.ora,3,
+4,"4. Level of Abstraction,describes what data are stored in database and what relationship among these data.",Physical,Logical,View,None of the Above,1,
+5,5. The limit of level of nesting is _________ subqueries in SQL,255,1024,1000,2048,0,
+6,6. Which of the following operation cannot be performed on VIEWS defined from Multiple Tables(which have been created with referencing clause),Insert,Delete,Modify,Update,0,
+7,7. A Sub-Query can not have a _______ clause and a ________ of selects.,"GroupBy, For Update","OrederBY, Having","OrderBy, For Update","OrderBy, GroupBy",2,
+8,8. Latest version of ORACLE is called,ORACLE 9i,ORACLE 12C,ORACLE 18C,ORACLE 19C,3,
+9,9. Raw data type can store maximum up to,1024 bytes,2000 bytes,1000bytes,None of the Above,1,
+10,10. Words used in PL/SQL block are called_______.,Lexical Units,Block Units,Charcters,None of the Above,0,
+11,11. A ________ can be used to provide a surrogate key in a table that doesnot have a primary key of its own.,Procedure,Sequence,Function,Reference Key,1,
+12,12. __________ is used for error trapping in PL/SQL blocks,Error handling section,Exception_init(),Exception section,None of the Above,2,
+13,13. The NOWAIT optional Keyword works for,Implicit cursors only,Explicit cursor only,Both 1) and 2),None of the Above,0,
+14,14. ______puts piece of information in package buffer followed by an end of line marker.,DBMS_OUTPUT,PUT_LINE,serveroutput,None of the Above,1,
+15,15. Type of data in database,actual data,system data,overhed data,All of the Above,3,
+16,16. When a TRIGGER is fired the statement inside the TRIGGERs PL/SQL code block can also fire same or some other TRIGGER .,TRUE,FALSE,0,0,0,
+17,17. The default parameter type in stored procedures is,IN,OUT,INOUT,NO default type,0,
+18,"18. Consider a table OLD with few rows. The statement 
+
+CREATE TABLE new AS SELECT * FROM OLD 
+
+WHERE 1=2",copies all the rows from OLD to NEW,creates a dummy NEW table,creates an empty NEW table with column definitions same as OLD,creates a table NEW that acts as a synonym for OLD,2,
+19,19. Choose the Incorrect option related to DBMS,There is no Security of data,Not support distributed database,satisfy more than 8 rule of Dr. E.F. Codd,NONE,2,
+20,20. Choose correct one,rollup and cube are grouping type of statements for sql query,rollup and cube are inbuilt functions for sql query,rollup and cube are not related to oracle,None of these,0,
+21,21. The correct syntax of DECODE stament is...,"DECODE(if1,then1,if2,then2...else)","DECODE(if1,then1,else1,if2,then2,else2...)","DECODE(value,if1,then1,else1,if2,then2,else2....)",None of these,3,
+22,"22. Which operator, when used along with special operators, reverts their output?",NOT,AND,OR,JOIN,0,
+23,23. Which lock allows multiple users to see the data but not change it,exclusive locks,mutative locks,shared locks,table locks,2,
+24,24. A procedure which return a value is called as...,Procedure,Function,Package,None of these,1,
+25,25. Data stored in the curser is called as,active data,stored data,active data set,user defined data,1,
+26,26. In which areas of PL/SQL block must code be placed in order to handle Oracle-defined exceptions?,Declaration section only,Declaration and executable section only,Exception handler only,"Declaration,executable and exception handler sections",2,
+27,27. Which procedure can be used to create a customised error message.,RAISE_ERROR,SQLERRM,RAISE_APPLICATION_ERROR,RAISE_SERVER_ERROR,2,
+28,28. When is a database trigger executed,when transaction is commited,during the data manipulation statement,when an oracle supplied package references the trigger,during a data manipulation statement and when transaction is commited,1,
+29,29. _________ Collection of stored procedures and functions,Functions,Triggers,Procedures,Package,3,
+30,30. A procedure declares a user defined exception but does not raise it explicitly. Which of the following statements is true about this function?,User defined exception will never be raised,User defined exception will be handled by a WHEN OTHERS exception handler.,The procedure will fail on compile,A user defined exception is defined incorrectly,0,
+31,"31. After executing an UPDATE statement, the developer codes a PL/SQL block to perform an operation based on SQL%ROWCOUNT. What data is returned by the SQL%ROWCOUNT operation?",A Boolean value representing the success or failure of the update,A numeric value representing the number of rows updated,A VARCHAR2 value identifying the name of the table updated,A LONG value containing all data from the table,1,
+32,32. Rollback and Commit affect,Only DML statements,Only DDL statements,Only DQL statement,Both (a) and (b),0,
+33,"33. The value of INSTR('CALIFORNIA','A',1,2) is",2,1,10,9,2,
+34,34. An entity is an,object with physical existence,object with conceptual existence,Both,None,2,
+35,35. Needs of Normalisation are,Improves database design,Ensures minium redundancy of data,Removes anomalies,All above,3,
+36,"36. How can you change ""Thomas"" into ""Michel"" in the ""LastName"" column in the Users table?",UPDATE User SET LastName = 'Thomas' INTO LastName = 'Michel',MODIFY Users SET LastName = 'Michel' WHERE LastName = 'Thomas',MODIFY Users SET LastName = 'Thomas' INTO LastName = 'Michel',UPDATE Users SET LastName = 'Michel' WHERE LastName = 'Thomas',3,
+37,37. Which of the following lines in the PL/SQL source code will return an error?, create procedure estatus (,"eid NUMBER, statchar CHAR ) is begin",select status into statchar from EMP where EMPID = eid; end;,There are no errors in this code block,2,
+38,"38. Which of the following statement is correct to display all the cities with the condition, temperature, and humidity whose humidity is in the range of 60 to 75 from the 'weather' table?",SELECT * FROM weather WHERE humidity IN (60 to 75),SELECT * FROM weather WHERE humidity BETWEEN 60 AND 75,SELECT * FROM weather WHERE humidity NOT IN (60 AND 75),SELECT * FROM weather WHERE humidity NOT BETWEEN 60 AND 75,1,
+39,39. Which statement is used to get all data from the student table whose name starts with p?,SELECT * FROM student WHERE name LIKE '%p%';,SELECT * FROM student WHERE name LIKE 'p%';,SELECT * FROM student WHERE name LIKE '_p%';,SELECT * FROM student WHERE name LIKE '%p';,1,
+40,40. If a row is attempted to be fetched from an unallocated row in a PL/SQL table, A NULL value is returned,The VALUE_ERROR Exception is raised,The NO_DATA_FOUND Exception is raised,The value of the data returned cannot be predicted,3,

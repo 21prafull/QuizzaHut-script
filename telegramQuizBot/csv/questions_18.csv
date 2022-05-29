@@ -1,0 +1,59 @@
+n,Q,0,1,2,3,a,
+1,1. to test a spring MVC Rest web application we can use a class called,TestRestTemplate,TestTemplate,MockRestTemplate,none of the above,1,
+2,"2. public class QuizController{
+@autowired
+private QuizService QuizService;
+}
+what annotation should we use on QuizController",@RestController,@Presentation,@Repository,@Autowired,0,
+3,3. To ensure spring creates a new object everytime we ask for it the scope needs to be,singleton,prototype,clone,copy,1,
+4,"4. test, compile, verify in maven are called as",phases,goals,lifecycle,none of the above,0,
+5,"5. <jsp: useBean id=""X"" class ""Y"" scope ""request"" /> 
+this is in jsp is called as",action,directive,declaration,none of the above,0,
+6,6. statement.executeQuery(query) returns an object of,Query,Selectable,PreparedStatement,none of the above,3,
+7,7. @Bean annotation must be used on fuctions,have input arguments and return void,must return some object and input argument in void,must return Strings only,none of the above,1,
+8,8. @Transactional Annotation is used on a class which acts like,RestController,Service,Controller,none of the above,1,
+9,"9. In Hibernate when we give Customer cust = (Customer)session.get(Customer.class, ?); 
+. here ? is",tablename,primary key value,database name,none of the above,1,
+10,"10. In JPA, to know particular entity with an id exists or not we need to use the function",isIdPresent,existsById,isEntityPresent,none of the above,1,
+11,11. Which attribute is used to specify class name of the bean?,name,id,class,constructor-args,2,
+12,"12. XML element to specify the property values for scripting bean 
+",lang:property,bean:property,"script:property 
+",None of the mentioned,0,
+13,13. Design pattern implemented by Dispatcher Servlet.,jsp,tiles,front controller,none of the mentioned,2,
+14,14. Annotation which represents cookie values of requests.,HttpServletRequest or HttpServleResponse,@RequestParam,@Cookie,None of the mentioned,3,
+15,15. Controller Class renders the objects passed by the controller’s handler method,TRUE,FALSE,0,0,0,
+16,"16. The @RequestMapping annotation can be applied to the class level only.
+",TRUE,FALSE,0,0,1,
+17,17. To publish a REST service with Spring.,To publish a REST service with Spring.,accessing data from third-party REST services,"none of the mentioned 
+",all of the mentioned,3,
+18,18. Publishing an application’s data as a REST service requires.,@RequestMapping,@PathVariable,All of the mentioned,None of the mentioned,2,
+19,19. REST service end point comprises an address,"starts with http:// and ends with ? 
+",starts with http:// and ends with &,"no certain URL is specified 
+",depends upon the platform used,0,
+20,20. Instance Factory method main purpose is to encapsulate the object-creation process in a method of another object instance.,TRUE,FALSE,0,0,0,
+21,21. What programming language(s) or scripting language(s) does Java Server Pages (JSP) support?,VBScript only,Jscript only,Java only,All of the above are supported,2,
+22,22. What is invoked via HTTP on the Web server computer when it responds to requests from a user's Web browser?,A Java application,A Java applet,A Java servlet,None of the above is correct.,2,
+23,"23. What is sent to the user via HTTP, invoked using the HTTP protocol on the user's computer, and run on the user's computer as an application?",A Java application,A Java applet,A Java servlet,None of the above is correct.,1,
+24,24. JSP pages provide a means to create dynamic Web pages using HTML and the Java programming language.,TRUE,FALSE,0,0,0,
+25,25. HibernateTemplate will translate the native Hibernate exceptions into exceptions in Spring’s DataAccessException hierarchy.,TRUE,FALSE,0,0,0,
+26,26. An alternative to Spring’s HibernateTemplate is,HibernateContext,Hibernate’s contextual sessions,All of the mentioned,None of the mentioned,1,
+27,27. Which of the following statements about the fetch modes in Entity beans is FALSE?,There are two fetch modes: EAGER and LAZY,The default fetching mode for a field in an Entity bean annotated by @Basic is LAZY,The default fetching mode for a field in an Entity bean annotated by @OneToMany is LAZY,Lob annotation does not have a default fetch mode,1,
+28,28. The Session object is lightweight.,TRUE,FALSE,0,0,0,
+29,29. In which file database table configuration is stored?,.dbm,.hbm,.ora,.sql,1,
+30,"30. Which of the following is not an advantage of using Hibernate Query Language? 
+",Database independent,Easy to write query,No need to learn SQL,Difficult to implement,3,
+31,31. SessionFactory is a thread-safe object.,TRUE,FALSE,0,0,0,
+32,32. How Many Implicit Object In JSP?,5,7,9,11,2,
+33,"33. The ServletContext interface provides direct access
+to the hierarchy of static content documents that are
+part of the web application, including HTML, GIF and
+JPEG files through following methods",getSource,getResource,getResourceStream,getSourceStream,1,
+34,"34. _______ exception indicates to the web container
+that the servlet is either temporarily or permanently
+unavailable",ServletException,IllegalArguementException,UnavailableException,ServletContextException,2,
+35,35. Which of the following statements are true about a Stateless session bean,An ejbRemove( )call from container removes bean instance and puts it out for garbage collector,An ejbCreate call is made by the container only when a client invokes a create method,You can get the security information about a client from inside the ejbCreate ( ) method,The container will call the setSessionContext() method only once,3,
+36,36. Which of the following exceptions are thrown if a bean instance makes a prohibited method call to its session context,java.lang.IllegalStateException,java.rmi.RemoteException,javax.ejb.illegalMethodCall,javax. ejb.NoSuchMethodException,0,
+37,37. Which of the following are true with respect to sendRedirect method of HttpServletResponse?,Sets the Location Header,Path can be only relative,Must be called after response is committed else throws IllegalStateException,None.,0,
+38,"38. When a JSP page is compiled, what is it turned into",Applet,Servlet,Application,Mallet,1,
+39,"39. Select statements, which are valid for Cookie",Cookies are transferred to HTTP Header.,Cookie is name and Object pair.,Cookies can be disabled on client browser.,Cookies used to give better client interaction but should not where business logic dependent on it,2,
+40,40. Which of the following is true about HQL?,Hibernate Query Language (HQL) is an object-oriented query language.,"Instead of operating on tables and columns, HQL works with persistent objects and their propertie",Both of the above,None of above,2,

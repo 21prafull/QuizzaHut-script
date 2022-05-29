@@ -1,0 +1,111 @@
+n,Q,0,1,2,3,a
+,1. Which of the following is not a part of DevOps lifecycle ___________,Plan,Code,Build,Operating,3
+,2. Which of the following statement best describes the goal of DevOps?,Establish an environment to release more reliable applications faster,Estalish an environment where the release of applications is valued more than its quality,Establish an environment where application development performs all the operation tasks,Establish an environment where change management does not control application releases,0
+,3. What are the key components of DevOps?,Continuous Integration,Continuous Testing,Continuous Delivery & Monitoring,All of the above,3
+,4. Which of the following is most important DevOps KPI?,Meantime to failure recovery,Deployment frequency,Defect Volume,Both 1 & 2,3
+,5. Which of the following statements best characterizes delivery reliability?,A company that delivers faster than its competitors,A company that always delivers at the promised time,A company that delivers more frequently than its competitors,None of the above,1
+,6. Which of the following testing is also known as white-box testing?,Structural testing,Error guessing technique,Design based testing,None of the above,0
+,7. What are the different levels of Testing?,Integration testing,Unit testing,System testing,All of the above,3
+,8. Which of the following is not a part of STLC (Software Testing Life Cycle)?,Testing Planning,Requirement Gathering,Test Design,Testing closure,1
+,9. In which environment we can performed the Alpha testing?,User's end,Developer's end,User's and developer's end,None of the above,1
+,"10. Define the term failure? 
+
+",A human action that produces an incorrect result.,Its departure from specified behavior,Found in the software; the result of an error.,It is procedure or data definition in a computer database.,1
+,"11. What is a microservice? 
+",A design used primarily in functional programming and object-oriented programming,A small program that represents discrete logic that executes on dedicated hardware,A style of design for enterprise systems based on a loosely coupled component architecture,A very small piece of code that never gets any bigger than 10 lines,2
+,"12. What's the difference between a microservices-oriented architecture (MOA) and a service-oriented architecture (SOA)? 
+",An SOA uses intermediation technology to facilitate communication between services,An MOA shares as little data as possible while an SOA shares as much data as possible,A developer can run a monolithic application with SOA principles,"All the above 
+",3
+,"13. What does the term ""bounded context"" mean in relation to microservices? 
+",How a microservice uses memory,A bounded context is simply the boundary within a domain where a particular domain model applies.,The cloud provider's region where the microservice operates,The common characteristics within a collection of entities in one or many business domains,1
+,"14. Which of the following responses is an advantage of microservices? 
+",Any microservice component can change independently from other components,They don't require a lot of expertise to program,They're so small that developers can typically write very powerful ones with a few lines of text,"They are easy to manage 
+",0
+,"15. What are some technologies commonly used to implement microservices? 
+",Docker,Kubernetes,All the above,"None of the above 
+",2
+,"16. What type of computing technology refers to services and applications that typically run on a distributed network through virtualized resources? 
+
+",Distributed Computing,Cloud Computing,Soft Computing,Parallel Computing,1
+,17. Which of the model involves the special types of services that users can access on a Cloud Computing platform?,Service,Planning,Deployment,Application,0
+,"18. Which of the following is the SaaS's Characteristics? 
+
+","Usually, the license is subscription-based or usage-based and is billed on a recurring basis.",The software and the service are observed and maintained usually by the vendor.,"Software available over the internet across the world and can be provided according to the demand.
+","All of the above 
+",3
+,"19. The terms ""Iaas"" stand for? 
+
+",IT-as-a-Service,Infrastructure-as-a-Service,Internet-as-a-Service,"Interoperability-as-a-Service 
+",1
+,20. Amazon S3 is which type of storage service?,Block,Simple,Object,Secure,2
+,"21. Which command will map port 80 in the container to port 5001 on the Docker host? 
+",docker run -p 5001:80,docker run -p 80:5001,docker run expose 80:5001,"docker run expose 5001:80 
+",0
+,"22. Which Dockerfile instruction indicates what base image to use?
+",ENTRYPOINT,BASE,FROM,USING,2
+,23. What Dockerfile instruction can be used to execute npm install when creating a custom image?,npm install,RUN npm install,EXECUTE npm install,None of these,1
+,24. You use EXPOSE instructions in Dockerfile to document which ports need mapping for your containerized applications to work. How can you launch containers from these images and automatically map exposed ports?,Use the docker run command with the -expose-all runtime flag.,Use the docker run command with the -map-all flag.,"Use the docker run command with the -P flag 
+",Use the docker run command with the --port runtime flag.,2
+,"25. Which of the following correctly describes a Docker container? 
+",A text file describing the dependencies of an application.,"An online registry of Docker images. 
+","An instance of an application created from a Docker image. 
+","A package consisting of an application and all its dependencies. 
+",
+,26. Which command should you use to initialize a new git repository?,Git bash,Git install,Git init,Git start,2
+,"27. In Git, What's a shortcut to staging all the changes you have?
+","Git commit add . 
+","Git commit . 
+","Git add . 
+","Git stage -a 
+",2
+,"28. Which file can you configure to ensure that certain files are never committed to the local Git repository? 
+","Ignore.git 
+",".gitignore 
+","gitignore.txt 
+","git.ignore 
+",1
+,"29. What is version control? 
+",a type of architecture used to manage large databases,"a system that shows, tracks, and controls changes to a set of files over time
+","a programmatic design pattern used to manage code between multiple engineering teams 
+",a type of software that links a project with a GitHub repository,1
+,"30. How do you supply a commit message ""QuizzaHut CCEE Prep"" to a commit?
+","Git message ""QuizzaHut CCEE Prep""
+","Git add ""QuizzaHut CCEE Prep""
+","Git commit ""QuizzaHut CCEE Prep""
+","Git commit -m ""QuizzaHut CCEE Prep""
+",3
+,"31. What is a Functional Requirement?
+","specifies the tasks the program must complete 
+","specifies the tasks the program should not complete 
+","specifies the tasks the program must not work 
+","All of the mentioned 
+",0
+,"32. What does SDLC stands for? 
+",System Design Life Cycle,"Software Design Life Cycle 
+","Software Development Life Cycle 
+","System Development Life cycle 
+",2
+,"33. In which step of SDLC actual programming of software code is done? 
+","Development and Documentation 
+",Maintenance and Evaluation,Design,Analysis,0
+,"34. What does RAD stand for?
+
+",Rapid Application Document,Rapid Application Development,Relative Application Development,None of the above,1
+,"35. What is the first step in the software development lifecycle? 
+
+",System Design,Coding,System Testing,Preliminary Investigation and Analysis,3
+,36. Agile Software Development is based on which of the following type?,"Iterative Development 
+",Incremental Development,Both Incremental and Iterative Development,Linear Development,2
+,37. __________ is not suitable for accommodating any change,"RAD Model 
+","Waterfall Model 
+",Build & Fix Model,Prototyping Model,1
+,"38. Adaptive Software Development(ASD) has which of the following three framework activities? 
+","speculation, collaboration, learning 
+","analysis, design, coding 
+","requirements gathering, adaptive cycle planning, iterative development","all of the mentioned 
+",0
+,"39. Which of the following document contains the user system requirements? 
+",SRD,DDD,SDD,SRS,3
+,"40. Software maintenance costs are expensive in contrast to software development. 
+
+",TRUE,FALSE,0,0,0

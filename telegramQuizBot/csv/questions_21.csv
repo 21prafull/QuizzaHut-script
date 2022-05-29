@@ -1,0 +1,55 @@
+n,Q,0,1,2,3,a
+1,1. The time complexity of merging two sorted arrays is,O(n),O(nlogn),O(n^2),O(logn),0
+2,2. Cutting down the height of recursion tree is the algorithm design technique called as,Backtracking,Greedy Approch,Dynamic Programming,Divide and Conquer,3
+3,3. Bubble sort gives the best case when the array is,Random,Already Sorted,Small,Large,1
+4,4. The maximum number of edges in a simple graph of n vertices is,(n(n-1))/2,(n(n+1))/2,(n-1)/2,(n+1)/2,0
+5,5. A B-tree of order 4 and of height 3 will have a maximum of _______ keys.,255,63,127,188,0
+6,"6. In a B+ tree, both the internal nodes and the leaves have keys.",TRUE,FALSE,0,0,1
+7,"7. Efficiency of finding the next record in B+ tree is ____ 
+",O(n),O(log n),O(nlog n),O(1),3
+8,8. What is the number of moves required to solve Tower of Hanoi problem for k disks?,2k – 1,2k + 1,(2^k) + 1,"(2^k) – 1 
+",3
+9,"9. Which of the following methods can be used to solve the Knapsack problem? 
+",Brute force algorithm,Recursion,Dynamic programming,"Brute force, Recursion and Dynamic Programming 
+",3
+10,10. What is the time complexity of the brute force algorithm used to solve the Knapsack problem,O(n),O(n!),O(2n),O(n^3),2
+11,11. What is the time complexity of pre-order traversal in the iterative fashion?,O(1),"O(n) 
+",O(logn),O(nlogn),1
+12,"12. In a max-heap, element with the greatest key is always in the which node?","Leaf node 
+",First node of left sub tree,"root node 
+",First node of right sub tree,2
+13,13. In graph the sum of degree is,2 * Number of edges,Number of edges / 2,2 * Number of vertices,Number of vertices / 2,0
+14,14. A tree in which every node has either 0 or 2 children is called,Full Binary tree,Strictly Binary Tree,Unbalanced Binary Tree,Binary Search Tree,1
+15,15. Heap can be used as ________________,Priority queue,Stack,A decreasing order array,Normal Array,0
+16,"16. Which of the following is the efficient data structure for searching words in dictionaries? 
+",BST,Linked List,Balanced BST,Trie,3
+17,"17. If several elements are competing for the same bucket in the hash table, what is it called?",Diffusion,Replication,Collision,Duplication,2
+18,18. The ‘push’ operation is associated with ___ data structure,Heap,Stack,Queue,Array,1
+19,19. The pre-order and in-order are traversals of a binary tree are T M L N P O Q and L M N T O P Q. Which of following is post-order traversal of the tree?,L N M O Q P T,N M O P O L T,L M N O P Q T,O P L M N Q T,0
+20,20. The First Come First Serve Process scheduling algorithm is a representation of the ___ data structure,Heap,Stack,Queue,Array,2
+21,21. Determine the postfix notation for the infix notation: (a+b) * (c+d),abcd++*,ab+cd*+,abcd+*+,ab+cd+*,3
+22,22. What is a dynamic array?,A variable size data structure,An array which is created at runtime,The memory to the array is allocated at runtime,An array which is reallocated everytime whenever new elements have to be added,0
+23,23. How will you implement dynamic arrays in Java?,Set,Map,HashMap,List,3
+24,24. Which of the following property does not hold for matrix multiplication?,Associative,Distributive,Commutative,Additive Inverse,2
+25,25. Which of the following application makes use of a circular linked list?,Undo operation in a text editor,"Recursive function calls 
+",Allocating CPU to resources,"Implement Hash Tables 
+",2
+26,26. What does ‘stack underflow’ refer to?,accessing item from an undefined stack,adding items to a full stack,removing items from an empty stack,"index out of bounds exception 
+",2
+27,"27. What happens when you pop from an empty stack while implementing using the Stack Abstract Data Type in Java?
+",Undefined error,Compiler displays a warning,EmptyStackException is thrown,NoStackException is thrown,2
+28,"28. Minimum number of queues to implement stack is ___________ 
+",3,4,1,2,2
+29,29. How many passes does the balancing symbols algorithm makes through the input?,one,two,three,four,0
+30,30. Hash tree is generalization of ______,Heap,Hash list,BST,B – tree,1
+31,31. Elements in an array are identified by a unique _____.,Symbol,order,Subscript,DataType,2
+32,"32. To delete a dynamically allocated array named ‘a’, the correct statement is",delete a;,delete a[0];,delete []a;,delete[0]a;,2
+33,33. For balancing a tree we use:,Left Rotation,Right Rotation,Both of the above,None of the above,2
+34,34. In double order traversal:,Every node is visited once,Every node is visited twice,Some nodes are visited twice,Only root node is visited twice,1
+35,35. The organization and management of data structures are take place in:,Primary Memory,Secondary Memory,External Memory,Primary & Secondary Memory,0
+36,"36. In a complete binary tree of ‘n’ levels, there are:",2n leaves and 2n-1 non-leaf nodes,2n-1 leaves and 2n non-leaf nodes,n2 leaves and n2-1 non-leaf nodes,2n -1 leaves and 2n non-leaf nodes,0
+37,"37. In a binary tree, to delete a node that has two children, we require:",Post order successor,`Preorder ancestor,In order ancestor,In order successor,3
+38,"38. Suppose you have a directed graph representing all the flights that an airline flies. What algorithm
+might be used to find the best sequence of connections from one city to another?",Breadth first search,Depth first search,A cycle-finding algorithm,A shortest-path algorithm,3
+39,39. A is a function that invokes itself.,Built-In,Recurssion,Lambda,Return,1
+40,40. What is the load factor?,Average array size,Average key size,Average chain length,Average hash table length,2

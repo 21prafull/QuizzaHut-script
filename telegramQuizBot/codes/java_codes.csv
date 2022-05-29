@@ -1,0 +1,33 @@
+no,question,option#0,option#1,option#2,option#3,answer,code
+1,1. What is output of this java program?,"-1,0,1,2","2,1,0,-1",Stack overflow,No output,0,"public class MemoryJava {\n public static void main(String[] args) {\n decreaseNumberbyOne(2);\n }\n public static void decreaseNumberbyOne(int num){ \n if(num >= 0){\n decreaseNumberbyOne(num -1);\n }\n System.out.println(""Number:""+num);\n }\n}\n"
+2,2. True statements about object of Insurance class is/are,Class object will be garbage collected when it goes out of scope from main (),"In the middle of main () function, class object can also be set for garbage collection by using statement “policy = NULL;”",Both A & B are true,None,2,class Insurance{\n int policyNumber;\n}\npublic class Bank {\n public static void main(String[] args) {\n Insurance policy = new Insurance();\n }\n}\n
+3,"3. In what memory area, variable temp and variable card written in main () get stored?","Heap, Heap","Stack, stack","Heap, Stack","Stack, Heap",1,class CreditCard{\n int num;\n}\n\npublic class Bank { \n public static void main(String[] args) {\n int temp;\n CreditCard card;\n }\n}\n
+4,"4. Choose the correct answer about the interface implementation in the code. 
+
+","Two interfaces cannot have a method with the same name. 
+",Compile-time error.,Run-time error because of ambiguous call of the fill() method,The interface implementation is fine.,3,"interface Charger {\n void fill();\n}\ninterface Fuel {\n void fill();\n}\nclass Car implements Charger, Fuel {\n @Override\n public void fill() {\n System.out.println(""filling"");\n }\n}\n"
+5,"5. The expressions in the if conditions 1, 2, and 3 will evaluate to:","true, true, false 
+","false, true, false 
+","false, false, true 
+","true, false, true",2,"public class Sample { \npublic static void main(String[] args) { \nif (new String(""Java"") == ""Java"");//1 \nif (new String(""Java"") == new String(""Java""));// 2 \nif (new String(""Java"").equals(""Java"")); // 3 \n} \n}\n"
+6,"6. What is the size of the HashMap? 
+
+","Compile-time error 
+",1,2,Run time error,2,"import java.util.HashMap;\npublic class Sample {\npublic static void main(String[] args) {\nHashMap<Integer, String> map = new HashMap<Integer, String>();\nmap.put(1, ""Java"");\nmap.put(null, ""OOP"");\nmap.put(null, null);\n}\n}\n"
+7,"7. What is the output of the program? 
+
+",Kiwi,"Kiwi, Mango 
+","Kiwi, Mango, Orange 
+",Compiler error,3,"public class Sample { \npublic static void main(String[] args) { \nint n = 1; \nswitch(n){ \ncase 0:System.out.println(""Apple""); \nbreak; \ncase 1:System.out.println(""Kiwi""); \ncase 2:System.out.println(""Mango""); \ncase 4%3:System.out.println(""Orange""); \n} \n} \n}\n"
+8,"8. What is the output? 
+
+","55QuizzaHut, Mock50","10QuizzaHut, Mock5","10, 5","10QuizzaHut, Mock50",3,"public class QuizzaHut {\npublic static void main(String args[]) {\nSystem.out.println(5 + 5 + ""QuizzaHut"");\nSystem.out.println(""""Mock"""" + 5 + 0);\n}\n}\n"
+9,9. What is the output of the following program?,677,"Compilation error due to line 1 
+","Compilation error due to line 2 
+","Compilation error due to line 1 and line 2 
+",3,"public class Test \n{ \npublic static void main(String[] args) \n{ \nint value = 554; \nString var = (String)value; //line 1 \nString temp = ""123""; \nint data = (int)temp; //line 2 \nSystem.out.println(data + var); \n} \n}\n"
+10,"10. What is the output of the following program? 
+
+",444.324,444,"Runtime error 
+","Compilation error 
+",3,public class Test \n{ \npublic static void main(String[] args) \n{ \ndouble data = 444.324; \nint value = data; \nSystem.out.println(data); \n} \n}\n

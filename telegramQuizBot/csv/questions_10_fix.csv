@@ -1,0 +1,64 @@
+n,Q,0,1,2,3,a
+,"25. Which of the following correctly describes a Docker container? 
+",A text file describing the dependencies of an application.,"An online registry of Docker images. 
+","An instance of an application created from a Docker image. 
+","A package consisting of an application and all its dependencies. 
+",2
+,26. Which command should you use to initialize a new git repository?,Git bash,Git install,Git init,Git start,2
+,"27. In Git, What's a shortcut to staging all the changes you have?
+","Git commit add . 
+","Git commit . 
+","Git add . 
+","Git stage -a 
+",2
+,"28. Which file can you configure to ensure that certain files are never committed to the local Git repository? 
+","Ignore.git 
+",".gitignore 
+","gitignore.txt 
+","git.ignore 
+",1
+,"29. What is version control? 
+",a type of architecture used to manage large databases,"a system that shows, tracks, and controls changes to a set of files over time
+","a programmatic design pattern used to manage code between multiple engineering teams 
+",a type of software that links a project with a GitHub repository,1
+,"30. How do you supply a commit message ""QuizzaHut CCEE Prep"" to a commit?
+","Git message ""QuizzaHut CCEE Prep""
+","Git add ""QuizzaHut CCEE Prep""
+","Git commit ""QuizzaHut CCEE Prep""
+","Git commit -m ""QuizzaHut CCEE Prep""
+",3
+,"31. What is a Functional Requirement?
+","specifies the tasks the program must complete 
+","specifies the tasks the program should not complete 
+","specifies the tasks the program must not work 
+","All of the mentioned 
+",0
+,"32. What does SDLC stands for? 
+",System Design Life Cycle,"Software Design Life Cycle 
+","Software Development Life Cycle 
+","System Development Life cycle 
+",2
+,"33. In which step of SDLC actual programming of software code is done? 
+","Development and Documentation 
+",Maintenance and Evaluation,Design,Analysis,0
+,"34. What does RAD stand for?
+
+",Rapid Application Document,Rapid Application Development,Relative Application Development,None of the above,1
+,"35. What is the first step in the software development lifecycle? 
+
+",System Design,Coding,System Testing,Preliminary Investigation and Analysis,3
+,36. Agile Software Development is based on which of the following type?,"Iterative Development 
+",Incremental Development,Both Incremental and Iterative Development,Linear Development,2
+,37. __________ is not suitable for accommodating any change,"RAD Model 
+","Waterfall Model 
+",Build & Fix Model,Prototyping Model,1
+,"38. Adaptive Software Development(ASD) has which of the following three framework activities? 
+","speculation, collaboration, learning 
+","analysis, design, coding 
+","requirements gathering, adaptive cycle planning, iterative development","all of the mentioned 
+",0
+,"39. Which of the following document contains the user system requirements? 
+",SRD,DDD,SDD,SRS,3
+,"40. Software maintenance costs are expensive in contrast to software development. 
+
+",TRUE,FALSE,0,0,0

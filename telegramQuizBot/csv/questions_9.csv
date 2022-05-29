@@ -1,0 +1,53 @@
+a,Question,Option 0,Option 1,Option 2,Option 3,Answer
+,1. Which http method is idempotent?,get,post,both,none,0
+,2. Which is responsible for getting a connection to the database?,Connection,Driver,Statement,ResultSet,1
+,3. Java.sql.timestamp has a super class as,Java.sql.time,java.util.date,java.util.time,None,1
+,4. How is the dynamic interception of requests and responses to transform the information done?,servlet container,servlet config,servlet context,servlet filter,3
+,5. Which class provides system independent server side implementation?,Socket,ServerSocket,Server,ServerReader,1
+,6. The process of linking aspects with other objects to create an advised object is called,dynamic chaining,banding,weaving,interleaving,2
+,7. Which of these is not a valid method on the JoinPoint interface?,getArgs(),getExceptions(),getSignature(),getTarget(),1
+,8. What is the root interface for accessing a Spring bean container?,SpringInitContainer,ResourceLoader,ApplicationEventPublisher,BeanFactory,3
+,9. Which annotation can be used within Spring Security to apply method level security?,@Secured,@RequiresRole,@RestrictedTo,@SecurePath,0
+,10. Which property can be used to change the port of a Spring application?,Port,spring.port,spring.settings.port,server.port,3
+,11. What is the name of the central servlet that dispatches requests to controllers?,DispatchingDelegatorServlet,DispatcherServlet,Router,FrontControllerServlet,1
+,12. What is the purpose of the Spring IoC (Inversion of Control) container?,"It instantiates configures&objects, supplied at runtime, to classes that define them as a dependency",It allows the front-end code to manage the ResponseBody objects provided by a back-end REST API.,It allows a database to define business objects via a shared schema at compile time.,It facilitates a remote server to configure a local application.,0
+,13. How does Spring generate bean names for classes annotated with @Component that do not specify a name?,It uses the short name of the class with the first letter in lowercase.,It uses the short name of the class.,It uses the short name of the class in uppercase.,It uses the canonical name of the class in lowercase.,0
+,14. How do you inject a dependency into a Spring bean?,any of these answers,Annotate a Setter method with the @Autowired annotation.,Specify parameters in the constructor with an optional @Autowired annotation.,Use field injection.,0
+,"15. Assuming no additional configuration is provided, what is the first selection criteria Spring uses to choose a bean when autowiring a property?",none of these answers,bean type,bean size,bean name,3
+,16. What pattern does Spring MVC implement to delegate request processing to controllers?,Front Controller,Facade,Reactive Chain,Observer,0
+,17. What interface can be specified as a parameter in a controller method signature to handle file uploads?,FilePath,MultipartFile,File,MvcFile,1
+,"18. What is the purpose of this endpoint?
+@GetMapping(""api/v1/domain/resource/{id}"")
+public Pojo getPojo(@PathVariable(""id"") String id) {
+return testService.getPojo(id);
+}
+",This endpoint is designed to delete an object of the typetype Pojo with the passed in path variable,This endpoint is designed to return JSON mapped to the object type Pojo with the passed in id.,This endpoint returns the path variable that describes the Pojo’s location within the container.,This is designed to update an existing resource of the object type Pojo with the passed in id.,1
+,"19. Once the hibernate session is closed, in which state the object remains?",detached,transient,pesistent,garbage collector,0
+,20. How many layers are available in Hibernate architecture,2,3,4,None of above,1
+,21. Which of these simplifies an Object Relational Mapping tool?,All of below,Data manipulation,Data creation,Data access,0
+,22. Which is used to call the stored procedures and functions?,CallableStatement Interface,PreparedStatement Interface,All the above,None of the above,0
+,23. What does the Session object hold?,First Level Cache,Second Level Cache,Both A & B,None of the above,0
+,24. What are the JPA @Entity association attributes?,Association cascade behavior,Association validation,Association direction,Association multiplicity,1
+,25. Which attribute of @OneToMany is used to mark an entity as owned?,cascade,propertyRef,None,mappedBy,3
+,26. Which annotation is used to create Pk-Fk relation b/w two tables?,JoinedKey,ForeignKey,JoinColumn,None of these,1
+,27. Name the element within the tag element that defines the tag class that implements the functionality of tag.,tag,tag-class,tag-name,tag-uri,1
+,28. Name the default value of the scope atribute of < jsp:usebean >.,page,session,request,application,0
+,29. Is Hibernate Session threadsafe?,Yes,no,no relation with thread,none,1
+,30. What is thread safe?,Session,Session Factory,Both,None,1
+,31. Which of the following does the Serializable interface in the java.io.package define,neither mathods nor constraints,only methods but not constraints,constraints but no methods,both constraints and method,0
+,32. The _____layer is responsible for handling the actual machine to machine communication,Remote reference,Application,Stub and skeleton,Transport,3
+,33. The default size of the output buffer is ____________,16K,8K,32K,None of the above,1
+,34. The implementation for the Enterprise is in the following :,Remote interface,Home interface,Enterprise Bean class,None of the above,2
+,35. Compilation error in jsp files results in,translation time errors,runtime errors,compilation errors,None of the above,0
+,36. The init( ) method takes ___________ object as a parameter.,HttpServleRequest,HttpServleResponse,ServletConfig,ServletResponse,2
+,37. __________ provides the ability to directly insert java into an HTML document,declarations,scriptlets,directives,None of the above,1
+,38. what are types of comments supported by JSP?,Hidden Comment,Output Comment,Both Above,None Of Above,2
+,39. Which of the following statements are correct about the status of the Http response,A status of 200 to 299 signifies that the request was successful.,A status of 300 to 399 are informational messages.,A status of 400 to 499 indicates an error in the server.,A status of 500 to 599 indicates an error in the client.,0
+,40. What is the difference between ServletContext and PageContext?,Servlet context gives information about the container,page context gives information about the container,Servlet context gives information about the response,page context gives information about the response,0
+,"41. When driver is not found, it results in",DriverNotFoundException,CIassNotfoundException,SQLException,None of the above,1
+,42. Connection is,interface,class,package,None of the above.,0
+,43. What is the initial contact point for handling a web request in a Page-Centric architecture?,A JSP page,JavaBean,servlet,session manager,0
+,"44. If you want to override a JSP file's initialization method, within what type of tags must you declare
+the method? 
+",<@ @>,<%@ %>,<% %>,<%! %>,3
+,45. Cookies are always added to?,Request,Response,Session,Application,1

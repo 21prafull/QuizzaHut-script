@@ -1,0 +1,62 @@
+n,Q,0,1,2,3,a
+1,1. What is the result of running this statement? console.log(typeof 42);,integer,number,value,float,1
+2,2. Which method converts JSON data to a JavaScript object?,JSON.fromString();,JSON.parse(),JSON.toObject(),JSON.stringify(),1
+3,"3. What will be logged to the console? var a = ['dog', 'cat', 'hen'];
+a[100] = 'fox';
+console.log(a.length);",101,3,4,100,0
+4,"4. What is the value of dessert.type after executing this code? const dessert = { type: 'pie' };
+dessert.type = 'pudding';",pie,The code will throw an error.,pudding,undefined,2
+5,5. Which of the following is not a keyword in JavaScript?,this,catch,function,array,3
+6,6. How do you import the lodash library making it top-level Api available as the “_” variable?,import '_' from 'lodash;,import lodash as _ from 'lodash';,import _ from 'lodash';,import 'lodash' as _;,2
+7,7. What does the following expression evaluate to? [] == [];,TRUE,undefined,[],FALSE,3
+8,8. Why would you choose an asynchronous structure for your code?,To use ES6 syntax,To start tasks that might take some time w/o blocking subsequent tasks from executing immediately,To ensure that parsers enforce all JavaScript syntax rules when processing your code,To ensure that tasks further down in your code aren’t initiated until earlier tasks have completed,1
+9,9. A store is an ___________ object tree in Redux.,immutable,mutable,Both A and B,None of the above,0
+10,10. What are 2 native functions to run code asynchronously in JavaScript ?,timeout + delay,setTimeout + startInterval,setInterval + setTimeout,timeout + interval,2
+11,"11. If you want to import just the Component from the React library, what syntax do you use?",import React.Component from 'react',import [ Component ] from 'react',import Component from 'react',import { Component } from 'react',3
+12,"12. Object literal enhancement, can put value back in object. When you log person to the console, what is output? const name = 'Rachel';
+const age = 31;
+const person = { name, age };
+console.log(person);","{person: {name: ""Rachel"", age: 31}}","{person: ""Rachel"", person: 31}}","{name: ""Rachel"", age: 31}",None of the above,2
+13,"13. What do you call the message wrapped in curly braces below? const message = 'Hi there';
+const element = <p>{message}</p>;",a JS function,a JS element,a JS expression,a JSX wrapper,2
+14,"14. You have written the following code but nothing is rendering. How do you fix this problem? const Heading = () => {
+<h1>Hello!</h1>;
+};",Add a render function.,Change the curly braces to parentheses or add a return statement before the h1 tag.,Move the h1 to another component.,Surround the h1 in a div.,1
+15,15. Why is it a good idea to pass a function to setState instead of an object?,It provides better encapsulation.,It makes sure that the object is not mutated.,It automatically updates a component.,setState is asynchronous and might result in out of sync values.,3
+16,16. Which answer best describes a function component?,A function component is the same as a class component.,A function component accepts a single props object and returns a React element.,A function component is the only way to create a component.,A function component is required to create a React component.,1
+17,17. How would you generate the boilerplate code for a new app that you are building to collect underpants?,npm create-react-app collect-underpants,npx start-app collect-underpants,react new collect-underpants,npx create-react-app collect-underpants,3
+18,"18. In this function, which is the best way to describe the Dish component? function Dish() {
+return (
+<>
+<Ingredient />
+<Ingredient />
+</>
+);
+}",child component,parent component,nested component,sibling component,1
+19,19. Actions and states are held together by a function called?,Reducer,Redux,suscribe,view,0
+20,20. Redux solves this problem by managing application’s state with a single global object called ?,directory,file,store,None of the above,2
+21,21. Which jQuery function is used to send ajax request using GET method,$.ajax(),$.get(),$_GET(),$_AJAX(),1
+22,22. To read json data received from server javascript use,"exports, process, require, module, __filename, __dirname","exports, __filename, __dirname","exports, module, __filename, __dirname","exports, require, module, __filename, __dirname",3
+23,23. What should be the root tag in any HTML document,root,html,doctype,head,1
+24,24. The default connection type used by HTTP is _________,Persistent,Non-persistent,Either of the mentioned,None of the mentioned,0
+25,25. Which statement about event emmiter is false,The emit method allows a arbitrary set of arguments to be passed to the listener functions.,Event names must be camelCase strings.,Any values returned by the listeners for an emitted events are ignored.,None,1
+26,"26. In FTP protocol, client contacts server using ____ as the transport protocol.",process,exports,setTimeout,buffer,3
+27,"27. In HTML, What will bring the text on next line?",<br>,<break>,<b>,None,0
+28,28. What are core features of Express framework?,Allows to set up middlewares to respond to HTTP Requests,Defines a routing table which can works as per HTTP Method and URL,Dynamically render HTML Pages,All of the above,3
+29,29. How to store local variables that can be access within the application,Using app.locals,Using app.storage,Using database,Config file,0
+30,"30. In ExpressJS, the method app.all(path, callback [, callback ...]) can accept all HTTP methods",TRUE,FALSE,Insufficient data,None,0
+31,31. HTTP is ________ protocol.,application layer,transport layer,network layer,none of the mentioned,0
+32,32. which Ajax property is used to read data from server,responseText,responsetext,responsedata,none,0
+33,33. To read json data received from server javascript use,parseOBJECT();,parseHTML();,parseJSON();,none,2
+34,"34. What will this code log to the console? // File: person.js
+exports = ""John"";
+
+// File: index.js
+const person = require('./person.js');
+console.log(person);",John,{'John'},Undefined,{},3
+35,35. Which core module in Node can you use to compile and run JavaScript code in a sandbox environment?,sandbox,buffer,vm,v8,2
+36,36. Which assert module method is usually used to test the error-first argument in callbacks?,fail,doesNotThrow,deepStrictEqual,ifError,3
+37,"37. In FTP protocol, client contacts server using ____ as the transport protocol.",transmission control protocol,user datagram protocol,datagram congestion control protocol,stream control transmission protocol,0
+38,38. Is jQuery a library for client scripting or server scripting?,Server scripting,Client scripting,Both A and B,None of the above,1
+39,39. What is XSS stands for,Cross Site Scripting,Extended site security,Extended site service,None,0
+40,"40. In HTML, What is used to link two file?",anchor tag,link,href,None,0

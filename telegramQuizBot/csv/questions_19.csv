@@ -1,0 +1,53 @@
+n,Q,0,1,2,3,a,
+1,1. What is a short-term scheduler?,It selects which process has to be brought into the ready queue,It selects which process has to be executed next and allocates CPU,It selects which process to remove from memory by swapping,None of the mentioned,1,
+2,2. The only state transition that is initiated by the user process itself is __________,block,wakeup,dispatch,none of the mentioned,0,
+3,3. The context of a process in the PCB of a process does not contain __________,the value of the CPU registers,the process state,context switch time,memory-management information,2,
+4,4. Virtual memory is normally implemented by ________,virtualization,demand paging,buses,all of the mentioned,1,
+5,5. What is the ready state of a process?,when process is scheduled to run after some execution,when process is unable to run until some task has been completed,when process is using the CPU,none of the mentioned,0,
+6,6. Which system call can be used by a parent process to determine the termination of child process?,wait,exit,fork,get,0,
+7,7. __________ is generally faster than _________ and _________,"best fit, first fit, worst fit","first fit, best fit, worst fit","worst fit, best fit, first fit",none of the mentioned,1,
+8,8. External fragmentation exists when?,the total memory is insufficient to satisfy a request,enough total memory exists to satisfy a request but it is not contiguous,a request cannot be satisfied even when the total memory is free,none of the mentioned,1,
+9,"9. Identify the incorrect statement about compilation and execution of java
+programs",javac helps in compiling the java program and creates the .class files,java runs the programs using the bytecode in .class files,java runs the programs using the source code in .java files,javac is in the JDK package and java is in the JRE packag,2,
+10,"10. Where is the operating system placed in the memory?
+",in the low memory,in the high memory,either low or high memory (depending on the location of interrupt vector),none of the mentioned,2,
+11,"11. The first fit, best fit and worst fit are strategies to select a ______",process from a queue to put in memory,processor to run the next process,free hole from a set of available holes,All of above,2,
+12,12. Which of the following is not the approach to handling deadlocks,deadlock prevention,deadlock avoidence,detect and recover,virtual memory,3,
+13,13. Semaphore is a/an _______ to solve the critical section problem.,special program for a system,hardware for a system,integer variable,All of above,2,
+14,"14. Mutual exclusion implies that if a process is executing in its critical section,",then no other process must be executing in their critical sections,then other processes must be executing in their critical sections,then all the resources of the system must be blocked until it finishes execution,None of the mentioned,0,
+15,15. Physical memory is broken into fixed-sized blocks called ________,frames,pages,backing store,none of the mentioned,0,
+16,16. Logical memory is broken into blocks of the same size called _________,frames,pages,backing store,none of the mentioned,1,
+17,17. With paging there is no ________ fragmentation.,internal,external,either type of,none of the mentioned,1,
+18,18. The percentage of times a page number is found in the TLB is known as ____________,miss ratio,hit ratio,miss percent,none of the mentioned,1,
+19,19. To avoid deadlock ____________,there must be a fixed number of resources to allocate,resource allocation must be done only once,all deadlocked processes must be aborted,inversion technique can be used,0,
+20,20. The process to be aborted is chosen on the basis of the following factors?,priority of the process,process is interactive or batch,how long the process has computed,all of the mentioned,3,
+21,21. What is Dynamic loading?,loading multiple routines dynamically,loading a routine only when it is called,loading multiple routines randomly,none of the mentioned,1,
+22,"22. Which stmts are true? I.Shortest remaining time first scheduling may cause starvation
+II. Preemptive scheduling may cause starvation
+III. Round robin is better than FCFS in terms of response time",I only,I and III only,II and III only,"I, II and III",3,
+23,23. FAT stands for _____________,File Attribute Transport,File Allocation Table,Fork At Time,None of the mentioned,1,
+24,24. If too little space is allocated to a file _____________,the file will not work,"there will not be any space for the data, as the FCB takes it all",the file cannot be extended,the file cannot be opened,2,
+25,25. Automatic type conversion is possible in which of the possible cases?,Byte to Int,Int to Long,Long to Int,Short to int,1,
+26,26. compareTo() returns,TRUE,FALSE,An Int Value,None,2,
+27,27. Which type of loop is best known for its boolean condition that controls entry to the loop,do-while,for,for-each,while,3,
+28,28. In Java how arrays are passed in methods?,Arrays are passed by Value,Arrays are passed by Reference,It depends on type of array,It depends on Compiler,1,
+29,29. Which of these can be used to fully abstract a class from its implementation?,Objects,Packages,Interfaces,. None of the Mentioned,2,
+30,30. What happens when we access the same variable defined in two interfaces implemented by the same class?,Compilation failure,Runtime Exception,The JVM is not able to identify the correct variable,The interfaceName.variableName needs to be defined,3,
+31,31. Which is not Buzzword of java,Architect neutral,Roubst,Multithreading,Overloading,0,
+32,32. An abstract data type typically comprises a …………… and a set of ……………… respectively.,"Data representation, classes","Database, operation","Control structure, operations","Data representation, operations.",3,
+33,33. What is the implicit return type of constructor?,No return type,A class object in which it is defined,void,None,1,
+34,34. _______ is not a flow control statement in Java.,break,continue,exit(),return,2,
+35,35. A class object in which it is defined,It can be called Zero or one times,It can be called Exactly once,It can be calledOne or more times,None of the mentioned,0,
+36,"36. The concept of multiple inheritances is implemented in Java by I. Extending two or more classes. 
+II. Extending one class and implementing one or more interfaces. 
+III. Implementing two or more interfaces.",Only (II),(I) and (II),(II) and (III),Only (I),3,
+37,"37. what will be the Output: public class Test {
+public static void main(String[] args) {
+String s = new String(""5"");
+System.out.println(1 + 10 + s + 1 + 10);
+}
+}",11511,1105110,115110,27,2,
+38,"38. Identify the output of the following program. String str = “abcde”; 
+System.out.println(str.substring(1, 3));",abc,bc,bcd,cd,1,
+39,39. Every object has its own---------variables oocupying different space in a memory,Example,Instance,Function,Method,1,
+40,40. The ……………………….. method compares a specific region inside a string with another specific region in another string.,getRegion(),getMatches(),regionMatches(),insideRegion(),2,

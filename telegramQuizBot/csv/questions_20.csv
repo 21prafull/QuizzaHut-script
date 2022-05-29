@@ -1,0 +1,59 @@
+n,Q,0,1,2,3,a
+1,1. Which of the following will produce a value of 22 if x = 22.9?,ceil(x),round(x),abs(x),floor(x),3
+2,2. ________ is a technical definition of the language that includes the syntax and semantics of the Java programming language.,Java language specification,Java API,Java JDK,Java IDE,0
+3,"3. Analyze the following statement:
+double sum = 0;
+for (double d = 0; d < 10;) {
+d += 0.1;
+sum += sum + d;
+}",The program has a compile error because the adjustment is missing in the for loop.,The program has compile error because control variable in the for loop cannot be of the double type,The program runs in an infinite loop because d<10 would always be true.,The program compiles and runs fine.,3
+4,4. Which of the following defines a legal abstract class?,class Vehicle { abstract void display(); },abstract Vehicle { abstract void display(); },abstract class Vehicle { abstract void display(); },class abstract Vehicle { abstract void display(); },2
+5,5. Which is true about a method-local inner class?,It must be marked final.,It must be marked final.,It can be marked public.,It can be marked static.,1
+6,"6. To get an iterator from a set, you may use the __________ method.",. getIterator,findIterator,iterator,iterators,2
+7,7. The methods for modifying element in the ___________ class are synchronized.,ArrayList,LinkedList,TreeMap,Vector,3
+8,8. The isAlive() method is used to…….,Know whether a thread is running or not,. Know whether a thread was created or not,Create a thead after stopping it.,Resume a thread after blocking it.,0
+9,9. To set default priority of a thread which constant can be used?,DEF_PRIORITY,DEFAULAT_PRIORITY,NORM_PRIORITY,NORMAL_PRIORITY,2
+10,10. Which cannot directly cause a thread to stop executing?,Calling the SetPriority() method on a Thread object.,Calling the wait() method on an object.,Calling notify() method on an object.,Calling read() method on an InputStream object.,2
+11,11. Character Stream Classes support input/output operations on _______ characters:,8 bit Unicode,16 bit Unicode,32 bit Unicode,64 bit Unicode,1
+12,12. Which class do you use to read data from a text file?,File,PrintWriter,Scanner,System,2
+13,"13. To obtain an ObjectOutputStream from a socket, use ________.",socket.getOutputStream(),socket.getObjectStream(),socket.getObjectOutputStream(),new ObjectOutputStream(socket.getOutputStream()),3
+14,"14. A protected instance method in the superclass can be made _______ scope , but not ________scope , in the subclass.","Public, Private","Default, Public","Protected, Public","Private, Default",0
+15,15. Can we declare variable inside a method as final variable and Can an abstract class may be final?,"Yes, Yes","Yes, No","No, Yes","No, No",1
+16,16. Which of the following lines will compile without warning or error,float f =1.3;,byte b = 257;,boolean b = null;,int I =10;,3
+17,17. Which of the following is not a keyword or reserved word in Java?,if,then,goto,case,1
+18,"18. What will happen when you compile and run the following code? 
+public class MyClass{ 
+static int i; 
+public static void main(String argv[]){ 
+System.out.println(i); 
+} 
+}",Error : Variable i may not have been initialized,null,0,1,2
+19,19. You need to create a class that will store a unique object elements. You do not need to sort these elements but they must be uniqe. What interface might be most suitable to meet this need?,Set,Vector,Map,List,0
+20,20. What is the return type of method round(double) of Math Class?,Short,Int,Long,Double,2
+21,21. Which of the following statements is true about abstract class?,An abstract class is not a class itself,An abstract class is a complete class with abstract method,An abstract class is an incomplete class with abstract method,None of the listed options,1
+22,22. In multithreading programming if you want that one thread at a time can execute the method then declare that method as,synchronized,native,synchronize,synchronizable,0
+23,23. Native methods are also be called as foregin methods,TRUE,FALSE,0,0,0
+24,24. All exceptions are derived from the,java.lang.Throwable,java.lang.Error,java.lang.Exception,java.lang.io,0
+25,25. The use of protected keywords to a member in a class will restrict its visibility as follows:,Visible only in the class and its subclass in the same package.,Visible only inside the same package.,Visible in all classes in the same package and subclasses in other packages,Visible only in the class where it is declared.,0
+26,26. Java Compiler stores the .class files in the path specified in CLASSPATH environmental variable.,TRUE,FALSE,0,0,1
+27,27. What will happen to an exception object after exception handling.,Nothing,At times it may get garbage collected.,It will always get garbage collected.,Object remain on Heap Section,2
+28,28. Which of the following may have null value?,Collection,MAP,List,Set,1
+29,29. Which of the wrapper classes have a booleanValue() method?,All wrapper classes.,All wrapper classes except Void.,All wrapper classes extending Number.,Only the Boolen class.,3
+30,30. which statement is true about AssertionError class?,it is a checked exception.,it has a method name toString().,it can be caught by a try-catch construct.,both (b) and (c).,3
+31,31. Attribute of an Object is also known as its ________.,State,Method,Procedures,Behaviour,0
+32,32. Java`s garbage collector runs as a ________ priority thread waiting for ________ priority threads to relinquish the processor.,"High, Low","Low, High","Low, Low","Low, High",3
+33,"33. Which of the following return true? 
+A) ""john"" == ""john"" 
+B) ""john"".equals(""john"") 
+C) both A and B 
+D) ""john"".equals(new Button(""john""))",A,B,C,D,2
+34,"34. What are correct description about class field? 
+a. A class field is declared with static modifier. 
+b. A class field is declared without any modifier. 
+c. A class field is associated with the class in which it is defined.",a and b only,b and c only,None are true,All are true,1
+35,35. You can explicitly drop a object reference by setting the value of a variable whose data type is a reference type to ________,Null,NAN,0,None of these,0
+36,"36. Because finalize() belongs to the java.lang.Object, it is present in all ________",Objects,Classes,Methods,None of these,1
+37,37. Read object method reconstructs object at the time of retriving from the file,bit by bit,Byte by Byte,Whole object at a time,Element by Element,1
+38,38. Which of the following collection classes from java.util package are thread safe?,Vector,ArrayList,HashMap,HashNode,0
+39,39. Tree Map class is used to implement which collection interface. select the one correct answer,Tree,SortedMap,SortedSet,List,1
+40,40. What is output System.out.println(12/0.0);,Infinity,Divide by zero Exception,NaN,Compile Time Error,0

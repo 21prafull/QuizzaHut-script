@@ -1,0 +1,52 @@
+n,Q,0,1,2,3,a
+,1. Value type can be converted to object by _______ them,Wrapping  ,UnWrapping,Boxing,UnBoxing,2
+,"2. C# provides us with two predefined references types 
+Object and _____. ",String,Int ,Bool,None,0
+,"3. Stream Reader class is used to read data from binary 
+files. ",TRUE,FALSE,0,0,1
+,"4. ____________ tool is used to view all classes available 
+in shared assemblies. ",WinCV,ILDiasm,All of the above,None of the above,1
+,"5. We declare a function virtual by using the _________ in 
+the base class. ",New,Virtual,Override,None of the above,1
+,6. A _________ defines a function without implementing it ,Abstract class   ,Delegate,Interface,None of the above,0
+,"7. __________ can contain methods,properties plus events and indexers",Class,Interface,Struct,All of the above,0
+,8. In C# inhertence is _____,Single ,Multiple,Hybrid,None of the above,0
+,"9. Console I/O provided by the _________ class ,which gives access to the standerd input ,standard output and standard error system.",Standard,Console,System,None of the above,2
+,10. We use the _______ function to write a string to the screen.,Console.Wrileln(),Console.WriteLine(),Console.WriteLine(),Console.PrintLine(),1
+,"11. The Presence of abstract method in a class does not 
+implicitly make the class abstract. ",TRUE,FALSE,0,0,1
+,"12. ____ supports a rich type of server-based controls that 
+provide standard forms capability for web development",Win Forms  ,Web Forms,Console Applications,All of the above,1
+,"13. The ____ object contains any additional information that 
+might be associated with the event.",System.Event   ,System.EventObject,System.EventArgs,System.EventObj,2
+,"14. During compile time________ compiler option is used to 
+import the required types. ",Target  ,Reference,Document,Out,1
+,15. The initial value of a ThreadState is. ,Started   ,UnStarted,Begin,Ready,1
+,"16. __________ property of a Thread class is used to 
+indicate whether the thread has been started and is not dead.",IsStarted   ,IsDead,IsWorking,IsAlive,3
+,17. int is synonym for _____. ,System.Int 32   ,System.Int 16,System.Int 64,System.Int 8,0
+,"18. ________ and jagged are the two types of 
+multidimentional arrays. ",Circular  ,Rectangular,Traingular,None of the above,1
+,19. Can a structure have a constructor with no parameter ,Yes,No,Not always,Cant say,1
+,20. Can a structure be derived from another structure.,Yes,No,0,0,1
+,21. Which group contains all official types of JIT compilations?,"Pre-JIT, Quick-JIT, Coll-JIT","Before-JIT, Quick-JIT, Cool-JIT","Pre-JIT, Quick-JIT, Normal-JIT","Pre-JIT, Econo-JIT, Normal-JIT",3
+,22. When would you use asynchronous actions?,to release the quest thread of a I/O operation,to capture the request thread of a I/O operation,to avoid blocking the request thread while waits for an I/O operation,to block the request thread if it waits for an I/O operation,2
+,23. Which code do you use if you want to trigger a garbage collection in .NET?,Garbage.CleanUp();,System.GC.Clear();,System.GC.Collect();,Garbage.Collect();,2
+,24. What is a delegate?,"A delegate is an object or collection initializer that adds flexibility, readability in C#.",A delegate in .NET is similar to a function pointer in C or C++.,"A delegate is collection initializer that adds flexibility, readability and maintainability in .NET.",A delegate is an extension method.,1
+,"25. Assuming y is a value type, which is an example of boxing?",y = (int)thisObject;,int y = 3;,y = (int)thisObject=;3;,object thisObject = y;,3
+,26. Which is NOT true about lambda statements?,A statement lambda cannot return a value. <= Correct,"If a statement lambda has a return value, it has to use a return statement.",A statement lambda requires using curly braces.,A statement lambda can have more than one statement.,0
+,27. What is the difference between System.String and string?,"string is used for fied-size strings in C#, while System.String is used for all the strings.",There is no such class as System.String.,There is none—string is an alias for System. String.,"System.String is a VB.NET data type, while string is a C# type.",2
+,28. Which of the following selects an anonymous type?,"select new { a.Country, a.Region }",select a,"select a.Country, a.Region","select { a.Country, a.Region }",0
+,29. You want to add responsibilities to object dynamically. Which design pattern best fit this objective?,Decorator,Bridge,Singleton,Facade,0
+,30. Which choice is NOT a component of .NET Framework?,common language JIT,.NET framework class library,common language runtime,side-by-side execution,1
+,31. How can we create an anonymous method for a delegate that takes one 'double' arguments,. double dbl = delegate(){ ..},double dbl = delegate(double ) { ..},double dbl = (double d) => { ..},double dbl = delegate double (double d) { ..},1
+,32. What is the Correct way to define a static event 'change' with the delegate named as 'deIChange'?,,,,,
+,,public static event delChange change;,public static event change delChange;,public static delegate delChange event change;,public static delChange event change;,0
+,33. What is the predefined parameter name that gets passed into the of the set accessor ?,Access,Data,Value,Datatype,2
+,34. What is Manifest in .NET?,In .NET Framework Namespace metadata stored in Manifest.,In .NET Framework Assembly metadata stored in Manifest.,.NET Framework use Manifest to stored only Assemblies version,None of the above,1
+,35. In C# which is literal keyword ?,null,new,TRUE,FALSE,0
+,36. How many classes can a single .NET DLL contain? ,256 Classes,It can contain many classes.,It depends on the version of .NET,Only one class,1
+,37. Which of the following supports LINQ queries?,Object collection,XML Document,Entity Framework,All of the above,3
+,38. A class must implement ____________ interface in order to provide querying facility using LINQ.,IEnumerator or IQueryable,IEnumerable or IQueryable,Enumerable or Queryable ,None of the above,1
+,39. Which attibutes can be used for data validations in MVC.,DataAnnotations,Fluent API,DataModel,HtmlHelper,0
+,40. Which of the following is a default route pattern in MVC ?,"""/{action}/{controller}/{id}""","""{controller}/{id}""",""" {controller}/{action}/{id}""",""" {controller}/{action}""",2

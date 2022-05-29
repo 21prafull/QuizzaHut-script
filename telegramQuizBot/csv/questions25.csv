@@ -1,0 +1,49 @@
+no,question,option#0,option#1,option#2,option#3,correct_option_id,explaination
+,"When we implement an interface method, it should be declared as public",TRUE,FALSE,0,0,0,Its A Boolean Question. Like if you get the reference!
+,Any class may be inherited by another class in the package,TRUE,FALSE,0,0,0,Its A Boolean Question. Like if you get the reference!
+,A class may be both abstract and final,TRUE,FALSE,0,0,1,Its A Boolean Question. Like if you get the reference!
+,We can overload methods with differences only in their return type,TRUE,FALSE,0,0,1,Its A Boolean Question. Like if you get the reference!
+,Data Input is :,2. a class we can use to read primitive data types,an abstract class defined in java.io,an interface that defines methods to read primitive data types,an interface that defines methods to open files,2,
+,A Java monitor must either extend Thread class or implement runnable interface,FALSE,TRUE,0,0,0,Its A Boolean Question. Like if you get the reference!
+,how do objects pass messages in java ?,by modifying each other`s fields,by modifying the static variables of each other`s classes,by calling each other`s instance methods,by calling static methods of each other`s classes,2,
+,"Because finalize() belongs to the java.lang.Object, it is present in all______",Objects,Classes,methods,None of Above,1,
+,Which of these is interface in the collection framework,ArrayList,Linked List,Vector,Set,3,
+,Under which circumstances will a thread stop?,the run() method that the thread stop,the call to the start() method of the thread is executing ends,the suspend() method is called on the Thread object,the wait() method is called on the Thread object,0,
+,"What will be the output :
+
+String x=""0123456789"";
+
+System.out.println(x.substring(5,8));",567,5678,56789,678,0,
+,Which statement is true?,Non-static member classes must have either default or public accessibility,All nested classes can declare static member classes,All nested classes can be declared static,Static member classes can contain non-static methods,3,
+,Which of the following option leads to the portability and security of Java?,Dynamic binding between objects,Bytecode is executed by JVM,The applet makes the Java code secure and portable,Use of exception handling,1,
+,"if(""string"".trim()==""string"") 
+System.out.println(""Equal""); 
+else 
+System.out.println(""Not Equal"");","the code will compile and print ""Equal""","the code will compile and print ""Not Equal""",the code will cause compiler error,none,0,
+,Which of the following is used to find and fix bugs in the program?,JDK,JRE,JVM,JDB,3,jdb helps you find and fix bugs in Java language programs.
+,"Given the string ""strawberries"" saved in a variable called fruit, what would fruit.substring(2, 5) return?",rawb,raw,awb,traw,1,
+,How can you achieve runtime polymorphism in Java?,method overloading,method overrunning,method overriding,method calling,2,
+,"Given the following definitions, which of these expression will NOT evaluate to true? 
+boolean b1 = true, b2 = false; int i1 = 1, i2 = 2;",(i1 | i2) == 3,i2 && b1,b1 || !b2,(i1 ^ i2) < 4,1,
+,"hat does this code print? System.out.print(""apple"".compareTo(""banana""));",0,positive number,negative number,compilation error,2,
+,You have an ArrayList of names that you want to sort alphabetically. Which approach would NOT work?,names.sort(Comparator.comparing(String::toString)),Collections.sort(names),names.sort(List.DESCENDING),"names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())",2,
+,"By implementing encapsulation, you cannot directly access the class's _ properties unless you are writing code inside the class itself.",private,protected,no-modifier,public,0,
+,Fill in the blank to create a piece of code that will tell whether int0 is divisible by 5: boolean isDivisibleBy5 = _____,int0 / 5 ? true: false,int0 % 5 == 0,int0 % 5 != 5,"Math.isDivisible(int0, 5)",1,
+,The runtime system starts your program by calling which function first?,print,iterative,hello,main,3,
+,Which statement is NOT true?,An anonymous class may specify an abstract base class as its base type.,An anonymous class does not require a zero-argument constructor.,An anonymous class may specify an interface as its base type.,An anonymous class may specify both an abstract class and interface as base types.,1,
+,Object-oriented programming is a style of programming where you organize your program around _ rather than _ and data rather than logic.,functions; actions,objects; actions,actions; functions,actions; objects,1,
+,Why are ArrayLists better than arrays?,You don't have to decide the size of an ArrayList when you first make it.,You can put more items into an ArrayList than into an array.,ArrayLists can hold more kinds of objects than arrays.,You don't have to decide the type of an ArrayList when you first make it.,0,
+,What language construct serves as a blueprint containing an object's properties and functionality?,constructor,instance,class,method,2,
+,"What kind of relationship does ""extends"" denote?",uses-a,is-a,has-a,was-a,1,
+,What type of variable can be assigned to only once?,private,non-static,final,static,2,
+,Which class does not implement the java.util.Collection interface?,java.util.Vector,java.util.ArrayList,java.util.HashSet,java.util.HashMap,3,
+,Which of the following initializes boolean primitive?,Boolean flag=true;,boolean flag=true;,boolean flag=TRUE;,Boolean flag=TRUE;,1,
+,Which of the following is not correct?,int a [][] = new int [20][20];,int [] a [] = new int [20][];,int [][] a = new int [10][];,int [][] a = new int [][10];,3,
+,Instanceof operator can be used with ________.,Arrays,Collections,Classes,All of the above,2,
+,The switch() construct is used to make a choice based upon ___________.,char value,An int value,A String value,None of the above,0,
+,Which of the following modifiers can be applied to a constructor?,Private,abstract,volatile,All of the above,1,
+,Which of the following class is thread safe?,ArrayList,Hashmap,Hashtable,Hashset,2,
+,Inner classes can not declare______ variables,Static,Protected,Final,Transient,0,
+,Please select a true statement about delete() method of java.io.File.,It can delete a file,It can delete an empty directory,Both of the above,Neither of the above,2,
+,Which type of variables cannot be serialized?,Transient,Final,Private,None of the above,0,
+,How many methods are defined in the Cloneable interface?,No Methods Defined,One,Two,None of the above,0,

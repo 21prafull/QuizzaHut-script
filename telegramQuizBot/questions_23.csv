@@ -1,0 +1,51 @@
+n,Q,0,1,2,3,a
+,1. ___ is an oracle data type which can represents a variable-length character string that uses the national character set.,Char,NVARCHAR2,NCHAR,VARCHAR2,1
+,2. The NOWAIT option works for,Select Statement,Explicit Cursors only,Both A and B,None,3
+,3. The query associated with a cursor is executed in,Declare Phase,Open Phase,Fetch Phase,Close Phase,1
+,4. ____ defines logical structure of level of abstraction of DBMS.,View,Conceptual Schema,Physical Schema ,All of the above,1
+,5. The following is/are components of the E-R diagram.,Entity ,Relationship,Attribute,All of the above,3
+,6. Which of the following statement are true about mongoDB,MongoDB is a cross-platform,MongoDB is a document oriented database,MongoDB provides high performance,All of the above,3
+,"7. Instead of Primary Key mongoDB use?
+
+",Embedded Documents,Default key _id,mongod,mongo,1
+,8. The columns in the database tables are called ____,forms,fields,records,reports,1
+,9. Which of the following is an RDBMS?,DBase,Foxpro,Microsoft access,SQLite,3
+,10. Which statement most accurately describes the result of not creating an exception handler for a raised exception?,The program will continue without raising the exception.,There will be a memory leak.,Control will pass to the PL/SQL block caller’s exception handler.,The program will return a %notfound error.,2
+,11. Which of the following is not implicit cursor attributes?,%found,%too_many_rows,%notfound,%rowcount,1
+,"12. If left out, which of the following would cause an infinite loop to occur in a simple loop?",loop,end loop,if-then,exit,
+,13. The command used to open a CURSOR FOR loop is,Open,Fetch,Parse,"None, cursor for loop handle cursor opening implicitely",3
+,14. A procedure declares a user-defined exception but does not raise it explicitly. Which of the following statements is true about this function?,The user-defined exception will never be raised.,The user-defined exception will be handled by a WHEN OTHERS exception handler.,The procedure will fail on compile.,The user-defined exception is defined incorrectly.,0
+,"15. In creating a procedure, you may get a message if you have compile errors. Which of the following is true?","The line numbers reported match the line numbers you see in your text editor.
+
+",SQL*Plus will automatically show the errors to you,"To see the errors, enter SHOW ERRORS in SQL*Plus.","If there are no syntax errors, you will receive the message ""NO ERRORS.""
+",2
+,16. Which of the following lines in the PL/SQL source code will return an error?,create procedure estatus (,"eid NUMBER, statchar CHAR ) is begin",select status into statchar from EMP where EMPID = eid; end;,There are no errors in this code block,2
+,17. Which of the following trigger types will be impacted by constraining factors brought on by mutating tables?,Row triggers only,Statement triggers only,Both row and statement triggers,Neither row or statement triggers,0
+,"18. Which of the following is not true about indexes?
+",Indexes are created to enforce uniqueness on columns,Indexes are created to enable fast retrieval by column values,Columns that frequently used with equal conditions in WHERE clauses are good candidates for indexes,Indexes are created with the ALTER TABLE command,3
+,"19. To find information about trigger status, which of the following views are appropriate?",ALL_TRIGGERS,ALL_OBJECTS,ALL_TRIGGER_COLS,ALL_SOURCE,0
+,20. Which of the following are valid json documents? ,"{""name"":""Fred Flintstone"";""occupation"":""Miner"";""wife"":""Wilma""}","{""city"":""New York"", ""population"", 7999034, boros:{""queens"", ""manhattan"", ""the bronx"", ""brooklyn""}}","{""a"":l, ""b"":{""b"":l, ""c"":""foo"", ""d"":""bar"", ""e"":[l,2,4]}}",None ,2
+,21. A _____ is an association between entities.,Relation,One to one,generalization,All of the Above,0
+,"22. In the Oracle Database which file contain the information needed to maintain and verify database integrity, and include the names of all the Data Files and the online and archived log files?",Data Files,Control Files,Redo Log Files,"Temp Files
+",1
+,23. The CHAR and NCHAR data types,have no difference,belong to two different character sets,have different storage requirements,have different storage requirements and retrieval time,1
+,24. _______ operations do not preserve non-matched tuples.,Left outer join,"Inner join 
+",Natural join,Right outer join,1
+,25. The INSTEAD OF trigger works at,Row level,Schema Level,Table Level,Database Level,0
+,26. The number of columns in a table is known as its,Degree,Cardinality,Domain,Range,0
+,27. The clause(s) that every SQL Server query must have is/are,Select,From,Where,None,0
+,28. System event triggers are always,Row level,Schema Level,Table Level,None,1
+,29. What is information about data called?,Relations,Meta data,Tera data,Hyper data,1
+,30. Which of the following format is supported by MongoDB ?,XML,BSON,SQL,All,1
+,31. Which of the following is not a NoSQL database ?,SQL,MONGODB,CASSANDRA,NONE,0
+,32. The phrase “greater than at least one” is represented in SQL by,< all,< some,> all,> an,3
+,33. A NULL value is treated as a blank or 0.,TRUE,FALSE,0,0,1
+,34. The USE command?,Is used to load code from another file,Has been deprecated and should be avoided for security reasons,Is a pseudonym for the SELECT command,Should be used to choose the database you want to use once you've connected to MySQL,3
+,35. Which of the following can add a row to a table?,Add,Update,Insert,Alter,2
+,36. Consider the following action: Transaction….. Commit; Rollback What does Rollback do?,Undoes the transactions before commit,Clears all transactions,Redoes the transactions before commit,No action,3
+,37. Update instructor _____ salary= salary * 1.05; Fill in with correct keyword to update the instructor relation,Where,In,Set,Select,2
+,38. What is used to fetch data row by row from a table,Cursor,Variable,BOTH,None,0
+,39. Can you create an Auto Increment on a unique Key,TRUE,FALSE,0,0,0
+,40. Which of the following is an atomic sequence of database actions?,Transaction,Concurrency,Relations,All of the mentioned,0
+,,,,,,
+,,,,,,

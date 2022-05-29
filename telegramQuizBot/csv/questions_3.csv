@@ -1,0 +1,88 @@
+﻿no,question,option#0,option#1,option#2,option#3,correct_option_id,explaination
+,in relational model cardinality is termed as,Number of columns,Number of tuples,Number of tables,Number of database,1,"In the relational model, cardinality is termed as Number of tuples"
+,Cartesian product in relational algebra is,Unary operator,Binary operator,Ternary operator,Not defined,1,Binary operator
+,in relational model relations are termed as,Table,Tuple,Column,Row,0,Table
+,Which one of the following is not true for a view?,View is a virtual table,View is derived from other tables,View never contains derived columns,A view definition is permanently stored as part of the database,3,A view definition is permanently stored as part of the database is not true
+,"A data Dictionary is a special file that contains: 
+",The name of all filed in all files,The width of all the filed in all files,The data types of all the filed in all files,All of the above,3,
+,_________ is a virtual table that draws its data from the result of an SQL SELECT statement,View,Transaction,Sequence,Temp table,0,
+,NoSQL databases is used mainly for handling large volumes of ______________ data.,Semi structured data,Unstructured data,Random data,Sequence data,0,
+,"If a process fails, most operating system write the error information to a",new file,another running process,log file,none of the mentioned,2,"If a process fails, most operating systems write the error information to a log file. Log file is examined by the debugger, to find out what is the actual cause of that particular problem. Log file is useful for system programmers for correcting errors."
+,No SQL database is use mainly for handling,Unstructured,Structured,Semi structured,Sequential,0,Previous one is wrong : correct ans is unstructured
+,"On systems where there are multiple operating system, the decision to load a particular one is done by",process control block,file control block,boot loader,bootstrap,2,
+,Which command is used to remove a relation from an SQL?,Drop table,Delete,Remove,Purge,0,Delete command is used to delete the existing record from the table. The drop table deletes the whole structure of the relation. Purge removes the table which cannot be obtained again.
+,"Which of the following is generally used for performing tasks like creating the structure of the relations, deleting relation?",DML(Data Manipulation Language),Query,Relational Schema,DDL(Data Definition Language),3,"The term ""DDL"" stands for Data Definition Language, used to perform all other essential tasks such as deleting relation and related schemas in defining the structure relation."
+,Which one of the following given statements possibly contains the error?,select * from emp where empid = 10003;,select empid from emp where empid = 10006;,select empid from emp;,select empid where empid = 1009 and Lastname = 'GELLER';,3,"The Query given in option D does not contain the ""from"" clause, which specifies the relation from which the values have to be selected or fetched. Therefore the correct answer is D."
+,"Consider a linked list of n elements, what is the time taken to insert an element after an element pointed by some pointer ?",O(n),O(log n),O(nlog n),O(1),3,
+,Which is responsible for getting a connection to the database?,Connection,Driver,Statement,ResultSet,1,Driver is responsible for connection and Connection is responsible for Communication
+,Java.sql.timestamp has a super class as,Java.sql.time,java.util.date,java.util.time,None,1,
+,"What is the error in the following code?
+
+class Test {abstract void display( );}",No error,Method display( ) should be declared as static,Test class should be declared as abstract,Test class should be declared as public,2,
+,"When we implement an interface method, it should be declared as public",TRUE,FALSE,Private,Default,0,"Interfaces are meant to define the public API of a type - and only that, not its implementation. So any method (or static member) you define in an interface is by definition public."
+,Any class may be inherited by another class in the package,TRUE,FALSE,0,0,0,
+,A class may be both abstract and final,TRUE,FALSE,0,0,1,
+,We can overload methods with differences only in their return type,TRUE,FALSE,0,0,1,
+,Data Input is :,2. a class we can use to read primitive data types,an abstract class defined in java.io,an interface that defines methods to read primitive data types,an interface that defines methods to open files,2,
+,A Java monitor must either extend Thread class or implement runnable interface,FALSE,Ture,0,0,0,
+,how do objects pass messages in java ?,by modifying each other`s fields,by modifying the static variables of each other`s classes,by calling each other`s instance methods,by calling static methods of each other`s classes,2,
+,"Because finalize() belongs to the java.lang.Object, it is present in all______",Objects,Classes,methods,None of Above,1,
+,Which of these is interface in the collection framework,Array,Linked List,Vector,Set,3,
+,Under which circumstances will a thread stop?,the run() method that the thread stop,the call to the start() method of the thread is executing ends,the suspend() method is called on the Thread object,the wait() method is called on the Thread object,0,
+,"What will be the output :
+
+String x=""0123456789"";
+
+System.out.println(x.substring(5,8));",567,5678,56789,678,0,
+,Which statement is true?,Non-static member classes must have either default or public accessibility,All nested classes can declare static member classes,All nested classes can be declared static,Static member classes can contain non-static methods,3,
+,"What is the difference between servlets and applets?
+i. Servlets execute on Server; Applets execute on browser
+ii. Servlets have no GUI; Applet has GUI
+iii. Servlets creates static web pages; Applets creates dynamic web pages
+iv. Servlets can handle only a single request; Applet can handle multiple requests","i, ii, iii are correct","i, ii are correct","i, iii are correct","i, ii, iii, iv are correct",1,
+,Which of the following is true about servlets?,Servlets execute within the address space of web server,Servlets are platform-independent because they are written in java,Servlets can use the full functionality of the Java class libraries,"Servlets execute within the address space of web server, platform independent and uses the functionality of java class libraries",3,
+,How is the dynamic interception of requests and responses to transform the information done?,servlet container,servlet config,servlet context,servlet filter,3,
+,"Which are the session tracking techniques?
+i. URL rewriting
+ii. Using session object
+iii.Using response object
+iv. Using hidden fields
+v. Using cookies
+vi. Using servlet object","i, ii, iii, vi","i, ii, iv, v","i, vi, iii, v","i, ii, iii, v",1,
+,Which class provides system independent server side implementation?,Socket,ServerSocket,Server,ServerReader,1,
+,Which of the following option leads to the portability and security of Java?,Dynamic binding between objects,Bytecode is executed by JVM,The applet makes the Java code secure and portable,Use of exception handling,1,"The output of the Java compiler is bytecode, which leads to the security and portability of the Java code. It is a highly developed set of instructions that are designed to be executed by the Java runtime system known as Java Virtual Machine (JVM). The Java programs executed by the JVM that makes the code portable and secure. Because JVM prevents the code from generating its side effects. The Java code is portable, as the same byte code can run on any platform."
+,.......... Order is the best possible for array sorting algorithm which sorts n item.,O(n log n),O(n2),O(n + log n),O(log n),2,
+,.... Is the method used by card sorter?,Insertion sort,Heap sort,Quick sort,Radix sort,3,
+,Tree[1]=null indicates tree is........,Overflow,Underflow,Empty,Full,2,
+,Swap area is a part of ?,HDD,Main memory,Combination of HDD and Main memory,NOTA,0,
+,"Consider the following action: 
+Transaction….. 
+Commit; 
+Rollback; 
+What does Rollback do",Undoes the transactions before commit,Clears all transactions,Redoes the transactions before commit,No action,3,Already commit done so nothing will be rolled back
+,"import java.util.*;
+class properties
+{
+public static void main(String args[])
+{
+Properties obj = new Properties();
+obj.put(""AB"", new Integer(3));
+obj.put(""BC"", new Integer(2));
+obj.put(""CD"", new Integer(8));
+System.out.print(obj.keySet());
+}
+}
+
+What is the output of this program?","{AB, BC, CD}","[AB, BC, CD]","[3, 2, 8]","{3, 2, 8}",1,None
+,The SQL query for calculating the cube of 4 is,"SELECT POWER(4, 3) FROM dual ;","SELECT Cube (4, 3) ;","SELECT Cube (3, 4) ;","SELECT POWER(3, 4) ;",0,
+,"if(""string"".trim()==""string"") 
+System.out.println(""Equal""); 
+else 
+System.out.println(""Not Equal"");","the code will compile and print ""Equal""","the code will compile and print ""Not Equal""",the code will cause compiler error,none,0,
+,"Which of the following are parts of the .NET Framework?
+
+1.The Common Language Runtime (CLR)
+2.The Framework Class Libraries (FCL)
+3.Microsoft Published Web Services
+4.Applications deployed on IIS
+5.Mobile Applications",Only 1,2 and 3,1 and 2,None of the above,2,No Explanation

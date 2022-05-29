@@ -1,0 +1,72 @@
+No,Question,Option 0,Option 1,Option 2,Option 3,Answer,Code
+18,18. Which of the following cpu schedulling algorithms will prevented stravation?,shortest-job-first,priority schedulling algorithm,priority schedulling will againg mechanism,None of the above,2,
+19,"19. The first-fit,best-fit,worst-fit algorithm can be used for",Contiguous memory allocation,Linked memory allocation,Indexed memory allocation,All of the above,0,
+20,"20. A file system uses the contiguous space allocation mechanism for disk allocation .For better utilization of disk space ,this file system must use",A garbage collection mechanism,A disk compaction mechanism,A linked-block allocation mechanism,An indexed-block allocation mechanism,3,
+21,"21. What is the output of following program segments?
+n=""ask me""
+echo $n
+echo ""$n""
+echo `$n`","ask me
+ask me
+$n","ask me
+$n
+ask me",ask me,$n,0,
+22,"22. The command cut -f 2,8 -d"":"" file1 would output",the fields 2 to 8 from file1 where deliminator between fields is :,the fields 2 to 8 from file1 including the deliminator : between fields,the columns 2 to 8 from file1 with : between each column,None of the above,0,
+23,"23. i=4 z=12
+[$i=5 -a $z - gt5]
+echo $?",1,0,error,None of the above,0,
+24,24. When fork() is given,It creats a child process,Allocate slot in process table,returns 0 to parent & ID to child,All of the above,3,
+25,"25. How would you perform the following operations on the contents of a given file.
+insert a> and a space at the start of every line in the file","1,$s/^/>[][]/g","1,$s/>[][]/g","1,$s/^/>[]/g",None of the above,0,
+26,26. To list hidden as well as normal files in thr current directory the command you would use is--,ls -a,ls -b,ls -l,None of the above,0,
+27,"27. Which four options describe the correct default values for array elements of the types indicated?
+1. int -> 0 
+2. String -> ""null"" 
+3. Dog -> null 
+4. char -> '\u0000' 
+5. float -> 0.0f 
+6. boolean -> true","1, 2, 3, 4","1, 3, 4, 5","2, 4, 5, 6","3, 4, 5, 6",1,
+28,"28. Which three are legal array declarations?
+1. int [] myScores []; 
+2. char [] myChars; 
+3. int [6] myScores; 
+4. Dog myDogs []; 
+5. Dog myDogs [7];","1, 2, 4","2, 4, 5","2, 3, 4",All are correct,0,
+29,29. Which one is a valid declaration of a boolean?,boolean b1 = 0;,boolean b3 = false;,boolean b2 = 'false';,boolean b5 = no;,1,
+30,"30. What is the prototype of the default constructor?
+public class Test { }",Test( ),Test(void),public Test( ),public Test(void),2,
+31,31. You want a class to have access to members of another class in the same package. Which is the most restrictive access that accomplishes this objective?,public,private,protected,default access,3,
+32,"32. Given a method in a protected class, what access modifier do you use to restrict access to that method to only the other members of the same class?",final,static,private,protected,2,
+33,33. Which is a valid declaration within an interface?,"public static short stop = 23; 
+",protected short stop = 23;,transient short stop = 23;,final void madness(short stop);,0,
+34,"34. switch(x) 
+{ 
+default: 
+System.out.println(""Hello""); 
+}
+Which two are acceptable types for x?
+1.byte 2.long 3.char 4.float 5.Short 6.Long",1 and 3,2 and 4,3 and 5,4 and 6,0,
+35,35. All methods and variables in Java language are kept inside a?,File,Class or Interface,static method,main,1,
+36,"36. What is the use of Access modifier ""pubic"" in Java language?",To hide the main method from misuse,"To call the main method outside of Class or Package by JVM 
+","To protect main method 
+","None of the above 
+",1,
+37,37. What is a Primitive Data Type in Java?,"Data type, which is implemented in an Object-oriented way. 
+","Data Type which is implemented in a machine-dependent way 
+","Data Type which is implemented in a non-object oriented way. 
+",None of the above,2,
+38,38. What is Literal in Java?,"Literal is the value that is given or assigned to a variable.
+","Literal is a data type 
+",Literal is similar to String,"None of the above
+",0,
+39,39. Binary literals in Java are introduced with which version of Java?,"Loss of data 
+","Addition of data 
+","Corruption of data 
+","None of the above
+",0,
+40,"40. What is the output of the Java code snippet? 
+byte b = 25; 
+b++; 
+b = b+1; 
+System.out.println(b);",25,26,27,"Compiler error 
+",3,

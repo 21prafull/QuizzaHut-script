@@ -1,0 +1,57 @@
+n,Q,0,1,2,3,a,
+,"1. A bean with a property color is loaded using the following statement < jsp:usebean id=""fruit"" class=""Fruit""/ > Which of the following statements may be used to set the of color property of the bean.","< jsp:setColor id=""fruit"" property=""color"" value=""white""/ >","< jsp:setProperty name=""fruit"" property=""color"" value=""white"" >","< jsp:setProperty id=""fruit"" property=""color"" value=""white"" >","< jsp:setProperty name=""fruit"" property=""color"" value=""white""/ >",3,
+,2. Which of the following exceptions are thrown if a bean instance makes a prohibited method call to its session context,java. lang. IllegalStateException,java.rmi.RemoteException,javax.ejb.illegalMethodCall,avax. ejb.NoSuchMethodException,1,
+,"3. If you want to override a JSP files initialization method, within what type of tags must you declare the method",<@ @>,<%@ %>,<% %>,<%! %>,3,
+,"4. . Once a JDBC driver has been registered, what method is used to make the database connection?","getConnection(String url, String userID, String password)","setConnection(String url, String userID, String password)","Connect(String url, String userID, String password)",All the above,0,
+,5. Which of the following statements are correct about the status of the Http response.,A status of 200 to 299 signifies that the request file has moved,A status of 300 to 399 is informational messages.,A status of 400 to 499 indicates an error in the client.,A status of 500 to 599 signifies that the request was successful.,2,
+,6. Which of the following correctly represents the following JSP statement. < %=x% >,< jsp:expression=x/ >,< jsp:expression >x< /jsp:expression >,< jsp:statement >x< /jsp:statement >,< jsp:scriptlet >x< /jsp:scriptlet >,1,
+,"7. Select statements, which are valid for Session",Session variables are maintained on Server.,Session variables can store objects,Same Session State is valid for Jsp also.,Session gets destroyed when connection breaks.,3,
+,8. Which of the following is not an advantage of Hibernate Criteria API?,Allows to use aggregate functions,Cannot order the result set,Allows to fetch only selected columns of result,Can add conditions while fetching results,1,
+,"9. . < %@ page language=""java"" % > < % int x=0; while(x<=10) { % > out.println(%=x++%); < %}% > The output of the above JSP file is",prints 1 to 10,prints 1 to 9,Goes into infinite loop,prints 10 times out.println(%=x++% >,2,
+,10. Which of the following represents a correct syntax for usebean,"< jsp:usebean id=""fruit scope =""page""/ >","< jsp:usebean id=""fruit class=""Fruit"" beanName=""Fruit""/ >","< jsp:usebean id=""fruit type =""String"" beanName=""Fruit""/ >",All of the Above.,2,
+,11. What is Dependency Injection?,It is a design pattern which implements Inversion of Control for software applications.,It is one of the spring module.,It is a technique to get dependencies of any project.,It is used to promote tight coupling in code.,0,
+,12. The class which encapsulates traditional jdbc code is,DataTemplate,JdbcTemplate,SqlTemplate,None ,1,11
+,13. Where do you define DispatcherServlet?,Web-inf/ dispatcher.xml,Meta-inf/dispatcher.xm,Web.xml file,In Beans configuration file.,2,
+,"14. If a bean can be created any number of times, scope is",session,global-session,prototype,request,2,
+,15. AOP is part of Core Container in the Spring Framework?,TRUE,FALSE,0,0,1,
+,16. What are the different types of Bean injection?,constructor and setter,constructor and getter,getter and setter,"setter, getter and constructor",0,
+,17. Controller in Spring is a(n)_______________?,abstract class,concrete class,final class,interface,3,
+,18. Which exception class is bound to all the exceptions thrown in Spring applications?,ArrayIndexOutofBound,DataAccessException,NullPointerException,SpringException,1,
+,19. Accessing a third-party REST service inside a Spring application.,View,ViewResolver,RestTemplate Class,InternalViewResolver,2,
+,20. All REST service payloads rely on XML markup.,TRUE,FALSE,0,0,1,
+,"21. _______ exception indicates to the web container
+that the servlet is either temporarily or permanently
+unavailable",ServletException,IllegalArguementException,UnavailableException,ServletContextException,2,
+,"22. What is the effect of compiling and executing the
+following code?",The response is the text’9 8 7 6 5’,The response is the text ‘0 1 2 3 4 ‘,The response is the text ‘1 2 3 4 5 ‘,The response is empty.,1,
+,"23. Controller components in struts are java classes and
+must be built using specific rules. They are usually
+referred as:",Actions,Action,Action classes,Action controller,2,
+,"24. Which statement is true regarding action class of
+struts?",An action class can not acts as wrapper class,An action class extends struts “org.apache.struts.action.Action” class,"Action class can not transfer data from view
+layer to process layer",None of the above,1,
+,"25. Using include directive, the file is included at ---------------------------- time.",Translation time,Compile time,Run time,Request time.,0,
+,"26. In JDBC API, the method to create the connection instance is",DriverManager.createConnection(...),DriverManager.getConnection(....),Class.forName(...),DriverManager.registerDriver(.....),0,
+,"27. In servlets , the interface required for reading initialization parameters is",ServletConfig,ServletContext,ServletRequest,GenericServlet,1,
+,28. Which form of the JSP element is used to insert the content generated by other resources at the run-time?,Include Directive,Forward Action,Scripting Elements,Include Action,3,
+,29. A web application is located in a directory named 'school'. Its deployment descriptor will be located in which of the following?,school,school/WEB-INF,school/META-INF,school/WEB,1,
+,30. Which of the following should NOT be used to share data between servlets/JSPs for a single client?,Attributes of ServletContext,Attributes of Session,Attributes of the pageContext,None of the above,0,
+,"31. Group id to add spring security using Maven. <dependency> 
+<groupId></groupId> 
+<artifactId>spring-security-core</artifactId> 
+<version>3.0.2.RELEASE</version> 
+</dependency> 
+",org.springframework.securedflow,org.springframework.security,org.springframework.secure,none of the mentioned,1,
+,32. Element used to specify access attributes for bean’s methods.,security:protect,security:intercept,security:intercept-security,none of the mentioned,0,
+,"33. One of the following is responsible for responding to user input and perform interactions on the data 
+model objects.",model,view,controller,none of them,2,
+,"34. If you want to override a JSP file's initialization method, within what type of tags must you declare 
+the method",<@ @>,<%@ %>,<% %>,<%! %>,3,
+,35. What is the initial contact point for handling a web request in a Page-Centric architecture?,A JSP page,JavaBean,servlet,session manager,0,
+,"36. The implicit JSP objects like request, response, and out are only visible in the _jspService() method",TRUE,FALSE,0,0,0,
+,"37. Given 
+<jsp:useBean id=”a1” scope=”request” class=”mypack.Customer”/> What 
+is the syntax to read Customer object?",${requestScope.a1},<%=request.getAttribute(“a1”)%>,${a1},all the above,3,
+,38. Which of the following is not an advantage of using Hibernate Query Language?,Database independent,Easy to write query,No need to learn SQL,Difficult to implement,3,
+,39. PreCompiled SQL statements are stored in,None of these,CallableStatement,Statement,PreparedStatement,3,
+,"40. Name the most suitable execution method in JDBC , for firing DML queries",executeQuery(),executeUpdate(),executeQueue(),executeDynamicQuery(),1,

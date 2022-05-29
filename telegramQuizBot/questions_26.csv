@@ -1,0 +1,44 @@
+n,Q,0,1,2,3,a
+,1. What is the output of the code public class B : A { }?,Errors,It defines a class that inherits the public methods of A only,It defines a class that inherits all the methods of A but the private members cannot be accessed,both b and c,2
+,2. Sealed Classes cannot be a base class,TRUE,FALSE,0,0,0
+,3. int keyword targets to which .Net type?,System.Int8,System.Int16,System.Int32,System.Int64,2
+,4. Boxing in .Net allows the user to convert?,a integer type to double,a reference type to a value type,a value type to a reference type,a double type to integer,2
+,5. The RangeValidator control supports the following data types?,Integer only,"Date, Integer and String",only string,Date and Integer,1
+,6. How to kill a user session explicitly?,Session.Close(),Session.Discard(),Session.kill(),Session.Abandon(),3
+,7. Which of the following is incorrect about System.Text.StringBuilder and System.String?,StringBuilder is more efficient when there is a large amount of string manipulation,"Strings are immutable, so each time a string is changed, a new instance in memory is created",Strings are mutable in .Net,None of the abouve,2
+,8. The first event triggers in an aspx page is?,Page_Init(),Page_Load(),Page_click(),all of the above,0
+,9. What class does the ASP.NET Web Form class inherit from by default?,System.Web.UI.Page,System.Web.UI.Form,System.Web.GUI.Page,System.Web.Form,0
+,10. Which of the following control is used to validate that two fields are equal?,RegularExpressionValidator,CompareValidator,"equals() method 
+",RequiredFieldValidator,1
+,11. _______ element in the web.config file is used to run code using the permissions of a specific user,< credential> element,< authentication> element,< authorization> element,< identity> element,3
+,12. Which of the following object encapsulates the state of the client and the browser?,Server object,Request object,Response object,Session object,3
+,13. ________ method(s) are used with Application object to ensure only one process accesses a variable at a time.,Synchronize,ThreadLock,"Sychronize() 
+",Lock() and UnLock(),3
+,"14. Difference between Response.Write() andResponse.Output.Write(). 
+",Response.Output.Write() allows you to buffer output,Response.Output.Write() allows you to write formatted output,Response.Output.Write() allows you to flush output,Response.Output.Write() allows you to stream output,1
+,15. _______is an extension of ASP.net page file.,.WebForm,.asp,.asax,.aspx,3
+,16. Multiple directives can be used in a single .aspx page,TRUE,FALSE,0,0,0
+,17. Which of the following denote page code model in ASP.NET?,Single-File,Code-behind,Both a and b,None of the above,2
+,18. An array list can bound to dropdown list,TRUE,FALSE,0,0,0
+,19. The GridView control in ASP.NET has which of the following features,Automatic data binding,Automatic paging,Both a and b,None of the above,2
+,20. Common type system is built into which of the following:,CLR,RCT,RCW,GAC,0
+,21. Which of the following selects an anonymous type?,"select new { a.Country, a.Region }",select a,"select a.Country, a.Region","select { a.Country, a.Region }",0
+,22. Which statement describes a Dispose method?,It defines an execution environment for program code and manages the CLR,"It is partially method-compiled code library for use in deployment, versioning, and security.","It belongs to IDisposable interface and used to free resources, such as network connection &files",It is used for encapsulation of collections tied to functions of a class and object.,2
+,23. What is the difference between System.String and string?,"string is used for fied-size strings in C#, while System.String is used for all the strings.",There is no such class as System.String.,There is none—string is an alias for System. String.,"System.String is a VB.NET data type, while string is a C# type.",2
+,24. What is the namespace for caching information in .NET?,System.Data.Caching;,All.System.Caching;,System.Runtime.Caching;,System.Compiler.Caching;,2
+,25. When you create a relationship between tables in ADO.NET DataSet,A UniqueConstraint is added to the parent table,A ForeignKeyConstraint is added to the child table by default,Both a and b,None,2
+,26. Which database is the ADO.NET SqlConnection object designed for?,Access,Microsoft SQL Server,MySQL,Oracle,1
+,"27. To check the status of the connection, ____ property is useful",ConnectionStatus,State,ConnectionState,Status,1
+,28. Default Session data is stored in ASP.Net.,StateServer,Session Object,InProcess,All of the above,2
+,29. Web.config file is used,Configures the time that the server-side codebehind module is called,To store the global information and variable definitions for the application,To configure the web server,To configure the web browser,1
+,30. In asp.net application dll files are stored in which folder mcq?,Bin,App_Data,App_Code,App_LocalResources,0
+,"31. Which is the first event of the asp.net page, when the user requests a web page?",Init,Load,PreInit,PreLoad,2
+,32. Which method is used to dynamically register client script from code?,RegisterScript,Page.ClientScript,Page.ClientScript.RegisterClientScriptBlock,None of the above,2
+,33. A web application can contain ........,No file,Only One Web.Config File,Only Two Web.Config File,More than one Web.config file,3
+,34. Asp.net is written in .................... language.,C#,F#,Visual Basic,All of the above,3
+,35. How do you register a user control?,"Add Source, Tag prefix","Add Tag prefix, Tag name","Add Src, Tagprefix, Tagname",None of the above,2
+,36. Which of the following is true in asp.net?,Custom controls are displayed correctly in VS.Net Designer,User controls are displayed correctly in the Visual Studio .NET Designer,User and Custom controls are displayed correctly in the Visual Studio .NET Designer.,None of the above,0
+,37. Which is the file extension used for an asp.net file?,.jpeg,.aspx,.docx,None of the above,1
+,38. What class does the ASP.NET Web Form class inherit from by default?,System.Web.UI.Form,System.Web.UI.Page,System.Web.GUI.Page,System.Web.Form,1
+,39. __________________ is a special subfolder within the windows folder that stores the shared .NET component.,/bin,GAC,Root,None of the above,1
+,40. The .NET Framework provides a runtime environment called..... ?,RMT,CLR,RCT,RC,1

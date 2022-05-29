@@ -1,0 +1,54 @@
+n,Q,0,1,2,3,a,
+1,1. The SRS document is also known as _____________ specification.,black-box,white-box,grey-box,none of the mentioned,0,
+2,2. Consider the following Statement: “The product should have a good human interface.”What characteristic of SRS is being depicted here ?,Consistent,Non-Verifiable,Correct,Ambiguous,1,
+3,3. _____________&_____________ are two kinds of software products.,"CAD, CAM","Firmware, Embedded","Generic, Customised",None of the mentioned,2,
+4,4. Which of the following activities of a Generic Process framework provides a feedback report?,Communication,Planning,Modeling & Construction,Deployment,3,
+5,5. Which one of the following is not a step of requirement engineering?,elicitation,design,analysis,documentation,1,
+6,6. Which is the first step in the software development life cycle ?,Analysis,Design,Problem/Opportunity Identification,Documentation and Development,2,
+7,7. Coupling is a qualitative indication of the degree to which a module,can be written more compactly,focuses on just one thing,is able to complete its function in a timely manner,is connected to other modules and the outside world,3,
+8,8. Cohesion is a qualitative indication of the degree to which a module,can be written more compactly,focuses on just one thing,is able to complete its function in a timely manner,is connected to other modules and the outside world,1,
+9,9. According to Agile manifesto -,Individuals and interactions over people and technique,Individuals and interactions over projects and tools,Individuals and interactions over processes and tools.,Individuals and interactions over products and tools,2,
+10,10. Which diagram in UML shows a complete or partial view of the structure of a modeled system at a specific time?,Sequence Diagram,Collaboration Diagram,Class Diagram,Object Diagram,3,
+11,11. According to Agile manifesto -,Sequence Diagram + Collaboration Diagram,Activity Diagram + State Chart Diagram,Deployment Diagram + Collaboration Diagram,None of the mentioned,1,
+12,12. How you manage Docker images?,Docker Hub,Docker Registry,Docker Swarm,Both A & B,3,
+13,"13. A ___ is computer software, firmware or hardware that creates and runs virtual machines.",hypervisor,Version control,Virtualization,hub,0,
+14,14. Which one of the following command should you run to see all running container in Docker?,$ docker ps,$ docker all,$ docker sp,All of the above,0,
+15,15. What is Docker Hub?,a service provided by Docker for finding and sharing container images with your team,centralised tool,platform,All of the above,0,
+16,16. What is Docker Swarm?,a container orchestration tool,read only template,centralisation platform,None of the above,0,
+17,17. Which of the following is not a part of Software evolution?,Re-engineering activities,Maintenance activities,Development activities,Negotiating with client,3,
+18,"18. As soon a service starts, .......... daemon running on each node add a set of environment variables on the pod for each active service.",Kubectl,Kubelet,Kubeadm,Service discovery,1,
+19,19. Which one of the following can be considered as the most complete cloud computing service model?,PaaS,Iaas,Caas,Saas,3,
+20,20. The Infrastructure as a service (IaaS) provides a type of isolated environment to each customer individually by using_____.,renting,virtual machine sprawl,security vulnerabilities,hypervisor,3,
+21,21. When would developers use microservices?,When they want to write cell phone applications that run quickly,"When they work with ephemeral nano technology 
+","To create large, enterprise-level applications that are subject to changes on a frequent basis
+","When they create applications specifically for scientific test equipment 
+",2,
+22,"22. Which of these descriptions best explains what an API gateway does? 
+","An API gateway uses HTTP requests to GET, PUT, POST and DELETE data.","It is used when the owner of a network-accessible service gives universal access to its consumers.
+","It sits in front of an API & acts as a single point of entry for a defined group of microservices.
+","All of the above 
+",2,
+23,"23. Which of the following is the deployment model? 
+",Public,Private,Hybrid,All of the above,3,
+24,24. Define Agile scrum methodology.,project management that emphasizes incremental progress,project management that emphasizes decremental progress,project management that emphasizes neutral progress,project management that emphasizes no progress,0,
+25,25. What are the features of Software Code?,Simplicity,Accessibility,Modularity,All of the above,2,
+26,26. File Fingerprinting is used for,Manage job security,Manage Jenkins backup,Manage job dependencies,All of the options,2,
+27,27. Jenkins can be configured to check for changes on a URL to trigger build,TRUE,FALSE,0,0,0,
+28,28. Command line environment is used for interacting with git,GitLab,GitHub,Git Boot,Git Bash,3,
+29,29. Which of the following file you can configure to ensure that certain file types are never committed to the local Git repository?,.gitignore,gitignore.txt,git.ignore,ignore.git,0,
+30,"30. Arrange following scrum practices according to the order in which they are carried out. 
+1. Sprint planning 
+2. Daily scrum meet 
+3. Sprint retrospective meet 
+4. Sprint review meet 
+5. Sprint","1,5,2,3,4","1,5,2,4,3","1,2,5,4,3","1,3,2,4,5",1,
+31,31. Which skill are required by Agile tester?,Domain knowledge,Keen to learn and adopt new technology,Effective communicator who maintains good relationship with development team,All of the above,3,
+32,32. What is/are advantage/s of Agile testing?,requires less planning and creates less documentation,Regular feedback from end users,Solves issue in advance by daily meeting,All of the above,3,
+33,"33. Static testing, the product is tested by humans using just the source code and not the executables or binaries",TRUE,FALSE,0,0,0,
+34,34. Integration bugs occur when the interfaces are integrated in between the assumed tested components,TRUE,FALSE,0,0,0,
+35,35. Which of the following is not a valid phase of SDLC (Software Development Life Cycle)?,Testing Phase,Requirement Phase,Deployment phase,Testing closure,3,
+36,36. Which term is used to define testing?,Evaluating deliverable to find errors,Finding broken code,A stage of all projects,None of the above,0,
+37,37. Unreachable code would best be found using,code inspections,a static analysis tool,code reviews,a test management tool,2,
+38,38. Which of the following is not a static testing technique?,Inspections,Data flow analysis,Error guessing,Walkthrough,2,
+39,39. Which of the following is not part of performance testing?,simulating many users,measuring response times,generating many transactions,recovery testing,3,
+40,40. Identify the correct measure for correctness,Errors per KLOC,Defects per KLOC,$ per KLOC,None,1,
