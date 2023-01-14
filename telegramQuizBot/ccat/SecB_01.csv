@@ -1,0 +1,83 @@
+No.,question,option_1,option_2,option_3,option_4,correct_option
+1,1. Which one of the following is correct syntax of copy constructor?,const ClassName( ClassName &other ),ClassName const ( ClassName &other ),ClassName ( const ClassName &other ),ClassName ( ClassName & const other ),2
+2,2. Select the incorrect statement about static.,Size of object do not depend on size of static data member.,Static member function get this pointer.,We can call static member function on object.,"Using instance, we can access non static members inside static member function.",1
+3,3. Which one of the following keyword is allowed to use with destructor,virtual,const,volatile,static,0
+4,"4. Inside constant member function, if we want to modify state of non constant data member then we should use _______ keyword?",static,immutable,mutator,mutable,3
+5,5. If we want to generate new exception then we shuld use _______ keyword?,catch,throw,try,throws,1
+6,6. Manipulator is _________ which is used to format the output.,Function,object,Operator,Keyword,0
+7,"7. What is the output of following code
+ int num1 = 10;
+ namesapce A{
+  int num1 = 20;
+ }
+ int main( void ){
+  int num1 = 30;
+  using namespace A;
+  cout<<""num1 : ""<<num1<<endl;
+  return 0;
+ }",10,20,30,error,2
+8,"8. What is the output of following code
+ int num1 = 10;
+ namesapce A{
+  int num1 = 20;
+ }
+ int main( void ){
+  int num1 = 30;
+  using namespace A;
+  cout<<""num1 : ""<<num1<<endl;
+  return 0;
+ }",10,20,30,error,2
+9,9. Select correct syntax of template.,template< class T>,<template class T>,<template> class T,<template> class T,0
+10,"10. #include <iostream>
+ using namespace std;
+ class Program{
+  static int x; 
+ public:
+  static void Set(int xx){
+  x = xx; 
+  }
+  void Display() {
+  cout<< x ;
+  }
+ };
+ int Program::x = 0; 
+ int main()
+ {
+  Program::Set(33);
+  Program::Display();
+  return 0; 
+ }",The program will report compile time error.,The program will print the output Garbage,The program will print the output 33.,The program will print the output 0.,0
+11,11. Data structures is a _____.,software,programming language,programming concept,all of the above,2
+12,12. Which of the following notation is used to represent asymptotic tight bound?,Big Oh (O),Big Omega (Ω)),Big Theta (θ)),Both 1 and 3,2
+13,13. If the given array is sorted which sorting algorithm uses minimum time?,Merge Sort,Quick Sort,Selection,Insertion,3
+14,14. Which of the following data structure is used to implement depth first traversal algorithm?,Array,Linked List,Stack,Queue,2
+15,15. What is the condition to check stack is full or not in a dynamic stack?,top == SIZE,top == SIZE-1,top == NULL,None of the above,3
+16,16. Convert given infix expression into its equivalent postfix expression: Infix expression is: (A*B)*(C/D)+E*F-G*H,AB*CD/EF**+GH*-,AB*CD/*EF*+GH*-,ABCD*/*EF*+GH*-,AB*CD/*EF*GH+*-,1
+17,17. What is time complexity of addition and deletion operations on an array?,O(1),O(n),O(log n),none of the above,1
+18,18. On success malloc() function returns ________ and on failure it returns _______,"true, false","starting addr of dynamically allocated block from heap section, -1","starting addr of dynamically allocated block from heap section, NULL",None of the above,1
+19,19. On an array data structure searching operation can be performed efficiently in _____ time.,O(1),O(log n),O(n log n),none of the above,1
+20,20. Binary Search algorithm is also called as:,Logarithmic Search,Half-interval Search,Exponential Search,Both options 1 and 2),3
+21,21. Which of the following is a system program?,compiler,loader,assembler,all of the above,1
+22,22. Output of the linker is ___________.,an object code,an executable code,an intermediate code,an assembly language code,1
+23,23. Which of the following program provides graphical user interface in Windows Operating System?,cmd.exe,explorer.exe,command.com,none of the above,1
+24,"24. In user mode, value of mode bit is ____.",0,-1,1,none of the above,2
+25,25. _______ copies an execution context of a process which is scheduled by the scheduler from its PCB and restores it onto the CPU registers.,Loader,Interrupt Handler,Job Scheduler,Dispatcher,3
+26,26. In which of the following page replacement algorithm page will not get used in near future will be replaced by requested page?,LRU Page Replacement Algorithm,FIFO Page Replacement Algorithm,Optimal Page Replacement Algorithm,MFU Page Replacement Algorithm,2
+27,27. Ageing technique is used in which scheduling algorithm?,Round Robin,Priority,SRTF,all of the above,1
+28,28. Which is the fastest IPC technnique?,Shared Memory Model,Socket,Pipe Communication,Message queue,0
+29,29. OSI Model has ______________layers.,5,6,7,8,2
+30,30. 172.31.25.151 is an example of_______________ IP Address.,public,private,class A,class B,1
+31,31. Which of the following language does the computer understand?,Computer understands only C Language,Computer understands only Assembly Language,Computer understands only Binary Language,Computer understands only BASIC,2
+32,32. Which of the following is the smallest unit of data in a computer?,Bit,Byte,Nibble,KB,0
+33,33. Which of the following is designed to control the operations of a computer?,User,Application Software,System Software,Utility Software,2
+34,34. Which of the following devices provides the communication between a computer and the outer world?,Compact,I/O,Drivers,Storage,1
+35,35. Which of the following statement is false about DLLL?Which of the following statement is false about DLLL?,"This type of linked list can be traverse in forward as well backward
+ direction",Element can be added into this list at last position in O(1) time,Element can be deleted from this list which is first position takes O(1) time.,Previous node of any node can be accessed.,1
+36,36. Which of the following cannot be checked in a switch-case statement?,Character,Integer,Float,enum,2
+37,"37. Is the following statement a declaration or definition?
+
+ extern int i;",Declaration,Definition,Function,Error,0
+38,"38. Which header file should be included to 
+ use functions like malloc() and calloc()?",memory.h,stdlib.h,string.h,stdio.h,1
+39,39. Which of the following is not logical operator?,&,&&,||,!,0
+40,40. What is (void*)0?,Representation of NULL pointer,Representation of void pointer,Error,None of above,0

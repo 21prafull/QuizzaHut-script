@@ -1,0 +1,176 @@
+No.,question,option_1,option_2,option_3,option_4,correct_option,code
+,"9. What will be output of followingg code
+",130,60 70,Compilation error,None of the above,2,"class Test 
+{ 
+public static void main(String[] args) 
+{ 
+byte b1=60; 
+byte b2=70; 
+byte b=b1+b2; 
+System.out.println(b); 
+} 
+}"
+1,1. What does the following code print?,CD,CDE,D,abcde,3,"""String str = """"abcde"""";
+str.trim();
+str.toUpperCase();
+str.substring(3, 4);
+System.out.println(str); """
+2,2. What will be output of following code?,1,2,0,Compile error,1,"class MarathiCoders
+{
+int i;
+void display() 
+{
+System.out.println(i);
+}
+} 
+class Coders extends MarathiCoders 
+{
+int j;
+void display() 
+{
+System.out.println(j);
+}
+} 
+class inheritance_demo 
+{
+public static void main(String args[])
+{
+MarathiCoders m = new Coders();
+m.i=1;
+m.j=2; 
+m.display(); 
+}
+}"
+3,3. What will be output of following code?,1 2,2 3,1 3,Compilation error,3,"class MarathiCoders
+{
+public int i;
+private int j;
+} 
+class Coders extends MarathiCoders
+{
+void display() 
+{
+super.j = super.i + 1;
+System.out.println(super.i + "" "" + super.j);
+}
+} 
+class inheritance 
+{
+public static void main(String args[])
+{
+MarathiCoders obj = new Coders();
+obj.i=1;
+obj.j=2; 
+obj.display(); 
+}
+}"
+4,4. What will be the output of the following Java code snippet?,"Test - 10
+Test - 10",Test – 10,Runtime Exception,Compilation Failure,1,"public class Test 
+{
+public static void main(String[] args) 
+{
+Set s = new HashSet();
+s.add(new Long(10));
+s.add(new Integer(10));
+for(Object object : s)
+{
+System.out.println(""test - ""+object);
+}
+}
+}"
+5,5. What will be the output of the following Java program?,"[A, B, C, D]","[A, D, B, C]","[A, D, C]","[A, B, C]",1,"import java.util.*;
+class Arraylist 
+{
+public static void main(String args[]) 
+{
+ArrayList obj = new ArrayList();
+obj.add(""A"");
+obj.add(""B"");
+obj.add(""C"");
+obj.add(1, ""D"");
+System.out.println(obj);
+}
+}"
+6,6. What will be the output of the following Java program?,Hello,World,HelloWorld,Hello World,1,"class exception_handling 
+{
+public static void main(String args[]) 
+{
+try 
+{
+System.out.print(""Hello"" + "" "" + 1 / 0);
+}
+catch(ArithmeticException e) 
+{
+System.out.print(""World""); 
+}
+}
+}"
+7,"7. What will be output of followingg code
+",15,16,17,Compilation Error,1,"class MarathiCoders
+{ 
+public static void main(String[] args) 
+{ 
+int a=5; 
+System.out.println((--a+--a)*(++a-a--)+(--a+a--)*(++a+a++)); 
+} 
+}
+"
+8,"8. What will be output of followingg code
+",'A' 'A ','A' 65,65 65,Compilation Error,3,"class MarathiCoders 
+{ 
+public static void main(String[] args) 
+{ 
+char c='A'; 
+short s=c; 
+System.out.println(c+"" ""+s); 
+} 
+}"
+9,"9. What will be output of followingg code
+",130,60 70,Compilation error,None of the above,2,"class Test 
+{ 
+public static void main(String[] args) 
+{ 
+byte b1=60; 
+byte b2=70; 
+byte b=b1+b2; 
+System.out.println(b); 
+} 
+}"
+10,"10. What will be output of followingg code
+",Three Parameterized Constructor,Parameterless Constructor First,"Three Parameterized Constructor
+Double Parameterized Constructor 
+Single Parameterized Constructor
+Parameterless Constructor First",No output,2,"class MarathiCoders
+{
+public static void main(String args[])
+{
+Coders c = new Coders (30,20,10);
+}
+}
+
+class Coders 
+{
+Coders ()
+{
+System.out.println(""Parameterless Constructor First"");
+}
+Coders (int c)
+{
+this ();
+System.out.println(""Single Parameterized Constructor"");
+}
+Coders (int b,int c)
+{
+this (c);
+System.out.println(""Double Parameterized Constructor"");
+}
+Coders (int a, int b, int c)
+{
+this (b,c);
+System.out.println(""Three Parameterized Constructor"");
+}
+}"
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,

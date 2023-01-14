@@ -1,0 +1,99 @@
+No.,question,option_1,option_2,option_3,option_4,correct_option,
+1,1. By default a real number is treated as a,float,double,int,unsigned int,1,
+2,2. The keyword used to transfer control from a function back to the calling function is,goto,continue,return,break,2,
+3,3. Bit fields CANNOT be used in union.,TRUE,FALSE,0,0,1,
+4,4. In the expression a=b=5 the order of Assignment is NOT decided by Associativity of operators,TRUE,FALSE,0,0,1,
+5,5. A preprocessor directive is a message from programmer to the preprocessor.,TRUE,FALSE,,,1,
+6,6. How will you free the allocated memory ?,remove(var-name);,delete(var-name);,free(var-name);,dalloc(var-name);,2,
+7,7. malloc() allocates memory from the heap and not from the stack.,TRUE,FALSE,0,0,0,
+8,8. what is the size of enum ?,1byte,2byte,4byte,8byte,2,
+9,9. continue keyword only allowed in loops,TRUE,FALSE,0,0,0,
+10,"10. ""#include <stdio.h>
+#define max(a, b) (a > b) ? a : b
+
+int main()
+{
+int x = 3, y = 4, z;
+z = max(++x, y++);
+printf(""""%d, %d, %d"""", x, y, z);
+return 0;
+}""","4,5,6","4,6,5","3,4,4","3,3,4",1,
+11,"11. #include <stdio.h>
+int main()
+{
+int a = -10, b = 3, c = 0, d;
+d = a++ || ++b && c++;
+printf(""%d, %d, %d, %d,"", a, b, c, d);
+a = -10, b = 3, c = 0;
+d = c++ && ++b || a++;
+printf(""%d, %d, %d, %d"", a, b, c, d);
+return 0;
+}","-9,3,0,1,-9,3,0,1","-9,3,0,0,-9,3,1,1","-9,3,1,1,-9,3,1,1","-9,3,0,1,-9,3,1,1",3,
+12,"12. #include <stdio.h> 
+
+int main() 
+{ 
+int a = 10; 
+int b = 2; 
+int c; 
+
+c = (a & b); 
+printf(""c= %d"", c); 
+
+return 0; 
+}",10,1,0,2,3,
+13,"13. #include <stdio.h> 
+int main(void) 
+{ 
+int x = 4, y = 4, z = 4; 
+if (x == y == z) { 
+printf(""CDAC""); 
+} else { 
+printf(""PREP""); 
+} 
+return 0; 
+}",CDAC,PREP,RUNTIME ERROR,BLANK,1,
+14,14. associativity of ((a>b)?c:d) is from,left to right,right to left,depends,,1,
+15,15. while loop is also known as ?,exit control loop,entry control loop,both 1 and 2,neither 1 nor 2,1,
+16,16. Which of the following type of class allows only one object of it to be created?,Virtual class,Abstract class,Singleton class,Friend class,2,
+17,17. Which of the following is not a type of constructor?,copy constructor,friend constructor,default constructor,parameterized constructor,1,
+18,18. Which of the following statements is correct?,Base class pointer cannot point to derived class.,Derived class pointer cannot point to base class.,Pointer to derived class cannot be created.,Pointer to base class cannot be created.,1,
+19,19. Which of the following is not the member of class?,Static function,Friend function,Const function,Virtual function,1,
+20,20. Which of the following term is used for a function defined inside a class?,Member Variable,Member funciton,Class function,Classic function,1,
+21,21. Which of the following concept of oops allows compiler to insert arguments in a function call if it is not specified?,Call by value,Call by reference,Default arguments,Call by pointer,2,
+22,22. How many instances of an abstract class can be created?,1,5,13,0,3,
+23,23. Which of the following cannot be friend?,Function,Class,Object,Operator function,2,
+24,24. cout is a/an ?,Operator,Function,Object,Macro,2,
+25,"25. Binary search is commonly known as a --------------- or a ---------------. 
+",half-interval search,logarithmic search,Both of the Above,Fibonacci Search,2,
+26,"26. ---------- can be visualised when people in a queue wanting to be standing in 
+a height wise sorted manner swap their positions among themselves until everyone is standing based on 
+increasing order of heights.",Selection Sort,Bubble sort,Heap Sort,Merge Sort,1,
+27,"27. Pushing an element into stack already having five elements and stack size of 5, then stack becomes ___________",Overflow,Crash,Underflow,User flow,0,
+28,28. Entries in a stack are “ordered”. What is the meaning of this statement?,A collection of stacks is sortable,Stack entries may be compared with the ‘<‘ operation,The entries are stored in a linked list,The entries are stored in a linked list,3,
+29,29. What is the value of the postfix expression 6 3 2 4 + – *?,1,40,74,-18,3,
+30,30. What differentiates a circular linked list from a normal linked list?,You cannot have the ‘next’ pointer point to null in a circular linked list,It is faster to traverse the circular linked list,You may or may not have the ‘next’ pointer point to null in a circular linked list,"Head node is known in circular linked list
+",2,
+31,31. Which is the optimistic option for a circular queue,easy for computation,effective usage of memory,all of the mentioned,none of the mentioned,1,
+32,32. Circular queue is also known as,Standard Buffer,Cyclic Buffer,Ring Buffer,Radius Buffer,2,
+33,"33. Consider the following operation performed on a stack of size ""7"".
+Pop(); Push(2); Push(3); Pop(); 
+Push(4); Pop(); Pop(); Push(5);",1,2,3,4,0,
+34,34. What is the time complexity of searching for an element in a circular linked list?,0(n),0(1),0(n log n),0(n log (n-1)),0,
+35,35. What is an operating system?,interface between the hardware and application programs,collection of programs that manages hardware resources,system service provider to the application programs,all of the mentioned,3,
+36,"36. In Operating Systems, which of the following is/are CPU scheduling algorithms?",Priority,Round Robin,Shortest Job First,All of the mentioned,3,
+37,37. CPU scheduling is the basis of ___________,multiprogramming operating systems,larger memory sized systems,multiprocessor systems,none of the mentioned,0,
+38,38. Which one of the following is not true?,kernel remains in the memory during the entire computer session,kernel is made of various modules which can not be loaded in running operating system,kernel is the first part of the operating system to load into memory during booting,kernel is the program that constitutes the central core of the operating system,1,
+39,39. Which one of the following errors will be handle by the operating system?,lack of paper in printer,connection failure in the network,power failure,all of the mentioned,3,
+40,"40. If a process fails, most operating system write the error information to a ______",new file,another running process,log file,none of the mentioned,2,
+41,41. Which one of the following is not a real time operating system?,RTLinux,Palm OS,QNX,VxWorks,1,
+42,42. Whenever a process needs I/O to or from a disk it issues a ______________,system call to the operating system,a special procedure,system call to the CPU,all of the mentioned,0,
+43,43. Network operating system runs on ___________,every system in the network,server,both server and every system in the network,none of the mentioned,1,
+44,44. What are the types of distributed operating systems?,Zone based Operating system,Level based Operating system,Network Operating system,All of the mentioned,2,
+45,45. which of the following computer languageis used for artificial intelligence,FORTRAN,PROLOG,C,COBOL,1,
+46,46. Which protocol provides E-mail facility among different hosts,FTP,SMTP,TELNET,SNMP,1,
+47,47. Which of the following is not type of computer on the basis of operation?,Analog,"Digital
+",Hybrid,Remote,3,
+48,48. Which of the following can access the server,Web client,User,web browser,web server,0,
+49,49. which of following is not type of computer code ?,EDIC,ASCII,BCD,EBCDIC,0,
+50,50. Which of the following is designed to control the operation of computer,user,application software,system software,utility software,2,

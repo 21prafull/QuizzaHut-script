@@ -1,0 +1,21 @@
+No.,question,option_1,option_2,option_3,option_4,correct
+1,1. If the given array is sorted which sorting algorithm uses minimum time?,Merge Sort, Quick Sort,Selection ,Insertion,3
+2,2. Which of the following data structure is used to implement depth first traversal algorithm?,Array,Linked List,Stack,Queue,2
+3,3. What is the condition to check stack is full or not in a dynamic stack?,top == SIZE,top == SIZE-1,top == NULL,None of the above,3
+4,4. Convert given infix expression into its equivalent postfix expression: Infix expression is: (A*B)*(C/D)+E*F-G*H,AB*CD/EF**+GH*-,AB*CD/*EF*+GH*-,ABCD*/*EF*+GH*-,AB*CD/*EF*GH+*-,1
+5,5. What is time complexity of addition and deletion operations on an array?,O(1),O(n),O(log n),none of the above,1
+6,6. On an array data structure searching operation can be performed efficiently in _____ time.,O(1),O(log n),O(n log n),none of the above,1
+7,7. Binary Search algorithm is also called as:,Logarithmic Search,Half-interval Search,Exponential Search,Both options 1 and 2),3
+8,8. Which of the following is a system program?,compiler,loader,assembler,all of the above,1
+9,9. Output of the linker is ___________.,an object code,an executable code,an intermediate code,an assembly language code,1
+10,10. Which of the following program provides graphical user interface in Windows Operating System?,cmd.exe,explorer.exe,command.com,none of the above,1
+11,"11. In user mode, value of mode bit is ____.",0,-1,1,none of the above,2
+12,12. _______ copies an execution context of a process which is scheduled by the scheduler from its PCB and restores it onto the CPU registers.,Loader,Interrupt Handler,Job Scheduler,Dispatcher,3
+13,13. In which of the following page replacement algorithm page will not get used in near future will be replaced by requested page?,LRU Page Replacement Algorithm,FIFO Page Replacement Algorithm,Optimal Page Replacement Algorithm,MFU Page Replacement Algorithm,2
+14,14. Ageing technique is used in which scheduling algorithm?,Round Robin ,Priority ,SRTF,all of the above,1
+15,15. Which is the fastest IPC technnique?,Shared Memory Model,Socket,Pipe Communication,Message queue,0
+16,16. OSI Model has ______________layers.,5,6,7,8,2
+17,17. 172.31.25.151 is an example of_______________ IP Address.,public,private,class A,class B,1
+18,18. Which of the following language does the computer understand?, Computer understands only C Language, Computer understands only Assembly Language,Computer understands only Binary Language,Computer understands only BASIC,2
+19,19. Which of the following is the smallest unit of data in a computer?,Bit,Byte ,Nibble,KB,0
+20,20. Which of the following is designed to control the operations of a computer?,User,Application Software,System Software,Utility Software,2

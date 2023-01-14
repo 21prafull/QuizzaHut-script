@@ -23,7 +23,7 @@ chat_id = "-622742013"
 #Test interval in seconds
 interval = 5
 
-with open('questions_23.csv') as csv_file:
+with open('test_ccat.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line_count = 0
     for row in csv_reader:

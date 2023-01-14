@@ -1,6 +1,5 @@
 import csv
-
-with open('java_codes.csv') as csv_file:
+with open('quiz_3.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line_count = 0
     for row in csv_reader:
@@ -8,7 +7,7 @@ with open('java_codes.csv') as csv_file:
             print(f'Column names are {", ".join(row)}')
             line_count += 1
         else:
-            print(f'\tparameters{row[0]} = {{"chat_id": "-622742013","question": "{row[1]}","options": json.dumps (["{row[2]}", "{row[3]}", "{row[4]}", "{row[5]}"]),"is_anonymous":False,"correct_option_id": {row[6]},"type": "quiz","explanation": "{row[7]}"}}')
+            print(f'parameters{row[0]} = {{"chat_id":  "".format(chat_id) ,"question": "{row[1]}","options": json.dumps (["{row[2]}", "{row[3]}", "{row[4]}", "{row[5]}"]),"is_anonymous":False,"correct_option_id": {row[6]},"type": "quiz"}}')
             line_count +=  1
     print(f'Processed {line_count} lines.')
 

@@ -1,0 +1,26 @@
+No.,question,option_1,option_2,option_3,option_4,correct
+1,Program which is responsible to process code before compiler is _________.,Assembler,Debugger,Pre-processor,Linker,2
+2,"In an executable file initialized global and static variables gets stored inside
+________ section.",primary header,primary header,code section,block started by symbol section,1
+3,"If a process fails, most of OS write the information to a:",log file, new file, another running program,none of the above,0
+4, Which of the following does not occur during power-on-self-test(POST)?,The video card and video memory are tested,The scandisk utility begins to run,The BIOS identification process occurs,Memory chip are checked to ensure that they are working properly,1
+5,Memory chip are checked to ensure that they are working properly,POST,BIOS,Kernel,All of the above,1
+6,What is the main function of command interpreter?, to get and execute the next specified command, to get and execute the next specified command,to handle the files in an operating system.,. None of the above,0
+7, Which of the following section contains information about functions and its variables?,code Section,Symbol Table,BSS Section,. EXE Header,1
+8," If the displayed system time and date is wrong, you can reset it using",Write,Calendar, Write file, Control Panel,3
+9, What is the name of Windows kernel program?,win32krnl.dll,winkernel.exe,explorer.exe,all of the above,0
+10,"All instructions and procedures needed to start up a computer, to the pioint it can load an 
+operating system, are stored in ROM, in IBM compatible PC�s this is called the", RAM BIOS, ROM BIOS,EPROM, POST,0
+11,Which of the following error will be handle by an OS?,power failure,lack of paper in printer,connection failure in the network, all of the above,3
+12,Which is the optimistic option for a circular queue?,easy for computatio,effective usage of memory,all of the mentioned,none of the mentioned,1
+13,Which of the following uses FIFO method,Dequeue,Linear Queue,Circular Queue,Both B & C,3
+14,Which of the following is a non-linear data structure?,Stacks,Queues,Hash Table, None of the above,2
+15,"If a user tries to remove an element from empty stack condition arises it is
+called _________.",POP,Underflow,Overflow,All of the above,1
+16,What is the operator used tomake 1's One's compliment.,& Bitwise AND Operator,| Bitwise OR operator,~ Bitwise Negate Operator ,^ Bitwise Exclusive OR,2
+17, Stack can be implemented using _________ and ________ ?, Array and Binary Tree,Linked List and Graph,Array and Linked List,Queue and Linked List,2
+18," A linear list of elements in which deletion can be done from one end (front)
+and insertion can take place only at the other end (rear) is known as ",Queue,Stack,Tree,LinkedLists,0
+19,Which of the following algorithms has lowest worst case time complexity,Insertion Sort,Selection Sort,Merge sort,Quick Sort,2
+20,"What data structure would you mostly likely see in a non recursive 
+implementation of a recursive algorithm?",LinkedList,Stack,Queue,Tree,1

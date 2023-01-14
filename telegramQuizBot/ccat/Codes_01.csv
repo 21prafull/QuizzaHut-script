@@ -1,0 +1,131 @@
+No.,question,option_1,option_2,option_3,option_4,correct_option,code
+1,"1. Consider the following variable declarations and definitions in C
+ ",Both i) and iii) are valid.,Only i) is valid,Both i) and ii) are valid.,All are valid.,0,"i) int var_9 = 1;
+
+ ii) int 9_var = 2;
+
+ iii) int _ = 3; Choose the correct statement w.r.t. above variables"
+2,2. What will be the output of the program?,Error,Not Equal,Equal!,Nothing will be printed,2,"#include ""stdio.h""
+ int * gPtr;
+ int main(){
+  int * lPtr = NULL;
+  if(gPtr == lPtr)
+  {
+  printf(""Equal!"");
+  }
+  else
+  {
+  printf(""Not Equal"");
+  }
+  return 0;
+ }"
+3,3. What will be the output of the program?,x and y are not equal,x and y are equal,No output,Unpredictable,1,"#include<stdio.h>
+ int main()
+ {
+  int x = 3.9;
+  float y = 3;
+  if(x == y)
+  printf(""x and y are equal"");
+  else
+  printf(""x and y are not equal"");
+  return 0;
+ }"
+4,4. What will be the output of the program?,"This is default
+ This is case 1","This is case 3
+ This is default","This is case 1
+ This is case 3",This is default,0,"#include<stdio.h>
+ int main()
+ {
+  int i=4;
+  switch(i)
+  {
+  default:
+  printf(""This is default\n"");
+  case 1:
+  printf(""This is case 1\n"");
+  break;
+  case 2:
+  printf(""This is case 2\n"");
+  break;
+  case 3:
+  printf(""This is case 3\n"");
+  }
+  return 0;
+ }"
+5,5. What will be the output of the program?,25,11,Error,Garbage value,1,"#include<stdio.h>
+ #define SQR(x)(x*x)
+ 
+ int main()
+ {
+  int a, b=3;
+  a = SQR(b+2);
+  printf(""%d\n"", a);
+  return 0;
+ }"
+6,"6. Is there any difference between following declarations?
+",Both are identical,"No difference, except 
+ extern int fun(); is probably in another file","int fun(); is overrided 
+ with extern int fun();",None of these,1," 1 : extern int fun();
+
+ 2 : int fun();"
+7,7. What will be the output of the program?,Mello,Hello,Hmello,Mhello,0,"#include<stdio.h>
+ 
+ int main()
+ {
+  char str[20] = ""Hello"";
+  char *const p=str;
+  *p='M';
+  printf(""%s\n"", str);
+  return 0;
+ }"
+8,8. What will be the output of the program?,Hello,Hi Hello,No output,Infinite loop,0,"#include<stdio.h>
+ int i;
+ int fun();
+ 
+ int main()
+ {
+  while(i)
+  {
+  fun();
+  main();
+  }
+  printf(""Hello\n"");
+  return 0;
+ }
+ int fun()
+ {
+  printf(""Hi"");
+ }"
+9,9.What will be the output of the program?,"2, 1, 15","1, 2, 2005","3, 2, 15","2, 3, 20",2,"#include<stdio.h>
+ 
+ int main()
+ {
+  int a[5] = {5, 1, 15, 20, 25};
+  int i, j, m;
+  i = ++a[1];
+  j = a[1]++;
+  m = a[i++];
+  printf(""%d, %d, %d"", i, j, m);
+  return 0;
+ }"
+10,10. What will be the output of the program?,"4, 4, 2004","4, 8, 2008","4, 8, 10","4, 8, 12",1,"#include<stdio.h>
+ #include<math.h>
+ int main()
+ {
+  printf(""%d, %d, %d\n"", sizeof(3.14f), sizeof(3.14), sizeof(3.14l));
+  return 0;
+ #include<stdio.h>
+ #include<math.h>
+ int main()
+ {
+  printf(""%d, %d, %d\n"", sizeof(3.14f), sizeof(3.14), sizeof(3.14l));
+  return 0;"
+11,11. What will be the output of the program?,peace,eace,ace,ce,3,"#include<stdio.h>
+ 
+ int main()
+ {
+  char str[] = ""peace"";
+  char *s = str;
+  printf(""%s\n"", s++ +3);
+  return 0;
+ }"

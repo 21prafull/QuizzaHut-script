@@ -1,0 +1,123 @@
+,Question,Add option#0,Add option#1,Add option#2,Add option#3,Correct Option
+,1. Which of the following is a member of the java.lang package?,(a) List,(b) Queue,(c) Math,(d) Stack,2
+,"2. 
+Identify the correct restriction on static methods.
+
+1.They must access only static data
+2. They can only call other static methods.
+3. They cannot refer to this or super.",1 and 2,2 and 3,3,1 and 2 and 3,3
+,3. What is the implicit return type of constructor?,No return type,A class object in which it is defined,void,none,1
+,4. the clr is physically represented by an assembly named,mscoree.dll,mscoree.dl,msoree.dll,mscor.dll,0
+,5. If we want to add graphics using asp.net which of the following web control will you use?,Link Button,AdRotator,grid view,Layout,1
+,6. Which of the following is not a Java features?,Dynamic,Architecture Neutral,Use of pointers,Object-oriented,2
+,7. What is the return type of the hashCode() method in the Object class?,Object,int,long,void,1
+,"8. In Operating Systems, which of the following is/are CPU scheduling algorithms?",Priority,Round Robin,Shortest Job First,All of the mentioned,3
+,9. Which one of the following is not true?,kernel remains in the memory during the entire computer session,kernel is made of various modules which can not be loaded in running operating system,kernel is the first part of the operating system to load into memory during booting,kernel is the program that constitutes the central core of the operating system,1
+,10. How to sort an array?,Array.sort(),Arrays.sort(),Collection.sort(),System.sort(),1
+,11. Which operator is used to invert all the digits in a binary representation of a number?,~,>>>,<<<,^,0
+,12. What does LocalTime represent?,Date without time,Time without Date,Date and Time,Date and Time with timezone,1
+,13. In a dirty read problem …….,one transaction reads an uncommitted value of another transaction,one transaction reads the committed value for another transaction,one transaction reads another transaction,one transaction commits another transaction.,0
+,14. …………….. provide a way for your program to select multiple rows of data from the database and then process each row individually.,PL/SQL Cursors,PL/SQL Trigger,PL/SQL Select,PL/SQL Process,0
+,"15. In the PL/SQL, the package specification contains ………………….. declarations.",public,private,default,protected,0
+,16. The fifth Normal form is concerned with ........,Functional dependency,Multivalued dependency,Join dependency,Domain key,2
+,17. Which normal form is considered adequate for normal relational database design?,2NF,3NF,4NF,5NF,1
+,18. Which http method is idempotent?,get,post,both,none,0
+,19. data about data is referred to as..,Directory,Data bank,Metadata,Row data,2
+,20. in relational model cardinality is termed as,Number of columns,Number of tuples,Number of tables,Number of database,1
+,21. Cartesian product in relational algebra is,Unary operator,Binary operator,Ternary operator,Not defined,1
+,22. in relational model relations are termed as,Table,Tuple,Column,Row,0
+,23. Which one of the following is not true for a view?,View is a virtual table,View is derived from other tables,View never contains derived columns,A view definition is permanently stored as part of the database,3
+,"24. A data Dictionary is a special file that contains: 
+",The name of all filed in all files,The width of all the filed in all files,The data types of all the filed in all files,All of the above,3
+,25. _________ is a virtual table that draws its data from the result of an SQL SELECT statement,View,Transaction,Sequence,Temp table,0
+,26. NoSQL databases is used mainly for handling large volumes of ______________ data.,Semi structured data,Unstructured data,Random data,Sequence data,0
+,"27. If a process fails, most operating system write the error information to a",new file,another running process,log file,none of the mentioned,2
+,28. No SQL database is use mainly for handling,Unstructured,Structured,Semi structured,Sequential,0
+,"29. On systems where there are multiple operating system, the decision to load a particular one is done by",process control block,file control block,boot loader,bootstrap,2
+,30. Which command is used to remove a relation from an SQL?,Drop table,Delete,Remove,Purge,0
+,"31. Which of the following is generally used for performing tasks like creating the structure of the relations, deleting relation?",DML(Data Manipulation Language),Query,Relational Schema,DDL(Data Definition Language),3
+,32. Which one of the following given statements possibly contains the error?,select * from emp where empid = 10003;,select empid from emp where empid = 10006;,select empid from emp;,select empid where empid = 1009 and Lastname = 'GELLER';,3
+,"33. Consider a linked list of n elements, what is the time taken to insert an element after an element pointed by some pointer ?",O(n),O(log n),O(nlog n),O(1),3
+,34. Which is responsible for getting a connection to the database?,Connection,Driver,Statement,ResultSet,1
+,35. Java.sql.timestamp has a super class as,Java.sql.time,java.util.date,java.util.time,None,1
+,"36. What is the error in the following code?
+
+class Test {abstract void display( );}",No error,Method display( ) should be declared as static,Test class should be declared as abstract,Test class should be declared as public,2
+,"37. When we implement an interface method, it should be declared as public",TRUE,FALSE,Private,Default,0
+,38. Any class may be inherited by another class in the package,TRUE,FALSE,0,0,0
+,39. A class may be both abstract and final,TRUE,FALSE,0,0,1
+,40. We can overload methods with differences only in their return type,TRUE,FALSE,0,0,1
+,41. Data Input is :,2. a class we can use to read primitive data types,an abstract class defined in java.io,an interface that defines methods to read primitive data types,an interface that defines methods to open files,2
+,42. A Java monitor must either extend Thread class or implement runnable interface,FALSE,Ture,0,0,0
+,43. how do objects pass messages in java ?,by modifying each other`s fields,by modifying the static variables of each other`s classes,by calling each other`s instance methods,by calling static methods of each other`s classes,2
+,"44. Because finalize() belongs to the java.lang.Object, it is present in all______",Objects,Classes,methods,None of Above,1
+,45. Which of these is interface in the collection framework,Array,Linked List,Vector,Set,3
+,46. Under which circumstances will a thread stop?,the run() method that the thread stop,the call to the start() method of the thread is executing ends,the suspend() method is called on the Thread object,the wait() method is called on the Thread object,0
+,"47. What will be the output :
+
+String x=""0123456789"";
+
+System.out.println(x.substring(5,8));",567,5678,56789,678,0
+,48. Which statement is true?,Non-static member classes must have either default or public accessibility,All nested classes can declare static member classes,All nested classes can be declared static,Static member classes can contain non-static methods,3
+,"49. What is the difference between servlets and applets?
+i. Servlets execute on Server; Applets execute on browser
+ii. Servlets have no GUI; Applet has GUI
+iii. Servlets creates static web pages; Applets creates dynamic web pages
+iv. Servlets can handle only a single request; Applet can handle multiple requests","i, ii, iii are correct","i, ii are correct","i, iii are correct","i, ii, iii, iv are correct",1
+,50. Which of the following is true about servlets?,Servlets execute within the address space of web server,Servlets are platform-independent because they are written in java,Servlets can use the full functionality of the Java class libraries,"Servlets execute within the address space of web server, platform independent and uses the functionality of java class libraries",3
+,51. How is the dynamic interception of requests and responses to transform the information done?,servlet container,servlet config,servlet context,servlet filter,3
+,"52. Which are the session tracking techniques?
+i. URL rewriting
+ii. Using session object
+iii.Using response object
+iv. Using hidden fields
+v. Using cookies
+vi. Using servlet object","i, ii, iii, vi","i, ii, iv, v","i, vi, iii, v","i, ii, iii, v",1
+,53. Which class provides system independent server side implementation?,Socket,ServerSocket,Server,ServerReader,1
+,54. Which of the following option leads to the portability and security of Java?,Dynamic binding between objects,Bytecode is executed by JVM,The applet makes the Java code secure and portable,Use of exception handling,1
+,55. .......... Order is the best possible for array sorting algorithm which sorts n item.,O(n log n),O(n2),O(n + log n),O(log n),2
+,56. .... Is the method used by card sorter?,Insertion sort,Heap sort,Quick sort,Radix sort,3
+,57. Tree[1]=null indicates tree is........,Overflow,Underflow,Empty,Full,2
+,58. Swap area is a part of ?,HDD,Main memory,Combination of HDD and Main memory,NOTA,0
+,"59. Consider the following action: 
+Transaction….. 
+Commit; 
+Rollback; 
+What does Rollback do",Undoes the transactions before commit,Clears all transactions,Redoes the transactions before commit,No action,3
+,"60. import java.util.*;
+class properties
+{
+public static void main(String args[])
+{
+Properties obj = new Properties();
+obj.put(""AB"", new Integer(3));
+obj.put(""BC"", new Integer(2));
+obj.put(""CD"", new Integer(8));
+System.out.print(obj.keySet());
+}
+}
+
+What is the output of this program?","{AB, BC, CD}","[AB, BC, CD]","[3, 2, 8]","{3, 2, 8}",1
+,61. The SQL query for calculating the cube of 4 is,"SELECT POWER(4, 3) FROM dual ;","SELECT Cube (4, 3) ;","SELECT Cube (3, 4) ;","SELECT POWER(3, 4) ;",0
+,"62. if(""string"".trim()==""string"") 
+System.out.println(""Equal""); 
+else 
+System.out.println(""Not Equal"");","the code will compile and print ""Equal""","the code will compile and print ""Not Equal""",the code will cause compiler error,none,0
+,"63. Which of the following are parts of the .NET Framework?
+
+1.The Common Language Runtime (CLR)
+2.The Framework Class Libraries (FCL)
+3.Microsoft Published Web Services
+4.Applications deployed on IIS
+5.Mobile Applications",Only 1,2 and 3,1 and 2,None of the above,2
+,64. Till FEB 25,Till FEB 25,Till FEB 25,Till FEB 25,Till FEB 25,0
+,65. Conventionally size of main memory is __________as/of swap area memory size.,same,double,half,1.5 times,2
+,66. Worst fit in memory size partitioning is the one in which,Internal fragmentation is less,Internal fragmentation is more,external fragmentation is less,both internal and external fragmentation are less,1
+,67. External fragmentation can be avoided by,Compaction,Non -Contiguos memory allocation,Both of the above,Contiguos memory allocation,2
+,68. Nagios is,Monitoring tool,Operating tool,Testing tool,Build tool,0
+,69. Primary key constraints did not contain null values.,TRUE,FALSE,None of the above,0,0
+,70. How many types of joins are there in SQL?,3,4,5,6,2
+,71. Denormalization is needed,to utilize disk space efficiently,to speed up data access,to optimize update operation,All of the above,1
+,"72. A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?
+
+",120,120,120,150,3

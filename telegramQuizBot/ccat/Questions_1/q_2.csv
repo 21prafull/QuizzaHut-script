@@ -1,0 +1,22 @@
+No.,question,option_1,option_2,option_3,option_4,correct_option
+1,What is meant by template parameter?,It can be used to pass a type as argument,It can be used to evaluate a type,It can of no return type,None of the mentioned,0
+2,If we extend abstract class then it is ______________ to override pure virtual function in derived class otherwise derived class can be considered as abstract?,Mandatory,Optional,Depends on User Requirement,None,0
+3,Why does diamond problem arise due to multiple inheritance?,Methods with same name creates ambiguity and conflict,Derived class can’t distinguish the owner class of any derived method,Derived class gets overloaded with more than two class methods,None of above,0
+4,Derived Class object can be treated as Base class object this concept is called as?,Inheritance,Upcasting,Downcasting,None,1
+5,The process of finding type( data type/ class name ) of object/variable at runtime is called?,Runtime Type Information,Runtime Type Identification,Both A and B,Function Overloading,2
+6,Which of the following member function that is declared within a base class and redefined by derived class?,Static function,Friend function,Virtual function,None,2
+7,"To which type of class, we can apply RTTI?",Encapsulation,Polymorphic,Derived,Inherited,1
+8,If we call any virtual/non virtual function on object then it is considered as?,Late Binding.,Early Binding,Virtual Binding,None,1
+9,. Which of the following keyword is used to avoid diamond problem?,Static,Virtual,New,None,1
+10,allows us to treat an object derived type as though it were its base type,Deep Copy,Constant data members,Upcasting,Downcasting,2
+11,Total amount of time required for a process for waiting in a ready queue to get control of the CPU from its time of submission is called as ______.,waiting time,ready time,suspension time,turn-around-time,0
+12,The interval from the time of submission of a process to the time of completion is termed as __________.,Waiting time,Turn-around-time,Response time,Throughput,1
+13,Concurrent access to shared data may result in __________.,data consistency,data insecurity,data inconsistency,All of the above,2
+14,Which of the following CPU scheduling algorithm is non-preemptive,Priority Scheduling,Round Robin Scheduling,FCFS Scheduling,Shortest Job First,2
+15,"Due an arrival of longer processes before shorter processes waiting time gets increases and system performance gets down, this problem is referred as",Indifinite Blocking,Starvation,Convoy effect,All of the above,2
+16,Which of the following synchronization tool is used to avoid data inconsistency if resource can be acquired by more than one processes?,Mutex Object,Binary Semaphore,Classic Semaphore,All of the above,3
+17,Which of the following is not a Deadlock handling method?,Deadlock Prevention,Deadlock Detection & Avoidance,Deadlock Protection,Deadlock Recovery,2
+18,Which of the following is not a deadlock recovery method?,Process termination,Resource preemption,Process suspension,None of the above,2
+19,Data inconsistency problem may occurs in ______.,Critical Section Problem,Race Condition,Both A & B,None of the above,2
+20,UNIX stands for,Uniplexed Information Extended System,Uniplexed Information and Computing Services,Unique Information and Computing Services,United International Extended System,1
+,,,,,,

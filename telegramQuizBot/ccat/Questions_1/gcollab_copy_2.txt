@@ -1,0 +1,43 @@
+import requests
+import json
+import time
+
+# Marathi Coders Chat Id
+# chat_id = "-1001751456595"
+
+# Test Group Chat ID
+# chat_id = "-622742013"
+
+chat_id = "-1001751456595"
+
+
+parameters1 = {"chat_id":  "{}".format(chat_id) ,"question": "What is meant by template parameter?","options": json.dumps (["It can be used to pass a type as argument", "It can be used to evaluate a type", "It can of no return type", "None of the mentioned"]),"is_anonymous":False,"correct_option_id": 0,"type": "quiz"}
+parameters2 = {"chat_id":  "{}".format(chat_id) ,"question": "If we extend abstract class then it is ______________ to override pure virtual function in derived class otherwise derived class can be considered as abstract?","options": json.dumps (["Mandatory", "Optional", "Depends on User Requirement", "None"]),"is_anonymous":False,"correct_option_id": 0,"type": "quiz"}
+parameters3 = {"chat_id":  "{}".format(chat_id) ,"question": "Why does diamond problem arise due to multiple inheritance?","options": json.dumps (["Methods with same name creates ambiguity and conflict", "Derived class can't distinguish the owner class of any derived method", "Derived class gets overloaded with more than two class methods", "None of above"]),"is_anonymous":False,"correct_option_id": 0,"type": "quiz"}
+parameters4 = {"chat_id":  "{}".format(chat_id) ,"question": "Derived Class object can be treated as Base class object this concept is called as?","options": json.dumps (["Inheritance", "Upcasting", "Downcasting", "None"]),"is_anonymous":False,"correct_option_id": 1,"type": "quiz"}
+parameters5 = {"chat_id":  "{}".format(chat_id) ,"question": "The process of finding type( data type/ class name ) of object/variable at runtime is called?","options": json.dumps (["Runtime Type Information", "Runtime Type Identification", "Both A and B", "Function Overloading"]),"is_anonymous":False,"correct_option_id": 2,"type": "quiz"}
+parameters6 = {"chat_id":  "{}".format(chat_id) ,"question": "Which of the following member function that is declared within a base class and redefined by derived class?","options": json.dumps (["Static function", "Friend function", "Virtual function", "None"]),"is_anonymous":False,"correct_option_id": 2,"type": "quiz"}
+parameters7 = {"chat_id":  "{}".format(chat_id) ,"question": "To which type of class, we can apply RTTI?","options": json.dumps (["Encapsulation", "Polymorphic", "Derived", "Inherited"]),"is_anonymous":False,"correct_option_id": 1,"type": "quiz"}
+parameters8 = {"chat_id":  "{}".format(chat_id) ,"question": "If we call any virtual/non virtual function on object then it is considered as?","options": json.dumps (["Late Binding.", "Early Binding", "Virtual Binding", "None"]),"is_anonymous":False,"correct_option_id": 1,"type": "quiz"}
+parameters9 = {"chat_id":  "{}".format(chat_id) ,"question": ". Which of the following keyword is used to avoid diamond problem?","options": json.dumps (["Static", "Virtual", "New", "None"]),"is_anonymous":False,"correct_option_id": 1,"type": "quiz"}
+parameters10 = {"chat_id":  "{}".format(chat_id) ,"question": "allows us to treat an object derived type as though it were its base type","options": json.dumps (["Deep Copy", "Constant data members", "Upcasting", "Downcasting"]),"is_anonymous":False,"correct_option_id": 2,"type": "quiz"}
+parameters11 = {"chat_id":  "{}".format(chat_id) ,"question": "Total amount of time required for a process for waiting in a ready queue to get control of the CPU from its time of submission is called as ______.","options": json.dumps (["waiting time", "ready time", "suspension time", "turn-around-time"]),"is_anonymous":False,"correct_option_id": 0,"type": "quiz"}
+parameters12 = {"chat_id":  "{}".format(chat_id) ,"question": "The interval from the time of submission of a process to the time of completion is termed as __________.","options": json.dumps (["Waiting time", "Turn-around-time", "Response time", "Throughput"]),"is_anonymous":False,"correct_option_id": 1,"type": "quiz"}
+parameters13 = {"chat_id":  "{}".format(chat_id) ,"question": "Concurrent access to shared data may result in __________.","options": json.dumps (["data consistency", "data insecurity", "data inconsistency", "All of the above"]),"is_anonymous":False,"correct_option_id": 2,"type": "quiz"}
+parameters14 = {"chat_id":  "{}".format(chat_id) ,"question": "Which of the following CPU scheduling algorithm is non-preemptive","options": json.dumps (["Priority Scheduling", "Round Robin Scheduling", "FCFS Scheduling", "Shortest Job First"]),"is_anonymous":False,"correct_option_id": 2,"type": "quiz"}
+parameters15 = {"chat_id":  "{}".format(chat_id) ,"question": "Due an arrival of longer processes before shorter processes waiting time gets increases and system performance gets down, this problem is referred as","options": json.dumps (["Indifinite Blocking", "Starvation", "Convoy effect", "All of the above"]),"is_anonymous":False,"correct_option_id": 2,"type": "quiz"}
+parameters16 = {"chat_id":  "{}".format(chat_id) ,"question": "Which of the following synchronization tool is used to avoid data inconsistency if resource can be acquired by more than one processes?","options": json.dumps (["Mutex Object", "Binary Semaphore", "Classic Semaphore", "All of the above"]),"is_anonymous":False,"correct_option_id": 3,"type": "quiz"}
+parameters17 = {"chat_id":  "{}".format(chat_id) ,"question": "Which of the following is not a Deadlock handling method?","options": json.dumps (["Deadlock Prevention", "Deadlock Detection & Avoidance", "Deadlock Protection", "Deadlock Recovery"]),"is_anonymous":False,"correct_option_id": 2,"type": "quiz"}
+parameters18 = {"chat_id":  "{}".format(chat_id) ,"question": "Which of the following is not a deadlock recovery method?","options": json.dumps (["Process termination", "Resource preemption", "Process suspension", "None of the above"]),"is_anonymous":False,"correct_option_id": 2,"type": "quiz"}
+parameters19 = {"chat_id":  "{}".format(chat_id) ,"question": "Data inconsistency problem may occurs in ______.","options": json.dumps (["Critical Section Problem", "Race Condition", "Both A & B", "None of the above"]),"is_anonymous":False,"correct_option_id": 2,"type": "quiz"}
+parameters20 = {"chat_id":  "{}".format(chat_id) ,"question": "UNIX stands for","options": json.dumps (["Uniplexed Information Extended System", "Uniplexed Information and Computing Services", "Unique Information and Computing Services", "United International Extended System"]),"is_anonymous":False,"correct_option_id": 1,"type": "quiz"}
+
+
+base_url = "https://api.telegram.org/bot5507486988:AAFLXo1lKHqSuJm5NSLp418xjTDRC7cytec/sendPoll"
+
+arrayQ = [ parameters1, parameters2, parameters3, parameters4, parameters5, parameters6, parameters7, parameters8, parameters9, parameters10, parameters11, parameters12, parameters13, parameters14, parameters15, parameters16, parameters17, parameters18, parameters19, parameters20]
+
+for i in range(0, 19):
+    respQ = requests.get(base_url, data = arrayQ[i])
+    print(respQ.text)
+    time.sleep(45)

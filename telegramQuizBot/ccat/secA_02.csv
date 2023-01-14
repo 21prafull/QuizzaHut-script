@@ -1,0 +1,68 @@
+No.,question,option_1,option_2,option_3,option_4,correct_option
+1,"1. Read each sentence to find out whether there is any grammatical error in it. The error, if any will be in one part of the sentence. The letter of that part is the answer. If there is no error, the answer is 'D'. (Ignore the errors of punctuation, if any). 
+",We discussed about the problem so thoroughly,on the eve of the examination,that I found it very easy to work it out,No error,0
+2,"2. Read each sentence to find out whether there is any grammatical error in it. The error, if any will be in one part of the sentence. The letter of that part is the answer. If there is no error, the answer is 'D'. (Ignore the errors of punctuation, if any). 
+",An Indian ship,laden with merchandise,got drowned in the Pacific Ocean.,No error.,2
+3,"3. Read each sentence to find out whether there is any grammatical error in it. The error, if any will be in one part of the sentence. The letter of that part is the answer. If there is no error, the answer is 'D'. (Ignore the errors of punctuation, if any). 
+",I could not put up in a hotel,because the boarding and lodging charges,were exorbitant,"No error. 
+",0
+4,"4. Read each sentence to find out whether there is any grammatical error in it. The error, if any will be in one part of the sentence. The letter of that part is the answer. If there is no error, the answer is 'D'. (Ignore the errors of punctuation, if any). 
+",The Indian radio,which was previously controlled by the British rulers,is free now from the narrow vested interests.,No error.,2
+5,"5. Read each sentence to find out whether there is any grammatical error in it. The error, if any will be in one part of the sentence. The letter of that part is the answer. If there is no error, the answer is 'D'. (Ignore the errors of punctuation, if any). 
+",If I had known,this yesterday,I will have helped him.,No error.,2
+6,6. Find antonym of word in bracket (insipid),tasty,stupid,discret,feast,0
+7,7. Find antonym of word in bracket (absolute),deficient,faulty,limited,scarese,2
+8,8. Find antonym of word in bracket (famous),disgraced,unknown,evil,popular,1
+9,9. Find antonym of word in bracket (FICKLE),courageous,sincere,standfast,humble,2
+10,10. Find antonym of word in bracket (essential),extra,noughts,minors,trivial,0
+11,11. Find antonym of word in bracket (revealed),denied,concealed,ignored,overlooked,1
+12,12. Find antonym of word in bracket (MINOR),big,major,tall,heavy,1
+13,13. Find antonym of word in bracket (LUCID),Glory,noisy,obscure,distinct,2
+14,14. Find antonym of word in bracket (GAIN),loose,fall,lost,lose,3
+15,15. Find antonym of word in bracket (VIOLENT),humble,harmless,gentle,tame,2
+16,16. Find antonym of word in bracket (CONCEDE),object,refuse,grant,accede,1
+17,17. Find antonym of word in bracket The club meets on the last Thursday of every month is a (dilapidated )palace.,neglected,regenerated,renovated,furnished,2
+18,18. Find antonym of word in bracket A (friendly) dog meet us at the farmgate.,helpful,understanding,quiet,hostile,3
+19,"19. Find antonym of word in bracket
+Feasibility of the project is under study.",unsuitability,cheapness,impropriety,impracticability,3
+20,"20. Find antonym of word in bracket
+The members thought that the task was (feasible.)",impractical,impossible,difficult,impracticable,0
+21,21. In how many ways can the letters of the word 'LEADER' be arranged?,720,360,144,6,1
+22,22. A man's speed with the current is 15 km/hr and the speed of the current is 2.5 km/hr. The man's speed against the current is:,12.5 km/hr,10 km/hr,9 km/hr,8.5 km/hr,1
+23,23. A man buys a cycle for Rs. 1400 and sells it at a loss of 15%. What is the selling price of the cycle?,Rs. 1090,Rs. 1202,Rs. 1190,RS.1190,2
+24,"24. A train passes a station platform in 36 seconds and a man standing on the platform in 20 seconds. If the speed of the train is 54 km/hr, what is the length of the platform?",110m,300 m,120 m,240 m,3
+25,"25. In an alloy, zine and copper are in the ratio 1:2. In the second alloy, the same elements are in the ratio 2:3 If these two alloys be mixed to form a new alloy in which two elements are the ratio 5:8, the ratio of these two alloys in the new alloys is",3:10,3:07,10:03,4:05,0
+26,26. Error of +12% is there when measuring a square's side.When the square's area is calculated what will be the error percentage?,25.44%,22.45%,23.21%,4%,0
+27,27. How much time will it take for an amount of Rs. 450 to yield Rs. 81 as interest at 4.5% per annum of simple interest?,3.5 years,2 years,3years,4 years,3
+28,28. two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively and they cross each other in 23 second .the ratio of their speed is ?,1:03,3:02,3:04,1:01,1
+29,"29. A plot is sold for RS 20400,there is a loss of 10% ,to make 17%profit,what should it be sold at?",26520,21500,27230,21900,0
+30,"30. Let N be the greatest number that will divide 1305, 4665 and 6905, leaving the same remainder in each case. Then sum of the digits in N is:",8,6,5,4,3
+31,31. if the letter of the word 'PAPER' are arrenged as in a dictionary then the rank of the given word is?,26,27,28,1,1
+32,32. four numbers are in ratio of 10:12:15:18 if their hcf is 3 then find lcm,180,540,30,18,1
+33,"33. 
+X and Y can do a piece of work in 20 days and 12 days respectively. X started the work alone and then after 4 days Y joined him till the completion of the work. How long did the work last?",8days,6days,10 days,15days,2
+34,"34. 
+Present ages of Sameer and Anand are in the ratio of 5 : 4 respectively. Three years hence, the ratio of their ages will become 11 : 9 respectively. What is Anand's present age in years? 
+
+",24,27,40,none of these,0
+35,"35. 
+The price of 2 sarees and 4 shirts is Rs. 1600. With the same money one can buy 1 saree and 6 shirts. If one wants to buy 12 shirts, how much shall he have to pay ?",Rs. 1200,Rs. 1600,Rs. 2400,Rs. 4800,2
+36,,,,,,
+37,37. In a certain code RICHARD is coded as WXRSIZI then how WICKETS is coded in the same code language?,HXRGVDF,HPRXGVG,HXRPGVD,HPRGVFX,2
+38,38. In a certain code BACTERIA is coded as AJSFUDBB then how PROTOZOA is coded in the same code language?,APAPUPSP,BPAPUPSP,APAUPSCT,APVAPSQT,0
+39,"39. If EYE is called HAND, HAND is called MOUTH , MOUTH is called EAR , EAR is called NOSE , NOSE is acalled TONGUE. Which of the following would person used to HEAR?",Eye,Nose,Ear,Mouth,1
+40,40. If PERSON :- 957561 then SHOULD ?,186334,198152,681433,86334,2
+41,41. REACTION:-64 ACTION:-36 PRECAUTION:- ?,81,100,121,102,1
+42,"42. All Apples are Gauvas. Atleast Some Gauvas are Bananas. All Bananas are Kiwi's. No Apple is Kiwi. 
+Conclusions: 
+1. All kiwi being Apple is a possibility 
+2. Some Guavas are not Bananas 
+3. Some Banana is not Gauva",Only conclusion 1 follows,both conclusion 2 and 3 follows,Neither 1 nor 2 follows,Only conclusion 2 follows,3
+43,"43. Ms. Forest likes to let her students choose who their partners will be; however, no pair of students may work together more than seven class periods in a row. Adam and Baxter have studied together seven class periods in a row. Carter and Dennis have worked together three class periods in a row. Carter does not want to work with Adam. Who should be assigned to work with Baxter?",Carter,Adam,Dennis,forest,0
+44,44. Which of the following is 10th to the left of 18th from the left end?,9,1,P,E,2
+45,45. Which of the following is 5th to the left of 7th from the right end?,4,2,B,W,1
+46,"46. 152, 148, 156, 152, ___",158,160,156,162,1
+47,47. If 1 is substracted from 1st digit and 2nd digit of each number. what will be difference between 1st digit of highest number and 1st digit of lowest no,One,Two,Four,Five,3
+48,"48. Krishna walks 1km EAST of his house then 1km North, again 2km EAST, 3km SOUTH and 3km west to reached his house he must walk",2km south,2km north,1km east,3km south,1
+49,"49. If A + B means A is the mother of B; A - B means A is the brother B; A % B means A is the father of B and A x B means A is the sister of B, which of the following shows that P is the maternal uncle of Q?",P + S x N - Q,Q - N + M x P,Q - S % P,P - M + N x Q,3
+50,,,,,,

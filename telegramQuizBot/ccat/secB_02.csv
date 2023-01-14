@@ -1,0 +1,38 @@
+No.,question,option_1,option_2,option_3,option_4,correct_option
+1,1. Which is not a feature of OOP in general definitions?,Efficient Code,Code reusability,Modularity,Duplicate/Redundant data,3
+2,2. Which feature of OOP indicates code reusability?,Abstraction,Polymorphism,Encapsulation,Inheritance,3
+3,3. Which header file is required in C++ to use OOP?,OOP can be used without using any header file,stdlib.h,iostream.h,stdio.h,0
+4,4. The feature by which one object can interact with another object is _____________,Message reading,Message Passing,Data transfer,Data Binding,1
+5,5. How many types of access specifiers are provided in OOP (C++)?,4,3,2,1,2
+6,"6. In multilevel inheritance, which is the most significant feature of OOP used?",Code efficiency,Code readability,Flexibility,Code reusability,3
+7,7. What is encapsulation in OOP?,It is a way of combining various data members and member functions that operate on those data members into a single unit,It is a way of combining various data members and member functions into a single unit which can operate on any data,It is a way of combining various data members into a single unit,It is a way of combining various member functions into a single unit,0
+8,8. What is an abstraction in object-oriented programming?,Hiding the implementation and showing only the features,Hiding the important data,Hiding the implementation,Showing the important data,0
+9,9. The copy constructors can be used to ________,Copy an object so that it can be passed to another primitive type variable,Copy an object for type casting,Copy an object so that it can be passed to a function,Copy an object so that it can be passed to a class,2
+10,10. a stack is a ____ data structure.,linear,dynamic,non-dynamic,non of the above,2
+11,11. processing all the elements of an array is called,sorting,searching,traversing,inserting,2
+12,"12. the element are inserted in a queue from the end , called",top,middle,front,rear,0
+13,13. which data structure allows deleting data elements from front and inserting at rear?,stack,queues,deques,binary search tree,1
+14,14. elements can be added or removed at both end is called?,queue,deque,circular queue,all of the above,1
+15,15. which of the following sorting algorithm is of divide and conquer type?,quick sort,bubble sort,insertion sort,all of the above,0
+16,16. which type of linked list does not store null in the next field?,single linked list,double linked list,circular linked list,none of the above,2
+17,17. quick sort is faster than,bubble sort,selection sort,insertion sort,all of the above,3
+18,18. binary search uses-,heuristic search,greedy approach,back tracking approach,divide and conquer method,3
+19,19. beginning address of an array is called?,base address,top address,both a and b,none of these,2
+20,20. Which of the following is not an operating system?,oracle,windows,linux,DOS,0
+21,21. Which of the following is the extension of Notepad?,.exe,.txt,.c,.cpp,1
+22,22. What else is a command interpreter called?,prompt,kernel,shell,command,2
+23,23. What is the mean of the Booting in the operating system?,install program,turning off,restarting computer,to scan,2
+24,24. When does page fault occur?,"The page is present in memory.
+
+",The deadlock occurs.,The page does not present in memory.,The buffering occurs.,2
+25,25. Banker's algorithm is used?,none of these,to prevent deadlock,To deadlock recovery,To solve the deadlock,1
+26,26. Which is the Linux operating system?,Private operating system,Windows operating system,Open-source operating system,none of these,2
+27,27. What is the full name of the DSM?,Direct system module,direct systems memory,distributed system memory,distributed shared memory,3
+28,28. What is the full name of the IDL?,Interface definition language,Interface direct language,Interface data library,none of these,0
+29,29. What is bootstrapping called?,cold boot,hot boot,cold hot strap,cold hot boot,0
+30,30. A serially connected system of all the hubs of networks,bus,ring,daisy chains,star,2
+31,31. A ______ WAN can be developed using leased private lines or any other transmission facility,hybrids,peer-to-peer,two-tiered,three-tired,1
+32,32. A topology that involves Tokens .,star,ring,bus,daisy chaining,1
+33,33. The participating computers in a network are reffered to as,clients,servers,nodes,CPUs,2
+34,34. A term that refers to the way in which the nodes of a network are linked together,network,topology,connection,interconnectivity,1
+35,35. Which of the following is the first neural network computer,AN,AM,RFD,SNARC,3

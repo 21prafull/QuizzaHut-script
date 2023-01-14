@@ -1,0 +1,35 @@
+import requests
+import json
+import time
+chat_id = "-1001751456595"
+
+parameters1 = {"chat_id":  "{}".format(chat_id) ,"question": "Program which is responsible to process code before compiler is _________.","options": json.dumps (["Assembler", "Debugger", "Pre-processor", "Linker"]),"is_anonymous":False,"correct_option_id": 2,"type": "quiz"}
+parameters2 = {"chat_id":  "{}".format(chat_id) ,"question": "In an executable file initialized global and static variables gets stored inside________ section.","options": json.dumps (["primary header", "primary header", "code section", "block started by symbol section"]),"is_anonymous":False,"correct_option_id": 1,"type": "quiz"}
+parameters3 = {"chat_id":  "{}".format(chat_id) ,"question": "If a process fails, most of OS write the information to a:","options": json.dumps (["log file", " new file", " another running program", "none of the above"]),"is_anonymous":False,"correct_option_id": 0,"type": "quiz"}
+parameters4 = {"chat_id":  "{}".format(chat_id) ,"question": " Which of the following does not occur during power-on-self-test(POST)?","options": json.dumps (["The video card and video memory are tested", "The scandisk utility begins to run", "The BIOS identification process occurs", "Memory chip are checked to ensure that they are working properly"]),"is_anonymous":False,"correct_option_id": 1,"type": "quiz"}
+parameters5 = {"chat_id":  "{}".format(chat_id) ,"question": "Memory chip are checked to ensure that they are working properly","options": json.dumps (["POST", "BIOS", "Kernel", "All of the above"]),"is_anonymous":False,"correct_option_id": 1,"type": "quiz"}
+parameters6 = {"chat_id":  "{}".format(chat_id) ,"question": "What is the main function of command interpreter?","options": json.dumps ([" to get and execute the next specified command", " to get and execute the next specified command", "to handle the files in an operating system.", ". None of the above"]),"is_anonymous":False,"correct_option_id": 0,"type": "quiz"}
+parameters7 = {"chat_id":  "{}".format(chat_id) ,"question": " Which of the following section contains information about functions and its variables?","options": json.dumps (["code Section", "Symbol Table", "BSS Section", ". EXE Header"]),"is_anonymous":False,"correct_option_id": 1,"type": "quiz"}
+parameters8 = {"chat_id":  "{}".format(chat_id) ,"question": " If the displayed system time and date is wrong, you can reset it using","options": json.dumps (["Write", "Calendar", " Write file", " Control Panel"]),"is_anonymous":False,"correct_option_id": 3,"type": "quiz"}
+parameters9 = {"chat_id":  "{}".format(chat_id) ,"question": " What is the name of Windows kernel program?","options": json.dumps (["win32krnl.dll", "winkernel.exe", "explorer.exe", "all of the above"]),"is_anonymous":False,"correct_option_id": 0,"type": "quiz"}
+parameters10 = {"chat_id":  "{}".format(chat_id) ,"question": "All instructions and procedures needed to start up a computer, to the pioint it can load an  operating system, are stored in ROM, in IBM compatible PC�s this is called the","options": json.dumps ([" RAM BIOS", " ROM BIOS", "EPROM", " POST"]),"is_anonymous":False,"correct_option_id": 0,"type": "quiz"}
+parameters11 = {"chat_id":  "{}".format(chat_id) ,"question": "Which of the following error will be handle by an OS?","options": json.dumps (["power failure", "lack of paper in printer", "connection failure in the network", " all of the above"]),"is_anonymous":False,"correct_option_id": 3,"type": "quiz"}
+parameters12 = {"chat_id":  "{}".format(chat_id) ,"question": "Which is the optimistic option for a circular queue?","options": json.dumps (["easy for computatio", "effective usage of memory", "all of the mentioned", "none of the mentioned"]),"is_anonymous":False,"correct_option_id": 1,"type": "quiz"}
+parameters13 = {"chat_id":  "{}".format(chat_id) ,"question": "Which of the following uses FIFO method","options": json.dumps (["Dequeue", "Linear Queue", "Circular Queue", "Both B & C"]),"is_anonymous":False,"correct_option_id": 3,"type": "quiz"}
+parameters14 = {"chat_id":  "{}".format(chat_id) ,"question": "Which of the following is a non-linear data structure?","options": json.dumps (["Stacks", "Queues", "Hash Table", " None of the above"]),"is_anonymous":False,"correct_option_id": 2,"type": "quiz"}
+parameters15 = {"chat_id":  "{}".format(chat_id) ,"question": "If a user tries to remove an element from empty stack condition arises it is called _________.","options": json.dumps (["POP", "Underflow", "Overflow", "All of the above"]),"is_anonymous":False,"correct_option_id": 1,"type": "quiz"}
+parameters16 = {"chat_id":  "{}".format(chat_id) ,"question": "What is the operator used tomake 1's One's compliment.","options": json.dumps (["& Bitwise AND Operator", "| Bitwise OR operator", "~ Bitwise Negate Operator ", "^ Bitwise Exclusive OR"]),"is_anonymous":False,"correct_option_id": 2,"type": "quiz"}
+parameters17 = {"chat_id":  "{}".format(chat_id) ,"question": " Stack can be implemented using _________ and ________ ?","options": json.dumps ([" Array and Binary Tree", "Linked List and Graph", "Array and Linked List", "Queue and Linked List"]),"is_anonymous":False,"correct_option_id": 2,"type": "quiz"}
+parameters18 = {"chat_id":  "{}".format(chat_id) ,"question": " A linear list of elements in which deletion can be done from one end (front) and insertion can take place only at the other end (rear) is known as ","options": json.dumps (["Queue", "Stack", "Tree", "LinkedLists"]),"is_anonymous":False,"correct_option_id": 0,"type": "quiz"}
+parameters19 = {"chat_id":  "{}".format(chat_id) ,"question": "Which of the following algorithms has lowest worst case time complexity","options": json.dumps (["Insertion Sort", "Selection Sort", "Merge sort", "Quick Sort"]),"is_anonymous":False,"correct_option_id": 2,"type": "quiz"}
+parameters20 = {"chat_id":  "{}".format(chat_id) ,"question": "What data structure would you mostly likely see in a non recursive  implementation of a recursive algorithm?","options": json.dumps (["LinkedList", "Stack", "Queue", "Tree"]),"is_anonymous":False,"correct_option_id": 1,"type": "quiz"}
+
+
+base_url = "https://api.telegram.org/bot5507486988:AAFLXo1lKHqSuJm5NSLp418xjTDRC7cytec/sendPoll"
+
+arrayQ = [ parameters1, parameters2, parameters3, parameters4, parameters5, parameters6, parameters7, parameters8, parameters9, parameters10, parameters11, parameters12, parameters13, parameters14, parameters15, parameters16, parameters17, parameters18, parameters19, parameters20]
+
+for i in range(0, 19):
+    respQ = requests.get(base_url, data = arrayQ[i])
+    print(respQ.text)
+    time.sleep(45)

@@ -1,0 +1,8 @@
+n,Q,0,1,2,3,a
+,34.The time complexity to calculate the number of edges in a graph whose information in stored in form of an adjacency matrix is,O(V),O(E2),O(E),O(V2),3
+,35 A graph with all vertices having equal degree is known as a,Multi Graph,Regular Graph,Simple Graph,Complete Graph,1
+,36. What is the maximum number of possible non zero values in an adjacency matrix of a simple graph with n vertices?,(n*(n-1))/2,(n*(n+1))/2,n*(n-1),n*(n+1),2
+,37. Which one of the following array elements represents a binary min heap,12 10 8 25 14 17,8 10 12 25 14 17,25 17 14 12 10 8,14 17 25 10 12 8,1
+,38. Min heap can be used to implement selection sort.,TRUE,FALSE,0,0,1
+,39. An array consist of n elements.We want to create a heap using the elements.The time complexity of building a heap will be in order of,O(n*n*logn),O(n*logn),O(n*n),O(n *logn *logn),1
+,40. What is the time complexity of the search function in a hash table using a binary tree?,O(1),O(n),O(log n),O(n logn),0
